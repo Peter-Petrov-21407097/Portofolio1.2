@@ -1,7 +1,5 @@
 from django.contrib import admin
-
-
-from .models import Licenciatura, UnidadeCurricular, Docente, Projeto, Tecnologia
+from .models import Licenciatura, UnidadeCurricular, Docente, Projeto, Tecnologia, Competencia
 
 
 @admin.register(Licenciatura)
@@ -10,11 +8,13 @@ class LicenciaturaAdmin(admin.ModelAdmin):
     search_fields = ('nome', 'descricao', 'objetivo')
     list_filter = ('numero_semestres', 'ects_total')
 
+
 @admin.register(UnidadeCurricular)
 class UnidadeCurricularAdmin(admin.ModelAdmin):
     list_display = ('nome', 'licenciatura', 'ano_curricular', 'semestre', 'ects', 'url_website')
     search_fields = ('nome', 'apresentacao', 'programa', 'objectivos')
-    list_filter = ('licenciatura', 'ano_curricular', 'semestre', 'ects')    
+    list_filter = ('licenciatura', 'ano_curricular', 'semestre', 'ects')
+
 
 @admin.register(Docente)
 class DocenteAdmin(admin.ModelAdmin):
@@ -23,14 +23,24 @@ class DocenteAdmin(admin.ModelAdmin):
     list_filter = ('area_especializacao',)
     filter_horizontal = ('unidades_curriculares',)
 
-@admin.register(Projeto)
-class ProjetoAdmin(admin.ModelAdmin):
-    list_display = ('titulo', 'unidade_curricular', 'ano_realizacao', 'estado', 'destaque')
-    search_fields = ('titulo', 'descricao', 'conceitos_aplicados')
-    list_filter = ('unidade_curricular', 'ano_realizacao', 'estado', 'destaque')
 
 @admin.register(Tecnologia)
 class TecnologiaAdmin(admin.ModelAdmin):
     list_display = ('nome', 'tipo', 'url_website')
     search_fields = ('nome', 'tipo', 'descricao', 'observacoes')
-    list_filter = ('tipo',)    
+    list_filter = ('tipo',)
+
+
+@admin.register(Competencia)
+class CompetenciaAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'tipo', 'nivel', 'destaque')
+    search_fields = ('nome', 'tipo', 'descricao', 'evidencia')
+    list_filter = ('tipo', 'nivel', 'destaque')
+
+
+@admin.register(Projeto)
+class ProjetoAdmin(admin.ModelAdmin):
+    list_display = ('titulo', 'unidade_curricular', 'ano_realizacao', 'estado', 'destaque')
+    search_fields = ('titulo', 'descricao', 'conceitos_aplicados')
+    list_filter = ('unidade_curricular', 'ano_realizacao', 'estado', 'destaque')
+    filter_horizontal = ('tecnologias', 'competencias')

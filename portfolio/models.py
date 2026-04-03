@@ -33,7 +33,8 @@ class UnidadeCurricular(models.Model):
 
     def __str__(self):
         return self.nome
-    
+
+
 class Docente(models.Model):
     nome = models.CharField(max_length=200)
     pagina_pessoal_url = models.URLField()
@@ -49,6 +50,31 @@ class Docente(models.Model):
     def __str__(self):
         return self.nome
 
+
+class Tecnologia(models.Model):
+    nome = models.CharField(max_length=200)
+    tipo = models.CharField(max_length=100)
+    descricao = models.TextField()
+    logo = models.ImageField(upload_to='tecnologias/', blank=True, null=True)
+    url_website = models.URLField()
+    observacoes = models.TextField(blank=True, null=True)
+
+    def __str__(self):
+        return self.nome
+
+
+class Competencia(models.Model):
+    nome = models.CharField(max_length=200)
+    tipo = models.CharField(max_length=100)
+    descricao = models.TextField()
+    nivel = models.CharField(max_length=100)
+    evidencia = models.TextField()
+    destaque = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.nome
+
+
 class Projeto(models.Model):
     unidade_curricular = models.ForeignKey(
         UnidadeCurricular,
@@ -62,17 +88,16 @@ class Projeto(models.Model):
     ano_realizacao = models.PositiveIntegerField()
     estado = models.CharField(max_length=100)
     destaque = models.BooleanField(default=False)
+    tecnologias = models.ManyToManyField(
+        Tecnologia,
+        related_name='projetos',
+        blank=True
+    )
+    competencias = models.ManyToManyField(
+        Competencia,
+        related_name='projetos',
+        blank=True
+    )
 
     def __str__(self):
         return self.titulo
-    
-class Tecnologia(models.Model):
-    nome = models.CharField(max_length=200)
-    tipo = models.CharField(max_length=100)
-    descricao = models.TextField()
-    logo = models.ImageField(upload_to='tecnologias/', blank=True, null=True)
-    url_website = models.URLField()
-    observacoes = models.TextField(blank=True, null=True)
-
-    def __str__(self):
-        return self.nome    
