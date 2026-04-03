@@ -47,4 +47,21 @@ class Docente(models.Model):
     )
 
     def __str__(self):
-        return self.nome    
+        return self.nome
+
+class Projeto(models.Model):
+    unidade_curricular = models.ForeignKey(
+        UnidadeCurricular,
+        on_delete=models.CASCADE,
+        related_name='projetos'
+    )
+    titulo = models.CharField(max_length=200)
+    descricao = models.TextField()
+    conceitos_aplicados = models.TextField()
+    imagem = models.ImageField(upload_to='projetos/', blank=True, null=True)
+    ano_realizacao = models.PositiveIntegerField()
+    estado = models.CharField(max_length=100)
+    destaque = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.titulo
