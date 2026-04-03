@@ -65,3 +65,14 @@ class Projeto(models.Model):
 
     def __str__(self):
         return self.titulo
+    
+class Tecnologia(models.Model):
+    nome = models.CharField(max_length=200)
+    tipo = models.CharField(max_length=100)
+    descricao = models.TextField()
+    logo = models.ImageField(upload_to='tecnologias/', blank=True, null=True)
+    url_website = models.URLField()
+    observacoes = models.TextField(blank=True, null=True)
+
+    def __str__(self):
+        return self.nome    

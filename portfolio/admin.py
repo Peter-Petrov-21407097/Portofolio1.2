@@ -1,6 +1,7 @@
 from django.contrib import admin
 
 
+from .models import Licenciatura, UnidadeCurricular, Docente, Projeto, Tecnologia
 
 
 @admin.register(Licenciatura)
@@ -27,3 +28,9 @@ class ProjetoAdmin(admin.ModelAdmin):
     list_display = ('titulo', 'unidade_curricular', 'ano_realizacao', 'estado', 'destaque')
     search_fields = ('titulo', 'descricao', 'conceitos_aplicados')
     list_filter = ('unidade_curricular', 'ano_realizacao', 'estado', 'destaque')
+
+@admin.register(Tecnologia)
+class TecnologiaAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'tipo', 'url_website')
+    search_fields = ('nome', 'tipo', 'descricao', 'observacoes')
+    list_filter = ('tipo',)    
