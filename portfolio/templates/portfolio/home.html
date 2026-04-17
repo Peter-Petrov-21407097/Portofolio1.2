@@ -1,0 +1,484 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portofólio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #ffffff;
+        }
+
+        .layout {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 270px;
+            background: #000000;
+            padding: 28px 20px;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+            border-right: 1px solid #1f1f1f;
+        }
+
+        .brand h2 {
+            font-size: 1.9rem;
+            margin-bottom: 6px;
+        }
+
+        .brand p {
+            color: #b3b3b3;
+            font-size: 1rem;
+            margin-bottom: 28px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .menu a {
+            color: #b3b3b3;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.05rem;
+            padding: 6px 0;
+            transition: 0.2s;
+        }
+
+        .menu a:hover {
+            color: #ffffff;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 32px;
+            background: linear-gradient(to bottom, #1d1d1d, #121212 30%);
+        }
+
+        .hero {
+            background: #181818;
+            border-radius: 22px;
+            padding: 30px;
+            margin-bottom: 36px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+        }
+
+        .tag {
+            display: inline-block;
+            background: #1db954;
+            color: #000;
+            font-weight: bold;
+            padding: 7px 14px;
+            border-radius: 999px;
+            margin-bottom: 18px;
+            font-size: 0.9rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 18px;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            color: #cfcfcf;
+            line-height: 1.6;
+            font-size: 1.15rem;
+            max-width: 980px;
+        }
+
+        .content-section {
+            margin-bottom: 42px;
+        }
+
+        .section-header {
+            margin-bottom: 18px;
+        }
+
+        .section-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 6px;
+        }
+
+        .section-header p {
+            color: #b3b3b3;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 18px;
+        }
+
+        .small-grid {
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        }
+
+        .card,
+        .mini-card {
+            background: #181818;
+            border-radius: 18px;
+            overflow: hidden;
+            transition: transform 0.2s ease, background 0.2s ease;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+        }
+
+        .card:hover,
+        .mini-card:hover {
+            transform: translateY(-4px);
+            background: #202020;
+        }
+
+        .card img,
+        .mini-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-body {
+            padding: 16px;
+        }
+
+        .card-body h3,
+        .mini-card h3 {
+            margin-bottom: 10px;
+            font-size: 1.08rem;
+        }
+
+        .card-body p,
+        .mini-card p {
+            color: #b3b3b3;
+            line-height: 1.5;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+
+        .mini-card {
+            padding-bottom: 14px;
+        }
+
+        .mini-card h3,
+        .mini-card p {
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        .empty-message {
+            color: #b3b3b3;
+            background: #181818;
+            padding: 18px;
+            border-radius: 14px;
+        }
+
+        @media (max-width: 950px) {
+            .layout {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <h2>Meu Portofólio</h2>
+                <p>Engenharia Informática</p>
+            </div>
+
+            <nav class="menu">
+                <a href="#licenciaturas">Licenciaturas</a>
+                <a href="#ucs">Unidades Curriculares</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#competencias">Competências</a>
+                <a href="#formacoes">Formações</a>
+                <a href="#areas">Áreas de Interesse</a>
+                <a href="#tfcs">TFCs</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#makingof">Making Of</a>
+                <a href="#midias">Mídia</a>
+                <a href="#docentes">Docentes</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section class="hero" id="topo">
+                <span class="tag">Portofólio Académico</span>
+
+                {% with lic=licenciaturas.first %}
+                    {% if lic %}
+                        <h1>{{ lic.nome }}</h1>
+                        <p>{{ lic.descricao }}</p>
+                    {% else %}
+                        <h1>Meu Portofólio</h1>
+                        <p>Resumo do meu percurso académico, projetos, unidades curriculares, tecnologias e experiências relevantes.</p>
+                    {% endif %}
+                {% endwith %}
+            </section>
+
+            <section class="content-section" id="licenciaturas">
+                <div class="section-header">
+                    <h2>Licenciaturas</h2>
+                    <p>Informação sobre o percurso académico principal.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in licenciaturas %}
+                        <article class="card">
+                            {% if item.imagem %}
+                                <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
+                            {% endif %}
+                            <div class="card-body">
+                                <h3>{{ item.nome }}</h3>
+                                <p>{{ item.descricao|truncatechars:140 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem licenciaturas.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="ucs">
+                <div class="section-header">
+                    <h2>Unidades Curriculares</h2>
+                    <p>Base académica e técnica do teu percurso.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in ucs %}
+                        <article class="card">
+                            {% if item.imagem %}
+                                <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
+                            {% endif %}
+                            <div class="card-body">
+                                <h3>{{ item.nome }}</h3>
+                                <p>{{ item.apresentacao|truncatechars:140 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem unidades curriculares.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="tecnologias">
+                <div class="section-header">
+                    <h2>Tecnologias</h2>
+                    <p>Ferramentas e linguagens utilizadas ao longo do curso.</p>
+                </div>
+                <div class="card-grid small-grid">
+                    {% for item in tecnologias %}
+                        <article class="mini-card">
+                            {% if item.logo %}
+                                <img src="{{ item.logo.url }}" alt="{{ item.nome }}">
+                            {% endif %}
+                            <h3>{{ item.nome }}</h3>
+                            <p>{{ item.descricao|truncatechars:90 }}</p>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem tecnologias.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="competencias">
+                <div class="section-header">
+                    <h2>Competências</h2>
+                    <p>Capacidades desenvolvidas ao longo do percurso.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in competencias %}
+                        <article class="card">
+                            <div class="card-body">
+                                <h3>{{ item.nome }}</h3>
+                                <p>{{ item.descricao|truncatechars:140 }}</p>
+                                <p><strong>Nível:</strong> {{ item.nivel }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem competências.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="formacoes">
+                <div class="section-header">
+                    <h2>Formações</h2>
+                    <p>Formações complementares e percursos relevantes.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in formacoes %}
+                        <article class="card">
+                            <div class="card-body">
+                                <h3>{{ item.nome }}</h3>
+                                <p>{{ item.instituicao }}</p>
+                                <p>{{ item.descricao|truncatechars:120 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem formações.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="areas">
+                <div class="section-header">
+                    <h2>Áreas de Interesse</h2>
+                    <p>Temas e domínios que despertam maior interesse.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in areas_interesse %}
+                        <article class="card">
+                            <div class="card-body">
+                                <h3>{{ item.nome }}</h3>
+                                <p>{{ item.descricao|truncatechars:140 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem áreas de interesse.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="tfcs">
+                <div class="section-header">
+                    <h2>TFCs</h2>
+                    <p>Trabalhos finais ou propostas de investigação.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in tfcs %}
+                        <article class="card">
+                            {% if item.imagem %}
+                                <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+                            {% endif %}
+                            <div class="card-body">
+                                <h3>{{ item.titulo }}</h3>
+                                <p>{{ item.resumo|truncatechars:140 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem TFCs.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="projetos">
+                <div class="section-header">
+                    <h2>Projetos</h2>
+                    <p>Projetos desenvolvidos durante o curso e fora dele.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in projetos %}
+                        <article class="card">
+                            {% if item.imagem %}
+                                <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+                            {% endif %}
+                            <div class="card-body">
+                                <h3>{{ item.titulo }}</h3>
+                                <p>{{ item.descricao|truncatechars:140 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem projetos.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="makingof">
+                <div class="section-header">
+                    <h2>Making Of</h2>
+                    <p>Registos do processo de construção do trabalho.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in makingofs %}
+                        <article class="card">
+                            <div class="card-body">
+                                <h3>{{ item.titulo }}</h3>
+                                <p>{{ item.descricao|truncatechars:140 }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem making of.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="midias">
+                <div class="section-header">
+                    <h2>Mídia</h2>
+                    <p>Imagens, ficheiros e recursos de apoio.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in midias %}
+                        <article class="card">
+                            <div class="card-body">
+                                <h3>{{ item.titulo }}</h3>
+                                <p>{{ item.descricao|truncatechars:120 }}</p>
+                                <p><strong>Tipo:</strong> {{ item.tipo }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem mídia.</div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <section class="content-section" id="docentes">
+                <div class="section-header">
+                    <h2>Docentes</h2>
+                    <p>Docentes que marcaram o percurso académico.</p>
+                </div>
+                <div class="card-grid">
+                    {% for item in docentes %}
+                        <article class="card">
+                            {% if item.foto %}
+                                <img src="{{ item.foto.url }}" alt="{{ item.nome }}">
+                            {% endif %}
+                            <div class="card-body">
+                                <h3>{{ item.nome }}</h3>
+                                <p>{{ item.area_especializacao }}</p>
+                            </div>
+                        </article>
+                    {% empty %}
+                        <div class="empty-message">Sem docentes.</div>
+                    {% endfor %}
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
