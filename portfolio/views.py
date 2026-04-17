@@ -13,6 +13,7 @@ from .models import (
     Docente,
 )
 
+
 def home(request):
     contexto = {
         "licenciaturas": Licenciatura.objects.all(),
