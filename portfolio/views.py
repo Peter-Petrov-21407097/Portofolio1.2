@@ -14,7 +14,21 @@ from .models import (
 )
 
 def home(request):
-    return render(request, "portfolio/home.html")
+    contexto = {
+        "licenciaturas": Licenciatura.objects.all(),
+        "ucs": UnidadeCurricular.objects.all(),
+        "tecnologias": Tecnologia.objects.all(),
+        "competencias": Competencia.objects.all(),
+        "formacoes": Formacao.objects.all().order_by("ordem_cronologica"),
+        "areas_interesse": AreaInteresse.objects.all(),
+        "tfcs": TFC.objects.all(),
+        "projetos": Projeto.objects.all(),
+        "makingofs": MakingOf.objects.all().order_by("-data_registo"),
+        "midias": Midia.objects.all().order_by("-data_upload"),
+        "docentes": Docente.objects.all(),
+    }
+
+    return render(request, "portfolio/home.html", contexto)
 
 def lista_licenciaturas(request):
     dados = Licenciatura.objects.all()
