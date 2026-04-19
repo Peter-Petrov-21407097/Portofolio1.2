@@ -280,11 +280,19 @@
                 <div class="card-grid">
                     {% for item in docentes %}
                     <article class="card">
+
                         {% if item.foto %}
-                        <img src="{{ item.foto.url }}" alt="{{ item.nome }}">
+                        <a href="{% url 'docente_detail' item.id %}">
+                            <img src="{{ item.foto.url }}" alt="{{ item.nome }}">
+                        </a>
                         {% endif %}
+
                         <div class="card-body">
-                            <h3>{{ item.nome }}</h3>
+                            <h3>
+                                <a href="{% url 'docente_detail' item.id %}">
+                                    {{ item.nome }}
+                                </a>
+                            </h3>
                             <p>{{ item.area_especializacao }}</p>
                         </div>
                     </article>
@@ -293,37 +301,35 @@
                     {% endfor %}
                 </div>
             </section>
-        </main>
-    </div>
 
-    <script>
-        const sections = document.querySelectorAll("section[id]");
-        const navLinks = document.querySelectorAll(".menu a");
+            <script>
+                const sections = document.querySelectorAll("section[id]");
+                const navLinks = document.querySelectorAll(".menu a");
 
-        function setActiveLink() {
-            let current = "";
+                function setActiveLink() {
+                    let current = "";
 
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop - 120;
-                const sectionHeight = section.offsetHeight;
+                    sections.forEach(section => {
+                        const sectionTop = section.offsetTop - 120;
+                        const sectionHeight = section.offsetHeight;
 
-                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
-                    current = section.getAttribute("id");
+                        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                            current = section.getAttribute("id");
+                        }
+                    });
+
+                    navLinks.forEach(link => {
+                        link.classList.remove("active");
+
+                        if (link.getAttribute("href") === "#" + current) {
+                            link.classList.add("active");
+                        }
+                    });
                 }
-            });
 
-            navLinks.forEach(link => {
-                link.classList.remove("active");
-
-                if (link.getAttribute("href") === "#" + current) {
-                    link.classList.add("active");
-                }
-            });
-        }
-
-        window.addEventListener("scroll", setActiveLink);
-        window.addEventListener("load", setActiveLink);
-    </script>
+                window.addEventListener("scroll", setActiveLink);
+                window.addEventListener("load", setActiveLink);
+            </script>
 </body>
 
 </html>
