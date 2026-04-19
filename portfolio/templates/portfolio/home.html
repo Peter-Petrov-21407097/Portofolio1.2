@@ -199,11 +199,19 @@
                 <div class="card-grid">
                     {% for item in tfcs %}
                     <article class="card">
+
                         {% if item.imagem %}
-                        <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+                        <a href="{% url 'tfc_detail' item.id %}">
+                            <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+                        </a>
                         {% endif %}
+
                         <div class="card-body">
-                            <h3>{{ item.titulo }}</h3>
+                            <h3>
+                                <a href="{% url 'tfc_detail' item.id %}">
+                                    {{ item.titulo }}
+                                </a>
+                            </h3>
                             <p>{{ item.resumo|truncatechars:140 }}</p>
                         </div>
                     </article>
