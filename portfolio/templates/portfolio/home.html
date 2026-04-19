@@ -129,21 +129,24 @@
                     <h2>Formações</h2>
                     <p>Formações complementares e percursos relevantes.</p>
                 </div>
-                <div class="card-grid">
-                    {% for item in formacoes %}
-                        <article class="card">
-                            <div class="card-body">
-                                <h3>{{ item.nome }}</h3>
-                                <p>{{ item.instituicao }}</p>
-                                <p>{{ item.descricao|truncatechars:120 }}</p>
-                            </div>
-                        </article>
-                    {% empty %}
-                        <div class="empty-message">Sem formações.</div>
-                    {% endfor %}
-                </div>
-            </section>
-
+            <div class="card-grid">
+                {% for item in formacoes %}
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>
+                                <a href="{% url 'formacao_detail' item.id %}">
+                                    {{ item.nome }}
+                                </a>
+                            </h3>
+                            <p>{{ item.instituicao }}</p>
+                            <p>{{ item.descricao|truncatechars:120 }}</p>
+                        </div>
+                    </article>
+                {% empty %}
+                    <div class="empty-message">Sem formações.</div>
+                {% endfor %}
+            </div>
+        </section>
             <section class="content-section" id="areas">
                 <div class="section-header">
                     <h2>Áreas de Interesse</h2>
