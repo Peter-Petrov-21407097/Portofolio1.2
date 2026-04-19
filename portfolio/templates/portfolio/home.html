@@ -1,12 +1,14 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portofólio</title>
     <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
 </head>
+
 <body>
     <div class="layout">
         <aside class="sidebar">
@@ -31,36 +33,36 @@
         </aside>
 
         <main class="main-content">
-<section class="content-section" id="licenciaturas">
-    <div class="section-header">
-        <h2>Licenciaturas</h2>
-        <p>Informação sobre o percurso académico principal.</p>
-    </div>
-    <div class="card-grid">
-        {% for item in licenciaturas %}
-            <article class="card">
-
-                {% if item.imagem %}
-                    <a href="{% url 'licenciatura_detail' item.id %}">
-                        <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
-                    </a>
-                {% endif %}
-
-                <div class="card-body">
-                    <h3>
-                        <a href="{% url 'licenciatura_detail' item.id %}">
-                            {{ item.nome }}
-                        </a>
-                    </h3>
-
-                    <p>{{ item.descricao|truncatechars:140 }}</p>
+            <section class="content-section" id="licenciaturas">
+                <div class="section-header">
+                    <h2>Licenciaturas</h2>
+                    <p>Informação sobre o percurso académico principal.</p>
                 </div>
-            </article>
-        {% empty %}
-            <div class="empty-message">Sem licenciaturas.</div>
-        {% endfor %}
-    </div>
-</section>
+                <div class="card-grid">
+                    {% for item in licenciaturas %}
+                    <article class="card">
+
+                        {% if item.imagem %}
+                        <a href="{% url 'licenciatura_detail' item.id %}">
+                            <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
+                        </a>
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h3>
+                                <a href="{% url 'licenciatura_detail' item.id %}">
+                                    {{ item.nome }}
+                                </a>
+                            </h3>
+
+                            <p>{{ item.descricao|truncatechars:140 }}</p>
+                        </div>
+                    </article>
+                    {% empty %}
+                    <div class="empty-message">Sem licenciaturas.</div>
+                    {% endfor %}
+                </div>
+            </section>
 
             <section class="content-section" id="ucs">
                 <div class="section-header">
@@ -69,17 +71,26 @@
                 </div>
                 <div class="card-grid">
                     {% for item in ucs %}
-                        <article class="card">
-                            {% if item.imagem %}
-                                <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
-                            {% endif %}
-                            <div class="card-body">
-                                <h3>{{ item.nome }}</h3>
-                                <p>{{ item.apresentacao|truncatechars:140 }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+
+                        {% if item.imagem %}
+                        <a href="{% url 'unidade_curricular_detail' item.id %}">
+                            <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
+                        </a>
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h3>
+                                <a href="{% url 'unidade_curricular_detail' item.id %}">
+                                    {{ item.nome }}
+                                </a>
+                            </h3>
+
+                            <p>{{ item.apresentacao|truncatechars:140 }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem unidades curriculares.</div>
+                    <div class="empty-message">Sem unidades curriculares.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -91,15 +102,15 @@
                 </div>
                 <div class="card-grid small-grid">
                     {% for item in tecnologias %}
-                        <article class="mini-card">
-                            {% if item.logo %}
-                                <img src="{{ item.logo.url }}" alt="{{ item.nome }}">
-                            {% endif %}
-                            <h3>{{ item.nome }}</h3>
-                            <p>{{ item.descricao|truncatechars:90 }}</p>
-                        </article>
+                    <article class="mini-card">
+                        {% if item.logo %}
+                        <img src="{{ item.logo.url }}" alt="{{ item.nome }}">
+                        {% endif %}
+                        <h3>{{ item.nome }}</h3>
+                        <p>{{ item.descricao|truncatechars:90 }}</p>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem tecnologias.</div>
+                    <div class="empty-message">Sem tecnologias.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -111,15 +122,15 @@
                 </div>
                 <div class="card-grid">
                     {% for item in competencias %}
-                        <article class="card">
-                            <div class="card-body">
-                                <h3>{{ item.nome }}</h3>
-                                <p>{{ item.descricao|truncatechars:140 }}</p>
-                                <p><strong>Nível:</strong> {{ item.nivel }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>{{ item.nome }}</h3>
+                            <p>{{ item.descricao|truncatechars:140 }}</p>
+                            <p><strong>Nível:</strong> {{ item.nivel }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem competências.</div>
+                    <div class="empty-message">Sem competências.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -129,8 +140,8 @@
                     <h2>Formações</h2>
                     <p>Formações complementares e percursos relevantes.</p>
                 </div>
-            <div class="card-grid">
-                {% for item in formacoes %}
+                <div class="card-grid">
+                    {% for item in formacoes %}
                     <article class="card">
                         <div class="card-body">
                             <h3>
@@ -142,11 +153,11 @@
                             <p>{{ item.descricao|truncatechars:120 }}</p>
                         </div>
                     </article>
-                {% empty %}
+                    {% empty %}
                     <div class="empty-message">Sem formações.</div>
-                {% endfor %}
-            </div>
-        </section>
+                    {% endfor %}
+                </div>
+            </section>
             <section class="content-section" id="areas">
                 <div class="section-header">
                     <h2>Áreas de Interesse</h2>
@@ -154,14 +165,14 @@
                 </div>
                 <div class="card-grid">
                     {% for item in areas_interesse %}
-                        <article class="card">
-                            <div class="card-body">
-                                <h3>{{ item.nome }}</h3>
-                                <p>{{ item.descricao|truncatechars:140 }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>{{ item.nome }}</h3>
+                            <p>{{ item.descricao|truncatechars:140 }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem áreas de interesse.</div>
+                    <div class="empty-message">Sem áreas de interesse.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -173,17 +184,17 @@
                 </div>
                 <div class="card-grid">
                     {% for item in tfcs %}
-                        <article class="card">
-                            {% if item.imagem %}
-                                <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
-                            {% endif %}
-                            <div class="card-body">
-                                <h3>{{ item.titulo }}</h3>
-                                <p>{{ item.resumo|truncatechars:140 }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        {% if item.imagem %}
+                        <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+                        {% endif %}
+                        <div class="card-body">
+                            <h3>{{ item.titulo }}</h3>
+                            <p>{{ item.resumo|truncatechars:140 }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem TFCs.</div>
+                    <div class="empty-message">Sem TFCs.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -195,17 +206,17 @@
                 </div>
                 <div class="card-grid">
                     {% for item in projetos %}
-                        <article class="card">
-                            {% if item.imagem %}
-                                <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
-                            {% endif %}
-                            <div class="card-body">
-                                <h3>{{ item.titulo }}</h3>
-                                <p>{{ item.descricao|truncatechars:140 }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        {% if item.imagem %}
+                        <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+                        {% endif %}
+                        <div class="card-body">
+                            <h3>{{ item.titulo }}</h3>
+                            <p>{{ item.descricao|truncatechars:140 }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem projetos.</div>
+                    <div class="empty-message">Sem projetos.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -217,14 +228,14 @@
                 </div>
                 <div class="card-grid">
                     {% for item in makingofs %}
-                        <article class="card">
-                            <div class="card-body">
-                                <h3>{{ item.titulo }}</h3>
-                                <p>{{ item.descricao|truncatechars:140 }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>{{ item.titulo }}</h3>
+                            <p>{{ item.descricao|truncatechars:140 }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem making of.</div>
+                    <div class="empty-message">Sem making of.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -236,15 +247,15 @@
                 </div>
                 <div class="card-grid">
                     {% for item in midias %}
-                        <article class="card">
-                            <div class="card-body">
-                                <h3>{{ item.titulo }}</h3>
-                                <p>{{ item.descricao|truncatechars:120 }}</p>
-                                <p><strong>Tipo:</strong> {{ item.tipo }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        <div class="card-body">
+                            <h3>{{ item.titulo }}</h3>
+                            <p>{{ item.descricao|truncatechars:120 }}</p>
+                            <p><strong>Tipo:</strong> {{ item.tipo }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem mídia.</div>
+                    <div class="empty-message">Sem mídia.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -256,17 +267,17 @@
                 </div>
                 <div class="card-grid">
                     {% for item in docentes %}
-                        <article class="card">
-                            {% if item.foto %}
-                                <img src="{{ item.foto.url }}" alt="{{ item.nome }}">
-                            {% endif %}
-                            <div class="card-body">
-                                <h3>{{ item.nome }}</h3>
-                                <p>{{ item.area_especializacao }}</p>
-                            </div>
-                        </article>
+                    <article class="card">
+                        {% if item.foto %}
+                        <img src="{{ item.foto.url }}" alt="{{ item.nome }}">
+                        {% endif %}
+                        <div class="card-body">
+                            <h3>{{ item.nome }}</h3>
+                            <p>{{ item.area_especializacao }}</p>
+                        </div>
+                    </article>
                     {% empty %}
-                        <div class="empty-message">Sem docentes.</div>
+                    <div class="empty-message">Sem docentes.</div>
                     {% endfor %}
                 </div>
             </section>
@@ -302,4 +313,5 @@
         window.addEventListener("load", setActiveLink);
     </script>
 </body>
+
 </html>
