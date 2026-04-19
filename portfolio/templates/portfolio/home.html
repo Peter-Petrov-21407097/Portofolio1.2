@@ -103,10 +103,19 @@
                 <div class="card-grid small-grid">
                     {% for item in tecnologias %}
                     <article class="mini-card">
+
                         {% if item.logo %}
-                        <img src="{{ item.logo.url }}" alt="{{ item.nome }}">
+                        <a href="{% url 'tecnologia_detail' item.id %}">
+                            <img src="{{ item.logo.url }}" alt="{{ item.nome }}">
+                        </a>
                         {% endif %}
-                        <h3>{{ item.nome }}</h3>
+
+                        <h3>
+                            <a href="{% url 'tecnologia_detail' item.id %}">
+                                {{ item.nome }}
+                            </a>
+                        </h3>
+
                         <p>{{ item.descricao|truncatechars:90 }}</p>
                     </article>
                     {% empty %}
