@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Meu Portofólio{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <h2>Meu Portofólio</h2>
+                <p>Engenharia Informática</p>
+            </div>
+
+            <nav class="menu">
+                <a href="{% url 'home' %}#licenciaturas">Licenciaturas</a>
+                <a href="{% url 'home' %}#ucs">Unidades Curriculares</a>
+                <a href="{% url 'home' %}#tecnologias">Tecnologias</a>
+                <a href="{% url 'home' %}#competencias">Competências</a>
+                <a href="{% url 'home' %}#formacoes">Formações</a>
+                <a href="{% url 'home' %}#areas">Áreas de Interesse</a>
+                <a href="{% url 'home' %}#tfcs">TFCs</a>
+                <a href="{% url 'home' %}#projetos">Projetos</a>
+                <a href="{% url 'home' %}#makingof">Making Of</a>
+                <a href="{% url 'home' %}#midias">Mídia</a>
+                <a href="{% url 'home' %}#docentes">Docentes</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+</body>
+</html>

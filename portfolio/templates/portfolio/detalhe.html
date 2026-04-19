@@ -1,0 +1,47 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<section>
+    <article>
+        <header>
+            <h2>{{ page_title }}</h2>
+            <p>{{ object_name }}</p>
+        </header>
+
+        {% if image_url %}
+            <section>
+                <img src="{{ image_url }}" alt="{{ object_name }}" style="max-width: 250px; height: auto; border-radius: 12px; margin-bottom: 20px;">
+            </section>
+        {% endif %}
+
+        <section>
+            <h4>Informação</h4>
+            <ul style="display: block; list-style: none; padding-left: 0;">
+                {% for label, value in details %}
+                    <li style="background: transparent; color: inherit; padding: 8px 0; border-radius: 0;">
+                        <strong>{{ label }}:</strong>
+                        {% if "http" in value|stringformat:"s" %}
+                            <a href="{{ value }}" target="_blank">{{ value }}</a>
+                        {% else %}
+                            {{ value }}
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        {% for titulo, itens in related_sections %}
+            <section>
+                <h4>{{ titulo }}</h4>
+                <ul>
+                    {% for item in itens %}
+                        <li>{{ item }}</li>
+                    {% empty %}
+                        <li>Sem registos associados.</li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endfor %}
+    </article>
+</section>
+{% endblock %}

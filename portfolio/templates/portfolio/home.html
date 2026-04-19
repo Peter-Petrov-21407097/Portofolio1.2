@@ -31,27 +31,36 @@
         </aside>
 
         <main class="main-content">
-            <section class="content-section" id="licenciaturas">
-                <div class="section-header">
-                    <h2>Licenciaturas</h2>
-                    <p>Informação sobre o percurso académico principal.</p>
+<section class="content-section" id="licenciaturas">
+    <div class="section-header">
+        <h2>Licenciaturas</h2>
+        <p>Informação sobre o percurso académico principal.</p>
+    </div>
+    <div class="card-grid">
+        {% for item in licenciaturas %}
+            <article class="card">
+
+                {% if item.imagem %}
+                    <a href="{% url 'licenciatura_detail' item.id %}">
+                        <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
+                    </a>
+                {% endif %}
+
+                <div class="card-body">
+                    <h3>
+                        <a href="{% url 'licenciatura_detail' item.id %}">
+                            {{ item.nome }}
+                        </a>
+                    </h3>
+
+                    <p>{{ item.descricao|truncatechars:140 }}</p>
                 </div>
-                <div class="card-grid">
-                    {% for item in licenciaturas %}
-                        <article class="card">
-                            {% if item.imagem %}
-                                <img src="{{ item.imagem.url }}" alt="{{ item.nome }}">
-                            {% endif %}
-                            <div class="card-body">
-                                <h3>{{ item.nome }}</h3>
-                                <p>{{ item.descricao|truncatechars:140 }}</p>
-                            </div>
-                        </article>
-                    {% empty %}
-                        <div class="empty-message">Sem licenciaturas.</div>
-                    {% endfor %}
-                </div>
-            </section>
+            </article>
+        {% empty %}
+            <div class="empty-message">Sem licenciaturas.</div>
+        {% endfor %}
+    </div>
+</section>
 
             <section class="content-section" id="ucs">
                 <div class="section-header">

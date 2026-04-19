@@ -2,16 +2,17 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("", views.home, name="home"),
-    path("licenciaturas/", views.lista_licenciaturas, name="lista_licenciaturas"),
-    path("ucs/", views.lista_ucs, name="lista_ucs"),
-    path("tecnologias/", views.lista_tecnologias, name="lista_tecnologias"),
-    path("competencias/", views.lista_competencias, name="lista_competencias"),
-    path("formacoes/", views.lista_formacoes, name="lista_formacoes"),
-    path("areas/", views.lista_areas_interesse, name="lista_areas_interesse"),
-    path("tfcs/", views.lista_tfcs, name="lista_tfcs"),
-    path("projetos/", views.lista_projetos, name="lista_projetos"),
-    path("makingof/", views.lista_makingof, name="lista_makingof"),
-    path("midias/", views.lista_midias, name="lista_midias"),
-    path("docentes/", views.lista_docentes, name="lista_docentes"),
+    path('', views.home_view, name='home'),
+
+    path('licenciatura/<int:id>/', views.licenciatura_detail, name='licenciatura_detail'),
+    path('unidade-curricular/<int:id>/', views.unidade_curricular_detail, name='unidade_curricular_detail'),
+    path('projeto/<int:id>/', views.projeto_detail, name='projeto_detail'),
+    path('tecnologia/<int:id>/', views.tecnologia_detail, name='tecnologia_detail'),
+    path('tfc/<int:id>/', views.tfc_detail, name='tfc_detail'),
+    path('competencia/<int:id>/', views.competencia_detail, name='competencia_detail'),
+    path('formacao/<int:id>/', views.formacao_detail, name='formacao_detail'),
+    path('makingof/<int:id>/', views.makingof_detail, name='makingof_detail'),
+    path('docente/<int:id>/', views.docente_detail, name='docente_detail'),
+    path('area-interesse/<int:id>/', views.area_interesse_detail, name='area_interesse_detail'),
+    path('midia/<int:id>/', views.midia_detail, name='midia_detail'),
 ]
