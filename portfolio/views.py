@@ -355,6 +355,9 @@ def midia_detail(request, id):
         ],
     )
 
+    return render(request, "portfolio/detalhe.html", context)
+
+
 def home_view(request):
     context = {
         "licenciaturas": Licenciatura.objects.all(),
