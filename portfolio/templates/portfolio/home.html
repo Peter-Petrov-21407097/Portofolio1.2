@@ -230,7 +230,11 @@
                     {% for item in makingofs %}
                     <article class="card">
                         <div class="card-body">
-                            <h3>{{ item.titulo }}</h3>
+                            <h3>
+                                <a href="{% url 'makingof_detail' item.id %}">
+                                    {{ item.titulo }}
+                                </a>
+                            </h3>
                             <p>{{ item.descricao|truncatechars:140 }}</p>
                         </div>
                     </article>
