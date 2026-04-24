@@ -1,4 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
+from .forms import ProjetoForm
+
 from .models import (
     Licenciatura,
     UnidadeCurricular,
@@ -12,6 +14,41 @@ from .models import (
     AreaInteresse,
     Midia,
 )
+
+
+def lista_projetos(request):
+    dados = Projeto.objects.all()
+    return render(request, "portfolio/projetos.html", {"dados": dados})
+
+def criar_projeto(request):
+    form = ProjetoForm(request.POST or None, request.FILES or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_projetos")
+
+    return render(request, "portfolio/projeto_form.html", {"form": form})
+
+def editar_projeto(request, id):
+    projeto = get_object_or_404(Projeto, id=id)
+    form = ProjetoForm(request.POST or None, request.FILES or None, instance=projeto)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_projetos")
+
+    return render(request, "portfolio/projeto_form.html", {"form": form})
+
+def apagar_projeto(request, id):
+    projeto = get_object_or_404(Projeto, id=id)
+
+    if request.method == "POST":
+        projeto.delete()
+        return redirect("lista_projetos")
+
+    return render(request, "portfolio/projeto_confirm_delete.html", {"projeto": projeto})
+
+
 
 
 def build_detail_context(obj, title, fields, image_attr=None, related_sections=None):
@@ -373,4 +410,3 @@ def home_view(request):
         "docentes": Docente.objects.all(),
     }
     return render(request, "portfolio/home.html", context)
-    return render(request, "portfolio/detalhe.html", context)
