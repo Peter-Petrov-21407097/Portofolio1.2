@@ -20,6 +20,7 @@ def lista_projetos(request):
     dados = Projeto.objects.all()
     return render(request, "portfolio/projetos.html", {"dados": dados})
 
+
 def criar_projeto(request):
     form = ProjetoForm(request.POST or None, request.FILES or None)
 
@@ -28,6 +29,7 @@ def criar_projeto(request):
         return redirect("lista_projetos")
 
     return render(request, "portfolio/projeto_form.html", {"form": form})
+
 
 def editar_projeto(request, id):
     projeto = get_object_or_404(Projeto, id=id)
@@ -39,6 +41,7 @@ def editar_projeto(request, id):
 
     return render(request, "portfolio/projeto_form.html", {"form": form})
 
+
 def apagar_projeto(request, id):
     projeto = get_object_or_404(Projeto, id=id)
 
@@ -47,9 +50,6 @@ def apagar_projeto(request, id):
         return redirect("lista_projetos")
 
     return render(request, "portfolio/projeto_confirm_delete.html", {"projeto": projeto})
-
-
-
 
 def build_detail_context(obj, title, fields, image_attr=None, related_sections=None):
     details = []
