@@ -1,9 +1,21 @@
-<h1>Projeto</h1>
+{% extends "portfolio/base.html" %}
 
-<form method="post" enctype="multipart/form-data">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Guardar</button>
-</form>
+{% block content %}
 
-<a href="{% url 'lista_projetos' %}">Cancelar</a>
+<div class="container mt-5">
+    <div class="card shadow p-4">
+
+        <h2 class="mb-4">Projeto</h2>
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="{% url 'lista_projetos' %}" class="btn btn-secondary">Cancelar</a>
+        </form>
+
+    </div>
+</div>
+
+{% endblock %}
