@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .forms import ProjetoForm
+from .forms import ProjetoForm, TecnologiaForm, CompetenciaForm, FormacaoForm
 
 from .models import (
     Licenciatura,
@@ -50,6 +50,120 @@ def apagar_projeto(request, id):
         return redirect("lista_projetos")
 
     return render(request, "portfolio/projeto_confirm_delete.html", {"projeto": projeto})
+
+
+# TECNOLOGIAS
+
+def lista_tecnologias(request):
+    dados = Tecnologia.objects.all()
+    return render(request, "portfolio/tecnologias.html", {"dados": dados})
+
+
+def criar_tecnologia(request):
+    form = TecnologiaForm(request.POST or None, request.FILES or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_tecnologias")
+
+    return render(request, "portfolio/tecnologia_form.html", {"form": form})
+
+
+def editar_tecnologia(request, id):
+    tecnologia = get_object_or_404(Tecnologia, id=id)
+    form = TecnologiaForm(request.POST or None, request.FILES or None, instance=tecnologia)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_tecnologias")
+
+    return render(request, "portfolio/tecnologia_form.html", {"form": form})
+
+
+def apagar_tecnologia(request, id):
+    tecnologia = get_object_or_404(Tecnologia, id=id)
+
+    if request.method == "POST":
+        tecnologia.delete()
+        return redirect("lista_tecnologias")
+
+    return render(request, "portfolio/tecnologia_confirm_delete.html", {"tecnologia": tecnologia})
+
+
+# COMPETÊNCIAS
+
+def lista_competencias(request):
+    dados = Competencia.objects.all()
+    return render(request, "portfolio/competencias.html", {"dados": dados})
+
+
+def criar_competencia(request):
+    form = CompetenciaForm(request.POST or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_competencias")
+
+    return render(request, "portfolio/competencia_form.html", {"form": form})
+
+
+def editar_competencia(request, id):
+    competencia = get_object_or_404(Competencia, id=id)
+    form = CompetenciaForm(request.POST or None, instance=competencia)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_competencias")
+
+    return render(request, "portfolio/competencia_form.html", {"form": form})
+
+
+def apagar_competencia(request, id):
+    competencia = get_object_or_404(Competencia, id=id)
+
+    if request.method == "POST":
+        competencia.delete()
+        return redirect("lista_competencias")
+
+    return render(request, "portfolio/competencia_confirm_delete.html", {"competencia": competencia})
+
+
+# FORMAÇÕES
+
+def lista_formacoes(request):
+    dados = Formacao.objects.all()
+    return render(request, "portfolio/formacoes.html", {"dados": dados})
+
+
+def criar_formacao(request):
+    form = FormacaoForm(request.POST or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_formacoes")
+
+    return render(request, "portfolio/formacao_form.html", {"form": form})
+
+
+def editar_formacao(request, id):
+    formacao = get_object_or_404(Formacao, id=id)
+    form = FormacaoForm(request.POST or None, instance=formacao)
+
+    if form.is_valid():
+        form.save()
+        return redirect("lista_formacoes")
+
+    return render(request, "portfolio/formacao_form.html", {"form": form})
+
+
+def apagar_formacao(request, id):
+    formacao = get_object_or_404(Formacao, id=id)
+
+    if request.method == "POST":
+        formacao.delete()
+        return redirect("lista_formacoes")
+
+    return render(request, "portfolio/formacao_confirm_delete.html", {"formacao": formacao})
 
 def build_detail_context(obj, title, fields, image_attr=None, related_sections=None):
     details = []

@@ -1,0 +1,10 @@
+<h1>Apagar formacao</h1>
+
+<p>Tem a certeza que quer apagar "{{ formacao.titulo }}"?</p>
+
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Sim, apagar</button>
+</form>
+
+<a href="{% url 'lista_formacao' %}">Cancelar</a>

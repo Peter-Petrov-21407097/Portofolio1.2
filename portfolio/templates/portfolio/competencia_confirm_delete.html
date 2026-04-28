@@ -1,0 +1,10 @@
+<h1>Apagar competencia?</h1>
+
+<p>Tem a certeza que quer apagar "{{ competencia.titulo }}"?</p>
+
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Sim, apagar</button>
+</form>
+
+<a href="{% url 'lista_competencias' %}">Cancelar</a>

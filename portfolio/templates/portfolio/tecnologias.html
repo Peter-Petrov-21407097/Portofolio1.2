@@ -6,10 +6,10 @@
 <div class="d-flex justify-content-between align-items-center mb-5">
     <h1 class="text-light">Gestão de Projetos</h1>
 
-    <a href="{% url 'criar_projeto' %}" 
+    <a href="{% url 'criar_tecnologia' %}" 
        class="btn btn-success btn-lg px-5 py-3" 
        style="font-size: 1.2rem;">
-        + Novo Projeto
+        + Nova Tecnologia
     </a>
 </div>
 
@@ -19,25 +19,25 @@
                 <div class="card h-100 shadow bg-dark text-light border-secondary">
 
                     {% if projeto.imagem %}
-                        <img src="{{ projeto.imagem.url }}" class="card-img-top" alt="{{ projeto.titulo }}">
+                        <img src="{{ tecnologia.imagem.url }}" class="card-img-top" alt="{{ tecnologia.titulo }}">
                     {% endif %}
 
                     <div class="card-body">
-                        <h5 class="card-title">{{ projeto.titulo }}</h5>
-                        <p class="card-text text-light">{{ projeto.descricao }}</p>
+                        <h5 class="card-title">{{ tecnologia.titulo }}</h5>
+                        <p class="card-text text-light">{{ tecnologia.descricao }}</p>
 
                         <div class="mt-3 d-flex gap-2 flex-wrap">
-                            <a href="{% url 'projeto_detail' projeto.id %}" 
+                            <a href="{% url 'tecnologia_detail' tecnologia.id %}" 
                                class="btn btn-light px-3">
                                 Ver
                             </a>
 
-                            <a href="{% url 'editar_projeto' projeto.id %}" 
+                            <a href="{% url 'editar_tecnologia' tecnologia.id %}" 
                                class="btn btn-warning px-3">
                                 Editar
                             </a>
 
-                            <a href="{% url 'apagar_projeto' projeto.id %}" 
+                            <a href="{% url 'apagar_tecnologia' tecnologia.id %}" 
                                class="btn btn-danger px-3">
                                 Apagar
                             </a>
@@ -47,7 +47,7 @@
                 </div>
             </div>
         {% empty %}
-            <p class="text-light">Ainda não existem projetos.</p>
+            <p class="text-light">Ainda não existem tecnologia.</p>
         {% endfor %}
     </div>
 
