@@ -2,20 +2,23 @@
 
 {% block content %}
 
-<div class="container mt-5">
-    <div class="card shadow p-4">
+<section class="container mt-5">
+    <div class="card bg-dark text-light border-secondary shadow p-4">
+        <h1 class="mb-4">Formação</h1>
 
-        <h2 class="mb-4">Formacao</h2>
-
-        <form method="post" enctype="multipart/form-data">
+        <form method="post">
             {% csrf_token %}
             {{ form.as_p }}
 
-            <button type="submit" class="btn btn-primary">Guardar</button>
-            <a href="{% url 'lista_formacoes' %}" class="btn btn-secondary">Cancelar</a>
-        </form>
+            <button type="submit" class="btn btn-success">
+                Guardar
+            </button>
 
+            <a href="{% url 'lista_formacoes' %}" class="btn btn-secondary">
+                Cancelar
+            </a>
+        </form>
     </div>
-</div>
+</section>
 
 {% endblock %}

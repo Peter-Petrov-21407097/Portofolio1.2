@@ -2,29 +2,29 @@
 
 {% block content %}
 
+<section class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1 class="text-light">Gestão de Tecnologias</h1>
 
-<div class="d-flex justify-content-between align-items-center mb-5">
-    <h1 class="text-light">Gestão de Projetos</h1>
-
-    <a href="{% url 'criar_tecnologia' %}" 
-       class="btn btn-success btn-lg px-5 py-3" 
-       style="font-size: 1.2rem;">
-        + Nova Tecnologia
-    </a>
-</div>
+        <a href="{% url 'criar_tecnologia' %}" 
+           class="btn btn-success btn-lg px-5 py-3" 
+           style="font-size: 1.2rem;">
+            + Nova Tecnologia
+        </a>
+    </div>
 
     <div class="row">
-        {% for projeto in dados %}
+        {% for tecnologia in dados %}
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card h-100 shadow bg-dark text-light border-secondary">
 
-                    {% if projeto.imagem %}
-                        <img src="{{ tecnologia.imagem.url }}" class="card-img-top" alt="{{ tecnologia.titulo }}">
+                    {% if tecnologia.logo %}
+                        <img src="{{ tecnologia.logo.url }}" class="card-img-top" alt="{{ tecnologia.nome }}">
                     {% endif %}
 
                     <div class="card-body">
-                        <h5 class="card-title">{{ tecnologia.titulo }}</h5>
-                        <p class="card-text text-light">{{ tecnologia.descricao }}</p>
+                        <h5 class="card-title">{{ tecnologia.nome }}</h5>
+                        <p class="card-text">{{ tecnologia.descricao }}</p>
 
                         <div class="mt-3 d-flex gap-2 flex-wrap">
                             <a href="{% url 'tecnologia_detail' tecnologia.id %}" 
@@ -47,7 +47,7 @@
                 </div>
             </div>
         {% empty %}
-            <p class="text-light">Ainda não existem tecnologia.</p>
+            <p class="text-light">Ainda não existem tecnologias.</p>
         {% endfor %}
     </div>
 

@@ -1,10 +1,25 @@
-<h1>Apagar competencia?</h1>
+{% extends "portfolio/base.html" %}
 
-<p>Tem a certeza que quer apagar "{{ competencia.titulo }}"?</p>
+{% block content %}
 
-<form method="post">
-  {% csrf_token %}
-  <button type="submit">Sim, apagar</button>
-</form>
+<section class="container mt-5">
+    <div class="card bg-dark text-light border-secondary shadow p-4">
+        <h1 class="mb-4">Apagar Competência</h1>
 
-<a href="{% url 'lista_competencias' %}">Cancelar</a>
+        <p>Tem a certeza que quer apagar "<strong>{{ competencia.nome }}</strong>"?</p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <button type="submit" class="btn btn-danger">
+                Sim, apagar
+            </button>
+
+            <a href="{% url 'lista_competencias' %}" class="btn btn-secondary">
+                Cancelar
+            </a>
+        </form>
+    </div>
+</section>
+
+{% endblock %}

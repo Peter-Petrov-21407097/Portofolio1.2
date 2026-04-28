@@ -1,10 +1,25 @@
-<h1>Apagar formacao</h1>
+{% extends "portfolio/base.html" %}
 
-<p>Tem a certeza que quer apagar "{{ formacao.titulo }}"?</p>
+{% block content %}
 
-<form method="post">
-  {% csrf_token %}
-  <button type="submit">Sim, apagar</button>
-</form>
+<section class="container mt-5">
+    <div class="card bg-dark text-light border-secondary shadow p-4">
+        <h1 class="mb-4">Apagar Formação</h1>
 
-<a href="{% url 'lista_formacao' %}">Cancelar</a>
+        <p>Tem a certeza que quer apagar "<strong>{{ formacao.nome }}</strong>"?</p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <button type="submit" class="btn btn-danger">
+                Sim, apagar
+            </button>
+
+            <a href="{% url 'lista_formacoes' %}" class="btn btn-secondary">
+                Cancelar
+            </a>
+        </form>
+    </div>
+</section>
+
+{% endblock %}
