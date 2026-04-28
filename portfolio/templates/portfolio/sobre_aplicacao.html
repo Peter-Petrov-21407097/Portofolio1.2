@@ -1,0 +1,322 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+<section>
+    <h1>Pórtfólio - V1.2</h1>
+
+    <h2>Arquitetura Model View Template do Django</h2>
+
+    <p>
+        Esta aplicação foi desenvolvida com Django e segue a arquitetura MVT:
+        Model, View e Template.A ideia foi tentar usar a logica aprendida em 
+        aulas, assim como os conhecimentos exteriores à universidade, para
+        desenvolver um Pórtfólio.
+    </p>
+
+    <img src="/media/projetos/web_scraping.png" alt="Desenho da arquitetura MVT" style="max-width: 100%;">
+    
+    <section class="content-section" id="modelacao">
+    <div class="section-header">
+        <h2>2. Modelação</h2>
+        <p>Modelo de dados utilizado nesta aplicação Django.</p>
+    </div>
+
+    <h3>Diagrama Entidade-Relação</h3>
+
+    <p>
+        O diagrama entidade-relação representa as principais entidades da aplicação
+        e as relações entre elas. Neste projeto existem entidades como Licenciatura,
+        Unidade Curricular, Projeto, Tecnologia, Competência, Formação, Área de
+        Interesse, TFC, Making Of, Mídia e Docente.
+    </p>
+
+    <img src="/media/midia/diagrama.jpg" alt="Desenho da Entidades e as Relações" style="max-width: 100%;">
+
+    <h3>Modelação em models.py</h3>
+
+    <p>
+        A modelação da aplicação foi implementada no ficheiro <strong>models.py</strong>,
+        usando classes Django que herdam de <code>models.Model</code>. Cada classe
+        representa uma tabela da base de dados e cada atributo representa um campo.
+    </p>
+
+    <p>
+        A classe <strong>Licenciatura</strong> representa o curso e está relacionada
+        com várias <strong>Unidades Curriculares</strong>. Cada unidade curricular
+        pode ter vários <strong>Projetos</strong>, <strong>Docentes</strong>,
+        ficheiros de <strong>Mídia</strong> e registos de <strong>Making Of</strong>.
+    </p>
+
+    <p>
+        A classe <strong>Projeto</strong> é uma das entidades centrais da aplicação.
+        Cada projeto pertence a uma unidade curricular e pode estar associado a uma
+        área de interesse. Além disso, pode ter várias tecnologias e competências,
+        através de relações <code>ManyToManyField</code>.
+    </p>
+
+    <p>
+        As classes <strong>Tecnologia</strong> e <strong>Competência</strong> permitem
+        descrever ferramentas, linguagens e capacidades desenvolvidas. Estas entidades
+        são reutilizadas em projetos, formações e TFCs, evitando repetição de dados.
+    </p>
+
+    <p>
+        A classe <strong>MakingOf</strong> serve para documentar o processo de
+        desenvolvimento, incluindo decisões tomadas, erros encontrados, correções
+        realizadas, justificação da modelação e utilização de IA. Esta classe está
+        ligada opcionalmente a projetos, unidades curriculares, tecnologias, TFCs,
+        formações e competências.
+    </p>
+
+    <p>
+        A classe <strong>Midia</strong> permite guardar ficheiros, imagens ou recursos
+        relacionados com diferentes partes do portefólio. Já a classe
+        <strong>Docente</strong> representa professores e pode estar associada a várias
+        unidades curriculares.
+    </p>
+
+    <h3>Relações principais(mas nao todas, as imagens do caderno em midia tem todas)</h3>
+
+    <ul>
+        <li><strong>Licenciatura → UnidadeCurricular:</strong> uma licenciatura pode ter várias unidades curriculares.</li>
+        <li><strong>UnidadeCurricular → Projeto:</strong> uma unidade curricular pode ter vários projetos.</li>
+        <li><strong>Projeto ↔ Tecnologia:</strong> um projeto pode usar várias tecnologias e uma tecnologia pode ser usada em vários projetos.</li>
+        <li><strong>Projeto ↔ Competência:</strong> um projeto pode desenvolver várias competências e uma competência pode estar presente em vários projetos.</li>
+        <li><strong>Formação ↔ Tecnologia/Competência:</strong> uma formação pode estar associada a várias tecnologias e competências.</li>
+        <li><strong>ÁreaInteresse → TFC/Projeto:</strong> uma área de interesse pode agrupar TFCs e projetos.</li>
+        <li><strong>Docente ↔ UnidadeCurricular:</strong> um docente pode lecionar várias unidades curriculares.</li>
+        <li><strong>Docente ↔ UnidadeCurricular:</strong> um docente pode lecionar várias unidades curriculares.</li>
+    </ul>
+
+    <h3>Versão textual simplificada do modelo</h3>
+
+    <pre>
+Licenciatura
+ └── UnidadeCurricular
+      ├── Projeto
+      │    ├── Tecnologias
+      │    ├── Competências
+      │    ├── MakingOf
+      │    └── Midia
+      ├── Docentes
+      ├── MakingOf
+      └── Midia
+
+AreaInteresse
+ ├── Projeto
+ └── TFC
+      ├── Tecnologias
+      └── MakingOf
+
+Formacao
+ ├── Tecnologias
+ ├── Competências
+ └── MakingOf
+    </pre>
+
+    <h3>Ficheiro models.py</h3>
+
+    <p>
+        O código completo da modelação encontra-se no ficheiro
+        <code>portfolio/models.py</code>, onde estão definidas todas as classes,
+        campos e relações da base de dados.
+    </p>
+</section>
+
+<section class="content-section" id="tecnologias-aplicacao">
+    <div class="section-header">
+        <h2>3. Tecnologias</h2>
+        <p>Tecnologias utilizadas na construção da aplicação Django.</p>
+    </div>
+
+    <p>
+        Esta aplicação foi desenvolvida com várias tecnologias de frontend,
+        backend, base de dados, versionamento e alojamento de código. As tecnologias
+        estão registadas na classe <strong>Tecnologia</strong> e devem estar associadas
+        ao projeto <strong>Portfolio de Programação Web</strong>.
+    </p>
+
+    <h3>Frontend</h3>
+    <ul>
+        <li><strong>HTML:</strong> usado para estruturar as páginas da aplicação.</li>
+        <li><strong>CSS:</strong> usado para definir o aspeto visual, layout, cores e organização dos conteúdos.</li>
+    </ul>
+
+    <h3>Backend</h3>
+    <ul>
+        <li><strong>Python:</strong> linguagem principal usada no desenvolvimento da aplicação.</li>
+        <li><strong>Django:</strong> framework web usada para criar os modelos, views, templates, rotas e formulários.</li>
+    </ul>
+
+    <h3>Base de dados</h3>
+    <ul>
+        <li><strong>SQLite:</strong> base de dados usada durante o desenvolvimento do projeto.</li>
+    </ul>
+
+    <h3>Storage / Media</h3>
+    <ul>
+        <li><strong>MEDIA_ROOT e MEDIA_URL:</strong> usados para guardar e apresentar imagens, PDFs e outros ficheiros carregados na aplicação.</li>
+    </ul>
+
+    <h3>Outros</h3>
+    <ul>
+        <li><strong>Git:</strong> usado para controlar versões do código.</li>
+        <li><strong>GitHub:</strong> usado para alojar o repositório online e manter o histórico do projeto.</li>
+        <li><strong>GitHub Codespaces:</strong> ambiente de desenvolvimento online usado para editar e executar o projeto.</li>
+    </ul>
+</section>
+
+<section class="content-section" id="estrutura-paginas">
+    <div class="section-header">
+        <h2>4. Estrutura das páginas</h2>
+        <p>Mapa de navegação da aplicação.</p>
+    </div>
+
+    <p>
+        A aplicação está organizada em várias páginas e secções. A página inicial
+        apresenta os principais conteúdos do portefólio, enquanto outras páginas
+        permitem consultar detalhes ou gerir dados como projetos, tecnologias,
+        competências e formações.
+    </p>
+
+    <pre>
+Página Inicial
+ ├── Licenciaturas
+ ├── Unidades Curriculares
+ ├── Tecnologias
+ │    ├── Lista de tecnologias
+ │    ├── Criar tecnologia
+ │    ├── Editar tecnologia
+ │    └── Apagar tecnologia
+ ├── Competências
+ │    ├── Lista de competências
+ │    ├── Criar competência
+ │    ├── Editar competência
+ │    └── Apagar competência
+ ├── Formações
+ │    ├── Lista de formações
+ │    ├── Criar formação
+ │    ├── Editar formação
+ │    └── Apagar formação
+ ├── Projetos
+ │    ├── Lista de projetos
+ │    ├── Criar projeto
+ │    ├── Editar projeto
+ │    └── Apagar projeto
+ ├── TFCs
+ ├── Making Of
+ ├── Mídia
+ ├── Docentes
+ └── Sobre esta Aplicação
+      ├── Arquitetura MVT
+      ├── Modelação
+      ├── Tecnologias
+      ├── Estrutura das páginas
+      ├── Repositório GitHub
+      └── Making-Of
+    </pre>
+</section>
+
+<section class="content-section" id="github">
+    <div class="section-header">
+        <h2>5. Repositório GitHub</h2>
+        <p>Repositório online do projeto.</p>
+    </div>
+
+    <p>
+        O código-fonte desta aplicação está disponível no GitHub:
+    </p>
+
+    <p>
+        <a href="https://github.com/Peter-Petrov-21407097/Portofolio1.2" target="_blank">
+            Ver repositório no GitHub
+        </a>
+    </p>
+
+    <p>
+        O GitHub foi usado para guardar o projeto online, manter um histórico das
+        alterações feitas ao código e facilitar a recuperação de versões anteriores.
+        Em conjunto com o Git, permite controlar o desenvolvimento da aplicação de
+        forma organizada, registando as alterações através de commits.
+    </p>
+
+    <p>
+        Esta tecnologia é importante no desenvolvimento de software porque permite
+        trabalhar com maior segurança, acompanhar a evolução do projeto, colaborar
+        com outras pessoas e manter uma cópia remota do código.
+    </p>
+</section>
+
+<section class="content-section" id="making-of-aplicacao">
+    <div class="section-header">
+        <h2>6. Making-Of</h2>
+        <p>Registo do processo de desenvolvimento da aplicação.</p>
+    </div>
+
+    <p>
+        O Making-Of reúne apontamentos sobre o desenvolvimento do projeto, incluindo
+        dificuldades encontradas, decisões tomadas, alterações feitas à modelação,
+        utilização de tecnologias e melhorias implementadas ao longo das semanas.
+    </p>
+
+    <p>
+        Nesta fase, o objetivo é apresentar uma visão geral do processo de construção
+        da aplicação. Posteriormente, poderá existir uma página própria com todos os
+        detalhes registados na tabela <strong>MakingOf</strong>.
+    </p>
+
+    <p>
+        Os registos do Making-Of ajudam a documentar a evolução do projeto e a explicar
+        não só o resultado final, mas também o processo seguido para chegar à aplicação
+        atual.
+    </p>
+
+    <p>
+        <a href="#makingof">Ver registos de Making Of na página inicial</a>
+    </p>
+</section>
+
+    <h3>Model</h3>
+    <p>
+        O Model representa os dados da aplicação. Neste Portfolio, os modelos
+        definem uma das 11 possíveis entidades que foram aceites e implementadas
+        na modelação inicial, baseado nos requerimentos pedidos e com base em
+        experiência pessoal.
+    </p>
+
+    <h3>View</h3>
+    <p>
+        A View recebe o pedido do utilizador.
+        Tambem podemos consultar, alterar, apagar qualquer tipo
+        de informação através dos Models e 
+        é esta mesmissima view que seleciona 
+        o template que é mostrado
+    </p>
+
+    <h3>Template</h3>
+    <p>
+        O Template é responsável pela apresentação da informação ao utilizador,
+        usandos diferentes fontes.
+        Vamos utilizar HTML para adquirir esta informação de forma organizada, 
+        assim como variáveis para apresentar um aspecto limpo.
+    </p>
+
+    <h2>Fluxo de informação</h2>
+    <p>
+        O utilizador acede a um URL. 
+        O Django procura esse caminho no ficheiro urls.py. 
+        Chama a View correspondente. 
+        A View interage com os Models e envia os dados para um Template. 
+        Por fim, o Template gera a página HTML apresentada no browser.
+    </p>
+
+    <h2>Vídeo tutorial</h2>
+
+    <iframe width="560" height="315"
+        src="https://youtu.be/73BG98bMUcY?si=mmIBNgI29kGAy-iZ"
+        title="Portfolio - 2026 - PW - 17/04/2026"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</section>
+{% endblock %}

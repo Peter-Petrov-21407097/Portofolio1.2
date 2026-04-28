@@ -16,6 +16,9 @@ from .models import (
 )
 
 
+def sobre_aplicacao(request):
+    return render(request, 'portfolio/sobre_aplicacao.html')
+
 def lista_projetos(request):
     dados = Projeto.objects.all()
     return render(request, "portfolio/projetos.html", {"dados": dados})
