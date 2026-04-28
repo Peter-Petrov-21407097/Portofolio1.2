@@ -182,3 +182,28 @@ body {
         padding: 20px;
     }
 }
+
+.btn-crud {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 6px 12px;
+
+    background: linear-gradient(135deg, #00c853, #00e676);
+    color: #000;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    border-radius: 20px;
+    border: none;
+
+    transition: all 0.2s ease;
+}
+
+.btn-crud:hover {
+    background: linear-gradient(135deg, #00e676, #69f0ae);
+    transform: translateX(3px);
+}
