@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .forms import ProjetoForm, TecnologiaForm, CompetenciaForm, FormacaoForm
+from django.contrib.auth.decorators import login_required
+
 
 from .models import (
     Licenciatura,
@@ -16,12 +18,21 @@ from .models import (
 )
 
 
+def is_gestor_portfolio(user):
+    return user.is_authenticated and user.groups.filter(name="gestor-portfolio").exists()
+
 def sobre_aplicacao(request):
     return render(request, 'portfolio/sobre_aplicacao.html')
 
+
+# PROJETOS
+
 def lista_projetos(request):
     dados = Projeto.objects.all()
-    return render(request, "portfolio/projetos.html", {"dados": dados})
+    return render(request, "portfolio/projetos.html", {
+        "dados": dados,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 
 def criar_projeto(request):
@@ -57,10 +68,13 @@ def apagar_projeto(request, id):
 
 # TECNOLOGIAS
 
+
 def lista_tecnologias(request):
     dados = Tecnologia.objects.all()
-    return render(request, "portfolio/tecnologias.html", {"dados": dados})
-
+    return render(request, "portfolio/tecnologias.html", {
+        "dados": dados,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 def criar_tecnologia(request):
     form = TecnologiaForm(request.POST or None, request.FILES or None)
@@ -94,6 +108,15 @@ def apagar_tecnologia(request, id):
 
 
 # COMPETÊNCIAS
+
+
+def lista_competencias(request):
+    dados = Competencia.objects.all()
+    return render(request, "portfolio/competencias.html", {
+        "dados": dados,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
+
 
 def lista_competencias(request):
     dados = Competencia.objects.all()
@@ -135,7 +158,10 @@ def apagar_competencia(request, id):
 
 def lista_formacoes(request):
     dados = Formacao.objects.all()
-    return render(request, "portfolio/formacoes.html", {"dados": dados})
+    return render(request, "portfolio/formacoes.html", {
+        "dados": dados,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 
 def criar_formacao(request):
