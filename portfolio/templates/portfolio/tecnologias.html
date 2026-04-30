@@ -6,11 +6,13 @@
     <div class="d-flex justify-content-between align-items-center mb-5">
         <h1 class="text-light">Gestão de Tecnologias</h1>
 
-        <a href="{% url 'criar_tecnologia' %}" 
-           class="btn btn-success btn-lg px-5 py-3" 
-           style="font-size: 1.2rem;">
-            + Nova Tecnologia
-        </a>
+        {% if is_gestor %}
+            <a href="{% url 'criar_tecnologia' %}" 
+               class="btn btn-success btn-lg px-5 py-3" 
+               style="font-size: 1.2rem;">
+                + Nova Tecnologia
+            </a>
+        {% endif %}
     </div>
 
     <div class="row">
@@ -32,15 +34,17 @@
                                 Ver
                             </a>
 
-                            <a href="{% url 'editar_tecnologia' tecnologia.id %}" 
-                               class="btn btn-warning px-3">
-                                Editar
-                            </a>
+                            {% if is_gestor %}
+                                <a href="{% url 'editar_tecnologia' tecnologia.id %}" 
+                                   class="btn btn-warning px-3">
+                                    Editar
+                                </a>
 
-                            <a href="{% url 'apagar_tecnologia' tecnologia.id %}" 
-                               class="btn btn-danger px-3">
-                                Apagar
-                            </a>
+                                <a href="{% url 'apagar_tecnologia' tecnologia.id %}" 
+                                   class="btn btn-danger px-3">
+                                    Apagar
+                                </a>
+                            {% endif %}
                         </div>
 
                     </div>

@@ -34,18 +34,27 @@ def lista_projetos(request):
         "is_gestor": is_gestor_portfolio(request.user)
     })
 
-
+@login_required
 def criar_projeto(request):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     form = ProjetoForm(request.POST or None, request.FILES or None)
 
     if form.is_valid():
         form.save()
         return redirect("lista_projetos")
 
-    return render(request, "portfolio/projeto_form.html", {"form": form})
+    return render(request, "portfolio/projeto_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def editar_projeto(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     projeto = get_object_or_404(Projeto, id=id)
     form = ProjetoForm(request.POST or None, request.FILES or None, instance=projeto)
 
@@ -53,17 +62,26 @@ def editar_projeto(request, id):
         form.save()
         return redirect("lista_projetos")
 
-    return render(request, "portfolio/projeto_form.html", {"form": form})
+    return render(request, "portfolio/projeto_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def apagar_projeto(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     projeto = get_object_or_404(Projeto, id=id)
 
     if request.method == "POST":
         projeto.delete()
         return redirect("lista_projetos")
 
-    return render(request, "portfolio/projeto_confirm_delete.html", {"projeto": projeto})
+    return render(request, "portfolio/projeto_confirm_delete.html", {
+        "projeto": projeto,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 
 # TECNOLOGIAS
@@ -76,17 +94,27 @@ def lista_tecnologias(request):
         "is_gestor": is_gestor_portfolio(request.user)
     })
 
+@login_required
 def criar_tecnologia(request):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     form = TecnologiaForm(request.POST or None, request.FILES or None)
 
     if form.is_valid():
         form.save()
         return redirect("lista_tecnologias")
 
-    return render(request, "portfolio/tecnologia_form.html", {"form": form})
+    return render(request, "portfolio/tecnologia_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def editar_tecnologia(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     tecnologia = get_object_or_404(Tecnologia, id=id)
     form = TecnologiaForm(request.POST or None, request.FILES or None, instance=tecnologia)
 
@@ -94,17 +122,26 @@ def editar_tecnologia(request, id):
         form.save()
         return redirect("lista_tecnologias")
 
-    return render(request, "portfolio/tecnologia_form.html", {"form": form})
+    return render(request, "portfolio/tecnologia_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def apagar_tecnologia(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     tecnologia = get_object_or_404(Tecnologia, id=id)
 
     if request.method == "POST":
         tecnologia.delete()
         return redirect("lista_tecnologias")
 
-    return render(request, "portfolio/tecnologia_confirm_delete.html", {"tecnologia": tecnologia})
+    return render(request, "portfolio/tecnologia_confirm_delete.html", {
+        "tecnologia": tecnologia,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 
 # COMPETÊNCIAS
@@ -118,22 +155,27 @@ def lista_competencias(request):
     })
 
 
-def lista_competencias(request):
-    dados = Competencia.objects.all()
-    return render(request, "portfolio/competencias.html", {"dados": dados})
-
-
+@login_required
 def criar_competencia(request):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     form = CompetenciaForm(request.POST or None)
 
     if form.is_valid():
         form.save()
         return redirect("lista_competencias")
 
-    return render(request, "portfolio/competencia_form.html", {"form": form})
+    return render(request, "portfolio/competencia_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def editar_competencia(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     competencia = get_object_or_404(Competencia, id=id)
     form = CompetenciaForm(request.POST or None, instance=competencia)
 
@@ -141,17 +183,26 @@ def editar_competencia(request, id):
         form.save()
         return redirect("lista_competencias")
 
-    return render(request, "portfolio/competencia_form.html", {"form": form})
+    return render(request, "portfolio/competencia_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def apagar_competencia(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     competencia = get_object_or_404(Competencia, id=id)
 
     if request.method == "POST":
         competencia.delete()
         return redirect("lista_competencias")
 
-    return render(request, "portfolio/competencia_confirm_delete.html", {"competencia": competencia})
+    return render(request, "portfolio/competencia_confirm_delete.html", {
+        "competencia": competencia,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 
 # FORMAÇÕES
@@ -163,18 +214,27 @@ def lista_formacoes(request):
         "is_gestor": is_gestor_portfolio(request.user)
     })
 
-
+@login_required
 def criar_formacao(request):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     form = FormacaoForm(request.POST or None)
 
     if form.is_valid():
         form.save()
         return redirect("lista_formacoes")
 
-    return render(request, "portfolio/formacao_form.html", {"form": form})
+    return render(request, "portfolio/formacao_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def editar_formacao(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     formacao = get_object_or_404(Formacao, id=id)
     form = FormacaoForm(request.POST or None, instance=formacao)
 
@@ -182,17 +242,26 @@ def editar_formacao(request, id):
         form.save()
         return redirect("lista_formacoes")
 
-    return render(request, "portfolio/formacao_form.html", {"form": form})
+    return render(request, "portfolio/formacao_form.html", {
+        "form": form,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
-
+@login_required
 def apagar_formacao(request, id):
+    if not is_gestor_portfolio(request.user):
+        return redirect("home")
+
     formacao = get_object_or_404(Formacao, id=id)
 
     if request.method == "POST":
         formacao.delete()
         return redirect("lista_formacoes")
 
-    return render(request, "portfolio/formacao_confirm_delete.html", {"formacao": formacao})
+    return render(request, "portfolio/formacao_confirm_delete.html", {
+        "formacao": formacao,
+        "is_gestor": is_gestor_portfolio(request.user)
+    })
 
 def build_detail_context(obj, title, fields, image_attr=None, related_sections=None):
     details = []
@@ -551,5 +620,6 @@ def home_view(request):
         "makingofs": MakingOf.objects.all(),
         "midias": Midia.objects.all(),
         "docentes": Docente.objects.all(),
+        "is_gestor": is_gestor_portfolio(request.user),
     }
     return render(request, "portfolio/home.html", context)

@@ -2,6 +2,10 @@
 
 {% block content %}
 
+{% if not is_gestor %}
+    <p class="text-danger text-center mt-5">Não tens permissão para aceder a esta página.</p>
+{% else %}
+
 <div class="container mt-5">
     <div class="card shadow p-4">
 
@@ -17,5 +21,7 @@
 
     </div>
 </div>
+
+{% endif %}
 
 {% endblock %}
