@@ -37,8 +37,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-     'portfolio',
+    'portfolio',
+    'accounts',
 ]
+
+LOGIN_URL = 'accounts:login'
+LOGIN_REDIRECT_URL = 'portfolio:index'
+LOGOUT_REDIRECT_URL = 'portfolio:index'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
