@@ -104,6 +104,15 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+import os
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+
+# EMAIL (para link mágico)
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+DEFAULT_FROM_EMAIL = "noreply@portfolio.com"
 
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/

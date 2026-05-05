@@ -2,6 +2,10 @@ from django import forms
 from .models import Projeto, Tecnologia, Competencia, Formacao
 
 
+
+class MagicLinkForm(forms.Form):
+    email = forms.EmailField(label="Email")
+
 class ProjetoForm(forms.ModelForm):
     class Meta:
         model = Projeto

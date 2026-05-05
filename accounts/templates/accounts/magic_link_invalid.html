@@ -1,0 +1,11 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+
+<h1>Link inválido</h1>
+
+<p>O link mágico é inválido ou expirou.</p>
+
+<a href="{% url 'accounts:magic_link' %}">Pedir novo link</a>
+
+{% endblock %}

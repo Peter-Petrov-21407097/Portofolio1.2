@@ -10,3 +10,11 @@
     <input type="password" name="password" placeholder="Password">
     <button type="submit">Entrar</button>
 </form>
+
+<hr>
+
+<p>Ou entra com link mágico:</p>
+
+<a href="{% url 'accounts:magic_link' %}">
+    Receber link mágico por email
+</a>

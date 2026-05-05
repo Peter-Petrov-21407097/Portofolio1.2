@@ -1,7 +1,11 @@
-from django.shortcuts import render, get_object_or_404, redirect
-from .forms import ProjetoForm, TecnologiaForm, CompetenciaForm, FormacaoForm
-from django.contrib.auth.decorators import login_required
-
+from django.contrib.auth.models import User
+from django.contrib.auth.tokens import default_token_generator
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
+from django.utils.encoding import force_bytes
+from django.core.mail import send_mail
+from django.urls import reverse
+from django.conf import settings
+from .forms import MagicLinkForm
 
 from .models import (
     Licenciatura,
@@ -17,6 +21,68 @@ from .models import (
     Midia,
 )
 
+
+# MAGIC LINK
+
+def magic_link_request_view(request):
+    mensagem = None
+
+    if request.method == "POST":
+        form = MagicLinkForm(request.POST)
+
+        if form.is_valid():
+            email = form.cleaned_data["email"]
+
+            try:
+                user = User.objects.get(email=email)
+
+                uid = urlsafe_base64_encode(force_bytes(user.pk))
+                token = default_token_generator.make_token(user)
+
+                magic_url = request.build_absolute_uri(
+                    reverse("accounts:magic_login", kwargs={
+                        "uidb64": uid,
+                        "token": token
+                    })
+                )
+
+                send_mail(
+                    "Link mágico de login",
+                    f"Clica neste link para entrar no portfólio:\n\n{magic_url}",
+                    settings.DEFAULT_FROM_EMAIL,
+                    [email],
+                    fail_silently=False,
+                )
+
+            except User.DoesNotExist:
+                pass
+
+            mensagem = "Se o email existir, foi enviado um link mágico."
+
+    else:
+        form = MagicLinkForm()
+
+    return render(request, "accounts/magic_link.html", {
+        "form": form,
+        "mensagem": mensagem
+    })
+
+
+def magic_login_view(request, uidb64, token):
+    try:
+        uid = urlsafe_base64_decode(uidb64).decode()
+        user = User.objects.get(pk=uid)
+
+    except Exception:
+        user = None
+
+    if user is not None and default_token_generator.check_token(user, token):
+        login(request, user)
+        return redirect("home")
+
+    return render(request, "accounts/magic_link_invalid.html")
+
+# SOBRE APLICACAO
 
 def is_gestor_portfolio(user):
     return user.is_authenticated and user.groups.filter(name="gestor-portfolio").exists()
