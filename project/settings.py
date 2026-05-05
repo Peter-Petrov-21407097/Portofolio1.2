@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 ]
 
 LOGIN_URL = 'accounts:login'
-LOGIN_REDIRECT_URL = 'portfolio:index'
-LOGOUT_REDIRECT_URL = 'portfolio:index'
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
