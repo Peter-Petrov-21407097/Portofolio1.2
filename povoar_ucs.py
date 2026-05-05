@@ -11,16 +11,27 @@ licenciatura = Licenciatura.objects.first()
 
 ucs = [
     {
-        "nome": "Fundamentos de Programação",
+        "nome": "Matemática Discreta",
         "ano_curricular": 1,
         "semestre": 1,
         "ects": 6,
-        "apresentacao": "Esta é uma disciplina fundamental na formação de qualquer profissional da área de Informática pois introduz os conceitos básicos da programação.",
-        "programa": "Introdução à programação. Algoritmos, fluxogramas, pseudo-código. Sintaxe e semântica das linguagens. Tipos primitivos. Expressões. Entradas e saídas de dados. Seleção. Repetição. Funções. Arrays. Tratamento de erros. Leitura e escrita de ficheiros.",
-        "objectivos": "Fornecer aos futuros profissionais da área da informática as bases para iniciarem a atividade de programação de modo disciplinado.",
+        "apresentacao": "Introdução aos conceitos fundamentais da matemática discreta, essenciais para a computação.",
+        "programa": "Lógica proposicional. Teoria de conjuntos. Relações e funções. Combinatória. Grafos. Árvores.",
+        "objectivos": "Dotar os alunos de ferramentas matemáticas para análise de algoritmos e estruturas computacionais.",
         "imagem": None,
-        "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7337",
-    }
+        "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-1656",
+    },
+    {
+        "nome": "Arquitetura de Computadores",
+        "ano_curricular": 1,
+        "semestre": 2,
+        "ects": 6,
+        "apresentacao": "Estudo da organização interna dos computadores e dos seus componentes principais.",
+        "programa": "Representação da informação. Sistemas digitais. CPU. Memória. Input/Output. Assembly básico.",
+        "objectivos": "Compreender o funcionamento interno dos sistemas computacionais e a interação entre hardware e software.",
+        "imagem": None,
+        "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7",
+    },
 ]
 
 for uc in ucs:
