@@ -6,6 +6,24 @@ from django.core.mail import send_mail
 from django.urls import reverse
 from django.conf import settings
 from .forms import MagicLinkForm
+from django.contrib.auth.models import Group
+
+def registo_view(request):
+    if request.method == 'POST':
+        form = RegistoForm(request.POST)
+
+        if form.is_valid():
+            user = form.save()
+
+            grupo_autores, created = Group.objects.get_or_create(name="autores")
+            user.groups.add(grupo_autores)
+
+            login(request, user)
+            return redirect('home')
+    else:
+        form = RegistoForm()
+
+    return render(request, 'accounts/registo.html', {'form': form})
 
 def magic_link_request_view(request):
     mensagem = None

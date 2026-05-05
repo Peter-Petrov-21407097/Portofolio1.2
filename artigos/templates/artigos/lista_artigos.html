@@ -3,7 +3,15 @@
 {% block content %}
 
 <section class="container mt-5">
-    <h1 class="text-light mb-5">Artigos</h1>
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1 class="text-light">Artigos</h1>
+
+        {% if is_autor %}
+            <a href="{% url 'artigos:criar_artigo' %}" class="btn btn-success">
+                + Novo Artigo
+            </a>
+        {% endif %}
+    </div>
 
     <div class="row">
         {% for artigo in artigos %}
@@ -15,7 +23,7 @@
                     {% endif %}
 
                     <div class="card-body">
-                        <p class="card-text">{{ artigo.texto }}</p>
+                        <p>{{ artigo.texto }}</p>
 
                         <p class="text-muted">
                             Autor: {{ artigo.autor.username }}<br>
@@ -27,8 +35,43 @@
                                 Link externo
                             </a>
                         {% endif %}
-                    </div>
 
+                        <a href="{% url 'artigos:like_artigo' artigo.id %}" class="btn btn-outline-light mt-2">
+                            Gostar ({{ artigo.total_likes }})
+                        </a>
+
+                        {% if is_autor and artigo.autor == request.user %}
+                            <a href="{% url 'artigos:editar_artigo' artigo.id %}" class="btn btn-warning mt-2">
+                                Editar
+                            </a>
+                        {% endif %}
+
+                        <hr>
+
+                        <h6>Comentários</h6>
+
+                        {% for comentario in artigo.comentarios.all %}
+                            <div class="border-top pt-2 mt-2">
+                                <strong>{{ comentario.autor.username }}</strong>
+                                <p>{{ comentario.texto }}</p>
+                            </div>
+                        {% empty %}
+                            <p>Ainda não há comentários.</p>
+                        {% endfor %}
+
+                        {% if request.user.is_authenticated %}
+                            <form method="post" action="{% url 'artigos:comentar_artigo' artigo.id %}">
+                                {% csrf_token %}
+                                {{ comentario_form.as_p }}
+
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    Comentar
+                                </button>
+                            </form>
+                        {% else %}
+                            <p>Faz login para comentar.</p>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         {% empty %}
