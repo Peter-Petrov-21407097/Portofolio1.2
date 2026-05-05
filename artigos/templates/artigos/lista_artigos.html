@@ -1,0 +1,40 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+
+<section class="container mt-5">
+    <h1 class="text-light mb-5">Artigos</h1>
+
+    <div class="row">
+        {% for artigo in artigos %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow bg-dark text-light border-secondary">
+
+                    {% if artigo.fotografia %}
+                        <img src="{{ artigo.fotografia.url }}" class="card-img-top" alt="Fotografia do artigo">
+                    {% endif %}
+
+                    <div class="card-body">
+                        <p class="card-text">{{ artigo.texto }}</p>
+
+                        <p class="text-muted">
+                            Autor: {{ artigo.autor.username }}<br>
+                            Criado em: {{ artigo.data_criacao|date:"d/m/Y H:i" }}
+                        </p>
+
+                        {% if artigo.link_externo %}
+                            <a href="{{ artigo.link_externo }}" target="_blank" class="btn btn-light">
+                                Link externo
+                            </a>
+                        {% endif %}
+                    </div>
+
+                </div>
+            </div>
+        {% empty %}
+            <p class="text-light">Ainda não existem artigos.</p>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

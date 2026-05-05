@@ -7,6 +7,62 @@ from django.urls import reverse
 from django.conf import settings
 from .forms import MagicLinkForm
 
+def magic_link_request_view(request):
+    mensagem = None
+
+    if request.method == "POST":
+        form = MagicLinkForm(request.POST)
+
+        if form.is_valid():
+            email = form.cleaned_data["email"]
+
+            try:
+                user = User.objects.get(email=email)
+
+                uid = urlsafe_base64_encode(force_bytes(user.pk))
+                token = default_token_generator.make_token(user)
+
+                magic_url = request.build_absolute_uri(
+                    reverse("accounts:magic_login", kwargs={
+                        "uidb64": uid,
+                        "token": token
+                    })
+                )
+
+                send_mail(
+                    "Link mágico de login",
+                    f"Clica neste link para entrar no portfólio:\n\n{magic_url}",
+                    settings.DEFAULT_FROM_EMAIL,
+                    [email],
+                    fail_silently=False,
+                )
+
+            except User.DoesNotExist:
+                pass
+
+            mensagem = "Se o email existir, foi enviado um link mágico."
+    else:
+        form = MagicLinkForm()
+
+    return render(request, "accounts/magic_link.html", {
+        "form": form,
+        "mensagem": mensagem
+    })
+
+
+def magic_login_view(request, uidb64, token):
+    try:
+        uid = urlsafe_base64_decode(uidb64).decode()
+        user = User.objects.get(pk=uid)
+    except Exception:
+        user = None
+
+    if user is not None and default_token_generator.check_token(user, token):
+        login(request, user)
+        return redirect("home")
+
+    return render(request, "accounts/magic_link_invalid.html")
+
 def login_view(request):
     erro = None
 
