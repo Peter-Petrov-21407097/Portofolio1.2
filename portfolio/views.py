@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from django.urls import reverse
 from django.conf import settings
 from .forms import MagicLinkForm
+from django.contrib.auth.decorators import login_required
 
 from .models import (
     Licenciatura,
