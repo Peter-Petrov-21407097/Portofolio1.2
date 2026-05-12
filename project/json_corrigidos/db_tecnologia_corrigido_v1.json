@@ -1,0 +1,26 @@
+[
+  {
+    "model": "portfolio.tecnologia",
+    "pk": 1,
+    "fields": {
+      "nome": "Django",
+      "tipo": "Python Framework",
+      "descricao": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. ItÆs free and open source.\r\n\r\nRidiculously fast.\r\n\r\n    Django was designed to help developers take applications from concept to completion as quickly as possible.\r\nReassuringly secure.\r\n\r\n    Django takes security seriously and helps developers avoid many common security mistakes.\r\nExceedingly scalable.\r\n\r\n    Some of the busiest sites on the web leverage DjangoÆs ability to quickly and flexibly scale.",
+      "logo": "tecnologias/django.jpg",
+      "url_website": "https://www.djangoproject.com/",
+      "observacoes": "Django Ú um framework Python de alto nÝvel projetado para o desenvolvimento rßpido de aplicações web seguras e escaláveis, oferecendo um ORM robusto, autenticaþÒo e uma interface administrativa automßtica.\r\n\r\nAs principais observações para 2026 incluem a maturidade do Django 6.0 com sistemas de tarefas integrados, maior dependÛncia do SQLite para simplicidade e sua relevÔncia contÝnua para projetos que priorizam a estabilidade em vez de tendÛncias de ponta.\r\n\r\nPrincipais Observaþ§es e Recursos\r\n\r\nDesenvolvimento Rßpido e \"Tudo IncluÝdo\": O Django lida com muitas funþ§es comuns (autenticaþÒo, ORM, seguranþa) automaticamente, permitindo que os desenvolvedores se concentrem na l¾gica do aplicativo.\r\n\r\nGerenciamento de Banco de Dados: O ORM permite definir modelos de dados em Python, com excelentes ferramentas de migraþÒo. O SQLite estß se tornando cada vez mais popular para produção devido à facilidade de backups, como observado em experiências recentes de desenvolvedores.\r\n\r\nSeguranþa e Escalabilidade: O Django Ú reconhecido por levar a seguranþa a sÚrio (por exemplo, lidando com CVEs como 2026-25674 de forma eficiente) e por ser adequado para sites de alto trßfego. Novos recursos (6.0+): O Django 6.0 introduz um framework dedicado a Tarefas para gerenciar o trabalho assÝncrono em segundo plano.\r\nDesempenho: Embora o ORM seja poderoso, visualizaþ§es simples (como HttpRespond ou SQL puro) podem ser mais rßpidas do que consultas que dependem muito do ORM."
+    }
+  },
+  {
+    "model": "portfolio.tecnologia",
+    "pk": 2,
+    "fields": {
+      "nome": "SQL Developer",
+      "tipo": "Ambiente de trabalho",
+      "descricao": "O Oracle SQL Developer Ú um ambiente de desenvolvimento integrado e gratuito que simplifica o desenvolvimento e a gestão do Oracle Database em implementaþ§es tradicionais e na cloud. O SQL Developer oferece um desenvolvimento completo de ponta a ponta para as suas aplicações PL/SQL, uma folha de cßlculo para executar consultas e scripts, uma consola DBA para gerir a base de dados, uma interface de relat¾rios, uma soluþÒo completa de modelaþÒo de dados e uma plataforma de migraþÒo para migrar as suas bases de dados de terceiros para o Oracle.",
+      "logo": "tecnologias/SQLoracle.jpg",
+      "url_website": "https://www.oracle.com/database/sqldeveloper/",
+      "observacoes": "SQL (Structured Query Language - Linguagem de Consulta Estruturada) Ú uma linguagem para conversar com bancos de dados que armazenam informaþ§es em um formato altamente estruturado.\r\n\r\nOracle SQL Ú um tipo especÝfico da linguagem SQL para conversar com os sistemas de banco de dados da empresa Oracle. ╔ bem parecido, mas um pouco diferente, tipo inglÛs britÔnico e inglÛs americano.\r\n\r\nUma API (Application Programmer Interface - Interface de Programação de Aplicaþ§es) Ú uma forma de fazer seu software interagir com outro software. Pode ser na mesma mßquina, geralmente chamada de \"biblioteca\", como uma API de jogos como a Unreal Engine, ou pela internet, como uma API da Web para verificar o tempo.\r\n\r\nTanto API quanto SQL são termos bastante genÚricos, entÒo, se estamos usando-os em um projeto, precisamos ser mais especÝficos sobre o que queremos dizer."
+    }
+  }
+]

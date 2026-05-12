@@ -1,0 +1,59 @@
+[
+  {
+    "model": "portfolio.docente",
+    "pk": 1,
+    "fields": {
+      "nome": "Maria José de Almeida e Silva",
+      "pagina_pessoal_url": "https://www.ulusofona.pt/docentes/maria-jose-de-almeida-e-silva-7078",
+      "email": "maria.almeida.silva@ulusofona.pt",
+      "area_especializacao": "Matemática",
+      "foto": "docentes/DOC_MS_0bFpnIE.jpg",
+      "unidades_curriculares": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "model": "portfolio.docente",
+    "pk": 2,
+    "fields": {
+      "nome": "Lucio Custodio",
+      "pagina_pessoal_url": "https://www.ulusofona.pt/docentes/lucio-miguel-studer-ferreira-6069",
+      "email": "lucio.studer@ulusofona.pt",
+      "area_especializacao": "Python",
+      "foto": "docentes/Lucio_Studer.jpg",
+      "unidades_curriculares": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "portfolio.docente",
+    "pk": 3,
+    "fields": {
+      "nome": "Joaquim Manuel Guerreiro Marques",
+      "pagina_pessoal_url": "https://www.cienciavitae.pt/portal/en/D812-D0B1-227B",
+      "email": "jmgmarques@uevora.pt",
+      "area_especializacao": "Fisica",
+      "foto": "docentes/Docente_JGM.jpg",
+      "unidades_curriculares": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "portfolio.docente",
+    "pk": 4,
+    "fields": {
+      "nome": "Sergio Pedro Mestre Ferreira",
+      "pagina_pessoal_url": "https://www.ulusofona.pt/docentes/sergio-pedro-mestre-ferreira-1059",
+      "email": "sergiopmferreira@sapo.pt",
+      "area_especializacao": "Arquitectura",
+      "foto": "docentes/Docente_Sergio_7MhDAvD.jpg",
+      "unidades_curriculares": [
+        6
+      ]
+    }
+  }
+]

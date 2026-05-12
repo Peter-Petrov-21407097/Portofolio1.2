@@ -1,0 +1,19 @@
+[
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "Autores",
+      "permissions": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ]
+    }
+  }
+]

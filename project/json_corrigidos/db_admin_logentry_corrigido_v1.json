@@ -1,0 +1,1653 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2026-04-03T17:44:24.056Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Engenharia Informßtica",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2026-04-03T17:47:25.074Z",
+      "user": 1,
+      "content_type": 17,
+      "object_id": "1",
+      "object_repr": "Programação Web",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2026-04-03T17:50:38.150Z",
+      "user": 1,
+      "content_type": 17,
+      "object_id": "2",
+      "object_repr": "Álgebra Linear",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2026-04-03T17:52:31.808Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Maria José de Almeida e Silva",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2026-04-03T17:52:37.023Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Maria José de Almeida e Silva",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2026-04-03T18:44:24.067Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Ciência de Dados",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2026-04-03T18:51:17.174Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "Django",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2026-04-03T18:53:45.781Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Trabalhar sobre pressão",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2026-04-03T18:55:50.105Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "SQL Database: Development",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2026-04-03T19:21:58.090Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "InteligÛncia Artificial",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2026-04-03T19:23:46.446Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Big data",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2026-04-03T19:25:42.542Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Lucio Custodio",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2026-04-04T11:02:43.087Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Gestão de Empresas",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2026-04-04T11:07:07.792Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "Projecto Django",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2026-04-04T11:17:41.894Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Web Scrapping",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2026-04-04T11:21:19.094Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Web Scraping",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2026-04-04T11:23:11.603Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "Portfólio",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2026-04-04T11:29:44.857Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Portfólio - Pagina 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2026-04-04T11:30:41.060Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2026-04-04T14:35:32.254Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Ciência de Dados",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2026-04-04T14:38:09.049Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "ComputaþÒo e Matemática Aplicada",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2026-04-04T14:41:16.143Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Engenharia Informßtica, Redes e Telecomunicações",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2026-04-04T14:49:36.550Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Portfólio - Pagina 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2026-04-04T14:51:23.414Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Ligaþ§es ERP - continuações",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2026-04-04T14:58:02.254Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Portfólio - Diagrama ERP",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2026-04-04T15:00:01.116Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Diagrama ERP",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2026-04-04T15:01:07.350Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2026-04-04T15:15:01.361Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Portfólio - Diagrama ERP",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2026-04-04T15:22:05.569Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Entidade e Atributos - Parte 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2026-04-04T15:24:00.190Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Licenciatura + UnidadeCurricular",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2026-04-04T16:07:21.376Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "Entidade e Atributos - Parte 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2026-04-04T16:09:08.201Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2026-04-04T16:10:28.501Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2026-04-04T16:14:03.745Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "Projeto + Tecnologia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2026-04-04T16:17:32.342Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "Entidade e Atributos - Parte 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2026-04-04T16:19:32.516Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "6",
+      "object_repr": "TFC + Competencia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2026-04-04T16:22:13.564Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "Entidade e Atributos - Parte 4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2026-04-04T16:24:00.131Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "7",
+      "object_repr": "Competencia (cont) + Formacao",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2026-04-04T16:26:49.818Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "Entidade e Atributos - Parte 4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2026-04-04T16:28:19.171Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "Entidade e Atributos - Parte 5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2026-04-04T16:29:47.566Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "8",
+      "object_repr": "MakingOf e atributos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2026-04-04T16:33:21.552Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "Entidade e Atributos - Parte 6",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2026-04-04T16:34:54.999Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "9",
+      "object_repr": "Docente e AreaInteresse",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2026-04-05T11:12:59.937Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "Entidade e Atributos - Parte 6",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2026-04-05T11:14:36.403Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "10",
+      "object_repr": "AreaInteresse(atri) + Midia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2026-04-05T11:20:51.999Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "11",
+      "object_repr": "Fotografia docente Maria Silva",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2026-04-05T11:22:09.463Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "12",
+      "object_repr": "Fotografia Lucio Struder",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2026-04-05T11:22:40.331Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "11",
+      "object_repr": "Fotografia docente Maria Silva",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2026-04-05T11:24:03.516Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "13",
+      "object_repr": "Docente Rui Ribeiro",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2026-04-05T11:24:22.470Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "13",
+      "object_repr": "Docente Rui Ribeiro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2026-04-05T11:32:28.832Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "11",
+      "object_repr": "Fotografia docente Maria Silva",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Unidade curricular\", \"Projeto\", \"Tecnologia\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2026-04-06T09:37:46.922Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Apresentação em público",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2026-04-06T09:40:16.622Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "InteligÛncia Artificial Aplicada à Gestão de Projetos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2026-04-06T09:48:16.139Z",
+      "user": 1,
+      "content_type": 15,
+      "object_id": "2",
+      "object_repr": "SQL Developer",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2026-04-06T09:50:15.705Z",
+      "user": 1,
+      "content_type": 17,
+      "object_id": "3",
+      "object_repr": "Base de dados",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2026-04-06T09:51:21.045Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "14",
+      "object_repr": "Logotipo Base de dados",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2026-04-08T15:07:00.862Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "2",
+      "object_repr": "AplicaþÒo de tÚcnicas de análise de dados para deteção de fugas e roturas em sistemas de distribuição de água",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2026-04-19T15:24:24.904Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "Explicacao view 1-2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2026-04-19T15:26:29.290Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "15",
+      "object_repr": "Explicacao view 1-2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2026-04-19T15:29:25.185Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "Explicação view 2-2 + Template",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2026-04-19T15:30:42.311Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "16",
+      "object_repr": "Explicacao view 2-2 + Template",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2026-04-19T15:34:25.893Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "14",
+      "object_repr": "Template final",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2026-05-05T08:27:47.536Z",
+      "user": 2,
+      "content_type": 2,
+      "object_id": "1",
+      "object_repr": "aut",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2026-05-05T08:36:01.580Z",
+      "user": 2,
+      "content_type": 2,
+      "object_id": "2",
+      "object_repr": "Autores",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2026-05-05T08:37:14.458Z",
+      "user": 2,
+      "content_type": 2,
+      "object_id": "1",
+      "object_repr": "aut",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2026-05-05T08:37:19.131Z",
+      "user": 2,
+      "content_type": 2,
+      "object_id": "2",
+      "object_repr": "Autores",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2026-05-05T09:40:19.377Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "4",
+      "object_repr": "Fundamentos de Programação",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2026-05-05T09:44:14.430Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Joaquim Manuel Guerreiro Marques",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2026-05-05T09:45:57.856Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "17",
+      "object_repr": "UC_Fundamentos_de_Fisica",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2026-05-05T09:50:01.341Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "15",
+      "object_repr": "Scripts para UC",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2026-05-05T09:53:13.113Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Joaquim Manuel Guerreiro Marques",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2026-05-05T09:54:42.245Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "18",
+      "object_repr": "Fotografia docente Joaquim Marques",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2026-05-05T09:56:40.135Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Joaquim Manuel Guerreiro Marques",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Pagina pessoal url\", \"Email\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2026-05-05T09:57:27.815Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Joaquim Manuel Guerreiro Marques",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2026-05-05T10:19:20.057Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "6",
+      "object_repr": "Arquitetura de Computadores",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2026-05-05T10:19:27.638Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "5",
+      "object_repr": "Matemática Discreta",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2026-05-05T10:19:53.645Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Maria José de Almeida e Silva",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Unidades curriculares\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2026-05-05T10:21:10.837Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "19",
+      "object_repr": "Logotipo Matemática Discreta",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2026-05-05T10:22:07.338Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "20",
+      "object_repr": "Logótipo",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2026-05-05T10:22:57.540Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "5",
+      "object_repr": "Matemática Discreta",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2026-05-05T10:27:13.534Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Sergio Pedro Mestre Ferreira",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2026-05-05T10:28:14.256Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Sergio Pedro Mestre Ferreira",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2026-05-05T10:31:22.541Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Sergio Pedro Mestre Ferreira",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2026-05-05T10:35:21.815Z",
+      "user": 2,
+      "content_type": 18,
+      "object_id": "1",
+      "object_repr": "Artigo de admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2026-05-05T10:37:41.990Z",
+      "user": 2,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "Comentário de admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2026-05-06T13:39:09.977Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "16",
+      "object_repr": "Produção e Testes",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2026-05-06T13:42:53.394Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "17",
+      "object_repr": "Testes Automáticos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2026-05-06T13:45:15.919Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "21",
+      "object_repr": "Produção e Testes",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2026-05-06T13:46:31.524Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "22",
+      "object_repr": "Testes Automáticos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2026-05-12T18:02:14.530Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Inteligência Artificial",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2026-05-12T18:02:33.371Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Inteligência Artificial",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2026-05-12T18:03:21.515Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Ciência de Dados",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2026-05-12T18:07:12.511Z",
+      "user": 2,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "Comentário de admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Texto\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2026-05-12T18:11:23.378Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Apresentação em público",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\", \"Nivel\", \"Evidencia\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2026-05-12T18:15:21.683Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Trabalhar sobre pressão",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\", \"Nivel\", \"Evidencia\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2026-05-12T18:15:57.654Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Maria José de Almeida e Silva",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Area especializacao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2026-05-12T18:17:29.108Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Inteligência Artificial Aplicada à Gestão de Projetos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2026-05-12T18:18:55.586Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "SQL Database: Development",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo\", \"Descricao\", \"Estado\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2026-05-12T18:19:49.538Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Engenharia Informática, Redes e Telecomunicações",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2026-05-12T18:23:28.954Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Engenharia Informática, Redes e Telecomunicações",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\", \"Objetivo\", \"Saidas profissionais\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2026-05-12T18:24:40.316Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Computação e Matemática Aplicada",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\", \"Objetivo\", \"Saidas profissionais\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2026-05-12T18:25:45.539Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Ciência de Dados",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\", \"Objetivo\", \"Saidas profissionais\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2026-05-12T18:26:32.481Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Gestão de Empresas",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\", \"Objetivo\", \"Saidas profissionais\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2026-05-12T18:27:39.826Z",
+      "user": 2,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Engenharia Informática",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\", \"Objetivo\", \"Saidas profissionais\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2026-05-12T18:29:55.153Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "1",
+      "object_repr": "Programação Web",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Apresentacao\", \"Programa\", \"Objectivos\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2026-05-12T18:30:37.233Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "Portfólio",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Descricao\", \"Conceitos aplicados\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2026-05-12T18:31:20.742Z",
+      "user": 2,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Web Scrapping",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\", \"Estado\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2026-05-12T18:32:20.638Z",
+      "user": 2,
+      "content_type": 15,
+      "object_id": "2",
+      "object_repr": "SQL Developer",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\", \"Observacoes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2026-05-12T18:32:57.551Z",
+      "user": 2,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "Django",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Observacoes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2026-05-12T18:34:54.931Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "17",
+      "object_repr": "Testes Automáticos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descricao\", \"Decisoes tomadas\", \"Erros encontrados\", \"Correcoes realizadas\", \"Justificacao modelacao\", \"Observacoes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2026-05-12T18:36:07.216Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "16",
+      "object_repr": "Produção e Testes",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Decisoes tomadas\", \"Erros encontrados\", \"Correcoes realizadas\", \"Observacoes\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2026-05-12T18:36:29.249Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "17",
+      "object_repr": "Testes Automáticos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2026-05-12T18:37:43.115Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "Explicação view 2-2 + Template",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Descricao\", \"Erros encontrados\", \"Correcoes realizadas\", \"Uso ia\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2026-05-12T18:38:08.023Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Portfólio - Diagrama ERP",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2026-05-12T18:38:26.977Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Portfólio - Pagina 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2026-05-12T18:38:46.931Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Portfólio - Pagina 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2026-05-12T18:39:21.583Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "22",
+      "object_repr": "Testes Automáticos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Legenda\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2026-05-12T18:40:08.504Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "21",
+      "object_repr": "Produção e Testes",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Legenda\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2026-05-12T18:40:31.064Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "20",
+      "object_repr": "Logótipo",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2026-05-12T18:41:06.356Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "7",
+      "object_repr": "Competencia (cont) + Formação",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2026-05-12T18:41:53.107Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Ligações ERP - continuaçoes",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+      "action_time": "2026-05-12T18:42:18.306Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "19",
+      "object_repr": "Logotipo Matemática Discreta",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Descricao\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+      "action_time": "2026-05-12T18:42:45.872Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+      "action_time": "2026-05-12T18:44:51.891Z",
+      "user": 2,
+      "content_type": 16,
+      "object_id": "2",
+      "object_repr": "Aplicação de técnicas de análise de dados para deteção de fugas e roturas em sistemas de distribuição de água",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Titulo\", \"Curso\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+      "action_time": "2026-05-12T18:46:13.768Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "5",
+      "object_repr": "Matemática Discreta",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Apresentacao\", \"Programa\", \"Objectivos\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+      "action_time": "2026-05-12T18:47:12.640Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "4",
+      "object_repr": "Fundamentos de Programação",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Apresentacao\", \"Programa\", \"Objectivos\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+      "action_time": "2026-05-12T18:49:10.238Z",
+      "user": 2,
+      "content_type": 17,
+      "object_id": "2",
+      "object_repr": "Álgebra Linear",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Apresentacao\", \"Programa\", \"Objectivos\"]}}]"
+    }
+  }
+]

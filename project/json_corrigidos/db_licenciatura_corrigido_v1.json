@@ -1,0 +1,72 @@
+[
+  {
+    "model": "portfolio.licenciatura",
+    "pk": 1,
+    "fields": {
+      "nome": "Engenharia Informßtica",
+      "numero_semestres": 6,
+      "ects_total": 180,
+      "descricao": "O curso de licenciatura em Engenharia Informßtica da Universidade Lus¾fona forma licenciados capazes de assumir posiþ§es de destaque em projetos de engenharia informática ou equipas de desenvolvimento e consultadoria, na área da engenharia dos sistemas de informação, assumindo pela sua formação e atitude papÚis relevantes na geraþÒo de inovaþÒo e riqueza. Nesse sentido, os estudantes obtÛm as competÛncias adequadas à conceþÒo, realizaþÒo e manutenþÒo de sistemas informßticos, programação de aplicações e de sistemas, desenho arquiteturas de computaþÒo e comunicações, gestão de sistemas de informação e de conhecimento, assim como à compreensão e resoluþÒo dos problemas associados.",
+      "objetivo": "O objectivo Ú desenvolver a capacidade dos estudantes em adquirir e aprofundar conhecimento a partir de exposiþ§es realizadas em ambiente de conferÛncia, e simultaneamente dar-lhes acesso ao estado da arte e às evoluções tecnol¾gicas nas áreas da sua formação. Por outro lado, visa promover um contacto permanente do estudante com o mundo científico e empresarial de modo a promover a sua inserção no mercado de trabalho.",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica",
+      "saidas_profissionais": "O curso de licenciatura em Engenharia Informßtica da Universidade Lus¾fona pretende formar o perfil profissional do engenheiro de aplicações, caracterizado pela capacidade de participar em grandes projetos de engenharia informática, integrando equipas de desenvolvimento de projetos, gerindo e mantendo sistemas de informação. O diploma apresenta ainda uma formação aprofundadada em domínios comuns às Engenharias, como a Física e a Matemática, e em domínios especÝficos das Ciências Informßticas, como a Metodologia da Programação, os Sistemas de Informação, as Redes de Comunicaþ§es, e a gestão, tanto de sistemas como de projetos.\r\n\r\nOs Licenciados em Engenharia Informßtica encontrarÒo situações de emprego na rede Europeia de organismos públicos e privados com necessidades de desenvolvimento, utilizaþÒo, reorganizaþÒo e modernizaþÒo de sistemas de informação, nomeadamente: \r\n- em empresas vocacionadas para o desenvolvimento e comercializaþÒo de soluþ§es baseadas em informática; \r\n- na integraþÒo e chefia de equipas informáticas em grandes empresas dos setores comerciais, industriais ou dos serviços;\r\n-  em instituiþ§es ligadas ao setor p·blico estatal ou privado, em particular na área dos serviços.",
+      "imagem": "licenciaturas/licenciatura-engenharia-informatica-lisboa_600_dfquPII.jpg"
+    }
+  },
+  {
+    "model": "portfolio.licenciatura",
+    "pk": 2,
+    "fields": {
+      "nome": "Gestão de Empresas",
+      "numero_semestres": 6,
+      "ects_total": 180,
+      "descricao": "O curso de licenciatura em Gestão de Empresas da Universidade Lus¾fona - Centro Universitßrio Lisboa tem um perfil nÒo excessivamente especializado, ou seja, Ú uma licenciatura de banda larga, permitindo a formação de gestores de empresas dotados de uma excelente capacidade de inserção no mercado de trabalho. A formação dada ao longo da Licenciatura em Gestão de Empresas caracteriza-se por ser multidisciplinar, abrangente e muito focada nas necessidades atuais do tecido empresarial e da competitividade do mesmo no mercado global.",
+      "objetivo": "O desenvolvimento de uma polÝtica ativa de integraþÒo profissional dos seus alunos, constitui um dos objetivos do presente ciclo de estudos. Assim, para alÚm dos diferentes protocolos de colaboraþÒo tendentes à integraþÒo dos nossos alunos em perÝodos de estßgio e formação em serviþo, em diferentes entidades p·blicas e privadas que atuam no setor em Portugal. O presente ciclo de estudos desenvolve acordos pontuais com outras instituiþ§es por forma a assegurar a efetiva integraþÒo de todos os seus alunos ou diplomados.",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/gestao-de-empresas",
+      "saidas_profissionais": "As saÝdas profissionais dos Licenciados no curso de Licenciatura em Gestão de Empresas da Universidade Lus¾fona são as seguintes:\r\n Gestores de Empresas em diversas áreas de atividade, nomeadamente: \r\nBanca e Seguros; Consultoria em Instituiþ§es Econ¾micas e Financeiras Internacionais; Empresas privadas na ind·stria e nos serviços; Empresas P·blicas; Ensino e pesquisa",
+      "imagem": "licenciaturas/licenciatura-gestao-empresas-lisboa_600.jpg"
+    }
+  },
+  {
+    "model": "portfolio.licenciatura",
+    "pk": 3,
+    "fields": {
+      "nome": "Ciência de Dados",
+      "numero_semestres": 6,
+      "ects_total": 180,
+      "descricao": "O curso de licenciatura em Gestão de Empresas da Universidade Lus¾fona - Centro Universitßrio Lisboa tem um perfil nÒo excessivamente especializado, ou seja, Ú uma licenciatura de banda larga, permitindo a formação de gestores de empresas dotados de uma excelente capacidade de inserção no mercado de trabalho. A formação dada ao longo da Licenciatura em Gestão de Empresas caracteriza-se por ser multidisciplinar, abrangente e muito focada nas necessidades atuais do tecido empresarial e da competitividade do mesmo no mercado global.",
+      "objetivo": "Ciência de Dados, como definido por especialistas no campo, Ú uma ciÛncia experimental multidisciplinar que vem dar resposta ao grande volume de dados \"big-data\" que tem crescido de forma exponencial face ao desenvolvimento tecnol¾gico recente.\r\nA oportunidade de transformar estes dados em informação e conhecimento, em prol do bem da sociedade, Ú essencial tando no neg¾cio como na ciÛncia entre outras áreas com impacto social.\r\n\r\nNeste ciclo de estudo apresentamos um programa com fortes componentes em: EstatÝstica, Matemática, Aprendizagem Automatizada, Programação, ExtraþÒo e Manuseamento de dados, diversas componentes de Engenharia de Dados e uma forte incidÛncia no tema de Privacidade, Seguranþa e ╔tica.",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/ciencia-de-dados",
+      "saidas_profissionais": "- Data Scientist / Cientista de Dados\r\n- Applied Data Scientist / Cientista de dados Aplicado\r\n- Applied Data Researcher / Investigador de Dados Aplicado\r\n- Applied Machine Learning Researcher / Investigador de Aprendizagem Automatizada Aplicada\r\n- Business Intelligence Analyst / Analista de InteligÛncia de Neg¾cio",
+      "imagem": "licenciaturas/licenciatura-ciencia-de-dados-1920_600_3lev55k.jpg"
+    }
+  },
+  {
+    "model": "portfolio.licenciatura",
+    "pk": 4,
+    "fields": {
+      "nome": "ComputaþÒo e Matemática Aplicada",
+      "numero_semestres": 6,
+      "ects_total": 180,
+      "descricao": "1. Com o avanþo exponencial do volume de dados \"big data\" e a sua transformação digital durante a ·ltima dÚcada e meia, testemunhamos e continuamos a observar uma fase de constante reinvenþÒo nÒo s¾ das infra-estruturas e modelos de sistemas de Informação assim como, a reinvenþÒo de novos perfis de profissionais na transformação de dados em conhecimento.\r\n2. Constata-se que profissionais formados de áreas afins à \"Matemática\" tradicional tÛm mostrado uma base muito forte para enfrentar este desafio. No entanto, observa-se o grande esforþo destes profissionais à adaptaþÒo às infra-estruturas informáticas.\r\n3. Tem-se como objetivo, manter o pensamento AnalÝtico destes profissionais mas tambÚm desenvolver aptid§es em Engenharia informática.",
+      "objetivo": "Tem-se como objetivo, manter o pensamento AnalÝtico destes profissionais mas tambÚm desenvolver aptid§es em Engenharia informática.",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/computacao-e-matematica-aplicada",
+      "saidas_profissionais": "Cientista de Dados / Data Scientist\r\nMatemßtico Aplicado / Computer Scientist\r\nBusiness Intelligence\r\nAnalista / Analyst\r\nMachine Learning & A.I. Scientist\r\nBases S¾lidas para prosseguir para Doutoramento / Solid background to pursue a Ph.D program.",
+      "imagem": "licenciaturas/licenciatura-computacao-mat-aplicada_600_mAv5Tms.jpg"
+    }
+  },
+  {
+    "model": "portfolio.licenciatura",
+    "pk": 5,
+    "fields": {
+      "nome": "Engenharia Informßtica, Redes e Telecomunicações",
+      "numero_semestres": 6,
+      "ects_total": 180,
+      "descricao": "A Licenciatura em Engenharia Informßtica, Redes e Telecomunicações da Universidade Lus¾fona de Lisboa pretende:\r\n\r\n1. Formar licenciados com fortes capacidades de responder aos desafios colocados pelo mercado de trabalho nas áreas da informática aplicada às telecomunicações e redes, do desenvolvimento de aplicações ao projeto, gestão e instalaþÒo de serviços e infraestruturas.\r\n2. Completar essas competÛncias com disciplinas mais avanþadas, refletindo os avanþos recentes na área das Ciências e Tecnologias de Informação.\r\n3. Desenvolver perfis com fortes competÛncia tecnol¾gicas e humanas, de modo a que os candidatos possam obter um alto grau de empregabilidade no final do 1║ ciclo, ou prosseguir os estudos de 2║ ciclo com excelentes perspetivas de sucesso.\r\n4. Oferecer um ensino de qualidade assente num corpo docente integrando especialistas e acadÚmicos com elevado potencial pedag¾gico e atividade comprovada em investigaþÒo.\r\n5. Proporcionar aos licenciados um amplo leque de escolhas profissionais.",
+      "objetivo": "O curso de Licenciatura em Engenharia Informßtica, Redes e Telecomunicações (LEIRT)  Ú uma nova licenciatura da UL - CUL, motivada pelas necessidades crescentes de profissionais nas áreas de convergÛncia entre a informática, as redes de computadores e as telecomunicações fixas e m¾veis.\r\n\r\nA LEIRT fornece conhecimentos e competÛncias que permitirão o desenvolvimento de projetos nas áreas dos sistemas computacionais em nuvem, aplicações online, redes celulares, redes de dados, Internet das Coisas, entre outras.\r\n\r\nA convergÛncia entre a informática, as redes de computadores e as telecomunicações fixas e m¾veis, traduzida, por exemplo, nas plataformas computacionais em nuvem, abriu novas necessidades do mercado, nÒo satisfeitas por cursos clßssicos de informática ou de telecomunicações.\r\n\r\nA LEIRT pretende formar profissionais de engenharia capazes de responder aos desafios colocados pelo mercado de trabalho nas áreas da informática aplicada às redes e telecomunicações, do desenvolvimento de aplicações ao projeto, instalaþÒo e gestão de infraestruturas e serviços.\r\n\r\nLicenciatura em Engenharia Informßtica, Redes e Telecomunicações da Universidade Lus¾fona  estß alinhado com os ciclos de estudo europeus anßlogos e estrutura-se da seguinte forma:\r\nDurante os quatro primeiros semestres do ciclo de estudo proposto são introduzidos os conceitos base das principais áreas (Matemática, Telecomunicações, Redes e Informßtica).\r\nNa área da Matemática desenvolvem-se as competÛncias bßsicas em Anßlise, ┴lgebra Linear e Probabilidades e EstatÝstica que permitirão, mais tarde, a compreensão de conceitos avanþados de modelaþÒo de sistema, análise de dados e estatÝstica.\r\nNa área das Telecomunicações os alunos adquirem os conhecimentos fundamentais de PropagaþÒo e RadiaþÒo, Comunicaþ§es Anal¾gicas e Comunicaþ§es Digitais, base para o entendimento dos problemas em estudo nas Telecomunicações. \r\nNa área das Redes os alunos adquirem os conhecimentos fundamentais de Redes de Computadores, base para o entendimento dos problemas em estudo nas Redes.\r\nNa área da Informßtica os alunos adquirem autonomia na utilizaþÒo dos conceitos de Programação, Sistemas Operativos, Bases de Dados e ComputaþÒo M¾vel que irß permitir uma aplicaþÒo prßtica do conhecimento a adquirir nas fases subsequentes do ciclo de estudos. \r\nDurante o quinto e o sexto semestre aprofundam-se os conhecimentos em Telecomunicações, Redes e Informßtica. Em paralelo com a exposiþÒo te¾rica de conhecimentos de cada unidade, Ú esperado que os alunos desenvolvam trabalhos práticos de aplicaþÒo dos conhecimentos adquiridos em unidades anteriores (e.g. redes, telecomunicações, programação,bases de dados, etc...).Deste modo os alunos consolidam os conhecimentos adquiridos,desenvolvem as capacidades de integraþÒo e aplicaþÒo prßtica de conhecimentos e os hßbitos de trabalho.",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica-redes-e-telecomunicacoes",
+      "saidas_profissionais": "Os especialistas a formar caracterizar-se-Òo, por isso, pela sua formação s¾lida na área das Tecnologias de Informação, considerando-se como competÛncias essenciais o domÝnio dos princípios e metodologias da programação, a capacidade de conceber e gerir sistemas de informação, desenhar e manter redes informáticas e sistemas distribuÝdos, desenhar, manter e analisar a implementaþÒo de soluþ§es de bases de dados, manipular informação multimÚdia, analisar e processar informação matemßtica a aplicar e a mesma no domÝnio da computaþÒo, e possuir a capacidade para gerir equipas de projeto. Os Licenciados em Engenharia Informßtica encontrarÒo situações de emprego na rede Europeia de organismos públicos e privados com necessidades de desenvolvimento, utilizaþÒo, reorganizaþÒo e modernizaþÒo de sistemas de informação, nomeadamente: em empresas vocacionadas para o desenvolvimento e comercializaþÒo de soluþ§es baseadas em informática; na integraþÒo e chefia de equipas informáticas em grandes empresas dos sectores comerciais, industriais ou dos serviços; em instituiþ§es ligadas ao sector p·blico estatal ou privado, em particular na área dos serviços.",
+      "imagem": "licenciaturas/licenciatura-engenharia-informatica-REDES-lisboa_628_BVTE21a.jpg"
+    }
+  }
+]

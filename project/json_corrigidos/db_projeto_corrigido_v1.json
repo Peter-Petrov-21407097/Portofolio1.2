@@ -1,0 +1,40 @@
+[
+  {
+    "model": "portfolio.projeto",
+    "pk": 1,
+    "fields": {
+      "unidade_curricular": 1,
+      "area_interesse": 1,
+      "titulo": "Web Scrapping",
+      "descricao": "Extrair informaþ§es para um JSON sobre os TFCS's feitos em 2025 e 2024 pela Lusofona.",
+      "conceitos_aplicados": "HTML, Python, WebScrapping, Framework Beatifull Soup",
+      "imagem": "projetos/web_scraping.png",
+      "ano_realizacao": 2026,
+      "estado": "ConcluÝda",
+      "destaque": false,
+      "tecnologias": [],
+      "competencias": []
+    }
+  },
+  {
+    "model": "portfolio.projeto",
+    "pk": 2,
+    "fields": {
+      "unidade_curricular": 1,
+      "area_interesse": 1,
+      "titulo": "Portfólio",
+      "descricao": "Nesta Ficha 6 irß modelar e implementar, em Django, o seu portf¾lio pessoal. Serß uma tarefa semelhante à que fez na Ficha 5. \r\n\r\nO objetivo Ú reunir, num ·nico espaþo, informação relevante sobre o seu percurso acadÚmico e projetos desenvolvidos, criando uma ferramenta que poderß servir como cartÒo de visitas em futuras entrevistas de emprego.",
+      "conceitos_aplicados": "Django, Python, Programacao",
+      "imagem": "projetos/django.jpg",
+      "ano_realizacao": 2026,
+      "estado": "Em curso",
+      "destaque": false,
+      "tecnologias": [
+        1
+      ],
+      "competencias": [
+        1
+      ]
+    }
+  }
+]

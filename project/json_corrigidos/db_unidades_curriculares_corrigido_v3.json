@@ -1,0 +1,98 @@
+[
+  {
+    "model": "portfolio.unidadecurricular",
+    "pk": 1,
+    "fields": {
+      "licenciatura": 1,
+      "nome": "Programação Web",
+      "ano_curricular": 2,
+      "semestre": 2,
+      "ects": 6,
+      "apresentacao": "Esta Unidade Curricular pretende dar formação na área da programação Web em geral, e em particular no desenvolvimento de aplicações Web back-end e front-end, providenciando uma visão global do desenvolvimento moderno para a Web. No front-end, são introduzidos conceitos de estruturação, estilização e interação de conte·dos através das linguagens HTML, CSS e JavaScript, in. No back-end, Ú ensinado o desenvolvimento de aplicações empresariais seguindo o padrÒo de desenho model-view-control, recorrendo à linguagem Python e a Web framework django. Pretende-se estimular a criatividade e imaginação no desenvolvimento de aplicações inovadoras que sejam eficientes, escaláveis e fáceis de modificar por um lado, e que ofereçam uma boa experiência para o utilizador. Esta Ú uma UC fundamental para qualquer profissional da área da informática, pois fornece um conjunto de conhecimentos e ferramentas que serão essenciais em projetos empresariais em que virão a estar inseridos.",
+      "programa": "A Web e seus paradigmas\r\n\r\n- Funcionamento da Internet e da Web: arquitetura e protocolos IP e HTTP\r\n\r\n- Tecnologias, paradigmas e padrões de desenho da Web\r\n\r\nPython para desenvolvimento Web\r\n\r\n- Sintaxe, operadores, controlo de fluxos e tipos de dados\r\n\r\n- Funções e módulos \r\n\r\n- Gestão de ficheiros e pastas   \r\n\r\n- Classes \r\n\r\nDjango web framework para Back-end\r\n\r\n- Web frameworks\r\n\r\n- Arquitetura MVT \r\n\r\n- Urls, views e templates\r\n\r\n- Linguagem template\r\n\r\n- Modelação de base de dados, ORM\r\n\r\n- Formulários\r\n\r\n- Autenticação\r\n\r\n- ImplantaþÒo na cloud \r\n\r\nHTML e CSS para desenho de pßginas Web\r\n\r\n- HTML e seus elementos \r\n\r\n- Formulários para envio de dados\r\n\r\n- HTML5 e elementos semÔnticos\r\n\r\n- CSS e seus seletores, para estilização de conte·dos\r\n\r\n- Propriedades CSS\r\n\r\n- Design responsivo e layouts dinÔmicos\r\n\r\n- Efeitos e animaþ§es CSS\r\n\r\n- Bootstrap\r\n\r\nJavaScript para programação Front-end\r\n\r\n- Programação Orientada a Eventos \r\n\r\n- ManipulaþÒo do DOM \r\n\r\n- JSON e APIs\r\n\r\n- Single Page Applications",
+      "objectivos": "Entender o funcionamento da Internet e da Web.\r\n\t\t\t\tCompreender os princípios da programação Web e seus principais padrões de desenho.\r\n\t\t\t\tAplicar estes conceitos, usando vßrias tecnologias (HTML, CSS, JavaScript, Python and Django┐).\r\n\t\t\t\tArquitetar aplicações eficientes, de fßcil manutenþÒo, que corram na Web.\r\n\t\t\t\tAvaliar as diferentes estratÚgias de desenho, sabendo escolher a abordagem que mais se adequa ao contexto.\r\n\t\t\t\tSer capaz de construir e implantar na cloud aplicações Web complexas e criativas, totalmente funcionais (full stack).",
+      "imagem": "unidades_curriculares/UC_PW.jpg",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195"
+    }
+  },
+  {
+    "model": "portfolio.unidadecurricular",
+    "pk": 2,
+    "fields": {
+      "licenciatura": 1,
+      "nome": "┴lgebra Linear",
+      "ano_curricular": 1,
+      "semestre": 2,
+      "ects": 5,
+      "apresentacao": "Nesta unidade curricular, os estudantes irão aprender a trabalhar com matrizes, sistemas de equações lineares e espaços vetoriais reais, essenciais para a resoluþÒo de diversos problemas reais.",
+      "programa": "CP1. Matrizes\r\n\r\nCP2. Sistemas de equações lineares\r\n\r\nCP3. Espaços vetoriais reais\r\n\r\nCP4. Transformações lineares\r\n\r\nCP5. Determinantes\r\n\r\nCP6. Valores e vetores pr¾prios de matrizes",
+      "objectivos": "No final desta unidade curricular, os estudantes devem saber:\r\n\r\nOA1. Dominar os conceitos e as operações elementares sobre matrizes;\r\n\r\nOA2. Discutir e resolver sistemas de equações lineares e utilizar o mÚtodo de eliminaþÒo de Gauss;\r\n\r\nOA3. Formular e resolver problemas do mundo real usando sistemas de equações lineares;\r\n\r\nOA4. Reconhecer os conceitos de espaþo vetorial e transformação linear e utilizß-los na resoluþÒo de problemas destes domÝnios;\r\n\r\nOA5. Calcular determinantes e compreender a sua utilidade;\r\n\r\nOA6. Determinar os valores pr¾prios e os vetores pr¾prios e saber utilizß-los no processo de diagonalizaþÒo;\r\n\r\nOA7. Identificar e utilizar os conte·dos abordados na resoluþÒo de problemas reais.",
+      "imagem": "unidades_curriculares/Algebra_Linear_projeto.JPG",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-2091"
+    }
+  },
+  {
+    "model": "portfolio.unidadecurricular",
+    "pk": 3,
+    "fields": {
+      "licenciatura": 1,
+      "nome": "Base de dados",
+      "ano_curricular": 2,
+      "semestre": 1,
+      "ects": 6,
+      "apresentacao": "Esta unidade curricular tem por objetivo apresentar a importância da Gestão de Dados no seio de uma empresa, de forma a garantir quer a operaþÒo dißria de neg¾cio, bem como o apoio à decisão estratÚgica.\r\n\r\nNesta unidade reforþar-se-ß o enquadramento de estruturação e metodologias de criaþÒo das bases de dados.",
+      "programa": "O programa da unidade curricular Ú:\r\n\r\nA) Componente Te¾rico\r\n\r\n\r\n\tIntroduþÒo\r\n\tModelo de relacionamento entre entidades\r\n\tO modelo relacional\r\n\tRefinamento de esquema: Conceito de normalizaþÒo e transaþ§es\r\n\tArquitetura de SGBD e algum SQL Avanþado\r\n\r\n\r\nB) Componente Prßtica\r\n\r\n\r\n\tIntroduþÒo à linguagem SQL;\r\n\tInstruþ§es: DDL, DML (DQL) e DCL\r\n\tOperaþ§es: WHERE, ORDER BY, GROUP BY;\r\n\tConceito avanþados em SQL: Controlo de erros\r\n\tOperadores Relacionais: UniÒo, intersecþÒo e SubtracþÒo\r\n\tProduto Cartesiano (externo)\r\n\tQueries complexos (filtro com valores agregados) e sub-queries\r\n\tSet DDL; InstruþÒo CREATE; Tipos de dados; Nulidade; Instruþ§es ALTER e DROP\r\n\tINDICES e VIEWS\r\n\tControlo de erros: estrutura TRY┐CATCH\r\n\tProcedimentos (SP) e Triggers\r\n\tOperaþ§es com tabelas: Cursores",
+      "objectivos": "SÒo objetivos dotar os estudantes dos conhecimentos teóricos e práticos necessßrios à concepção, construção e análise de bases de dados relacionais: nomeadamente obter as seguintes aptid§es e\r\n\r\ncompetÛncias:\r\n\r\n1. Compreender as raz§es de implementaþÒo de bases de dados relacionais no mundo empresarial\r\n\r\n2. Transpor de uma análise de requisitos para um modelo entidade-associaþÒo para desenhar bases de dados;\r\n\r\n3. Aplicar os conceitos do modelo relacional de bases de dados, transformando o modelo entidade-associaþÒo, em modelo fÝsico de dados;\r\n\r\n4. Aplicar as tÚcnicas de normalizaþÒo de tabelas;\r\n\r\n5. Compreender arquitetura e principais componentes de Sistemas de Gestão de Bases de Dados;\r\n\r\n6. Utilizar a linguagem SQL base e avanþado para a criaþÒo, consulta e modificaþÒo de bases de dados;",
+      "imagem": "unidades_curriculares/base_de_dados.jpg",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-1792"
+    }
+  },
+  {
+    "model": "portfolio.unidadecurricular",
+    "pk": 4,
+    "fields": {
+      "licenciatura": 1,
+      "nome": "Fundamentos de Programação",
+      "ano_curricular": 1,
+      "semestre": 1,
+      "ects": 6,
+      "apresentacao": "Esta Ú uma disciplina fundamental na formação de qualquer profissional da área de Informßtica pois introduz os conceitos bßsicos da programação.",
+      "programa": "IntroduþÒo à programação. Algoritmos, fluxogramas, pseudo-c¾digo. Sintaxe e semÔntica das linguagens. Tipos primitivos. Express§es. Entradas e saÝdas de dados. SeleþÒo. RepetiþÒo. Funções. Arrays. Tratamento de erros. Leitura e escrita de ficheiros.",
+      "objectivos": "Fornecer aos futuros profissionais da área da informática as bases para iniciarem a atividade de programação de modo disciplinado.",
+      "imagem": "unidades_curriculares/UC_FDF.jpg",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7337"
+    }
+  },
+  {
+    "model": "portfolio.unidadecurricular",
+    "pk": 5,
+    "fields": {
+      "licenciatura": 1,
+      "nome": "Matemßtica Discreta",
+      "ano_curricular": 1,
+      "semestre": 1,
+      "ects": 6,
+      "apresentacao": "IntroduþÒo aos conceitos fundamentais da matemßtica discreta, essenciais para a computaþÒo.",
+      "programa": "L¾gica proposicional. Teoria de conjuntos. Relaþ§es e funþ§es. Combinat¾ria. Grafos. ┴rvores.",
+      "objectivos": "Dotar os alunos de ferramentas matemßticas para análise de algoritmos e estruturas computacionais.",
+      "imagem": "unidades_curriculares/UC_MD.jpg",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-1656"
+    }
+  },
+  {
+    "model": "portfolio.unidadecurricular",
+    "pk": 6,
+    "fields": {
+      "licenciatura": 1,
+      "nome": "Arquitetura de Computadores",
+      "ano_curricular": 1,
+      "semestre": 2,
+      "ects": 6,
+      "apresentacao": "Estudo da organizaþÒo interna dos computadores e dos seus componentes principais.",
+      "programa": "RepresentaþÒo da informação. Sistemas digitais. CPU. Mem¾ria. Input/Output. Assembly bßsico.",
+      "objectivos": "Compreender o funcionamento interno dos sistemas computacionais e a interação entre hardware e software.",
+      "imagem": "unidades_curriculares/UC_AC.jpg",
+      "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7"
+    }
+  }
+]

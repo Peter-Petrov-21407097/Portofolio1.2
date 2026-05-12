@@ -1,0 +1,26 @@
+[
+  {
+    "model": "portfolio.competencia",
+    "pk": 1,
+    "fields": {
+      "nome": "Trabalhar sobre pressão",
+      "tipo": "Soft Skills",
+      "descricao": "Trabalhar sob pressão\r\nenvolve gerir prazos apertados e cenßrios complexos, mantendo a produtividade e a calma para evitar o burnout. EstratÚgias eficazes incluem organizaþÒo rigorosa, priorizaþÒo de tarefas, divisão de projetos em etapas menores e prßticas de autocuidado. Esta habilidade desenvolve resiliÛncia, soft skills e potencia a carreira. \r\nAqui estÒo as principais estratÚgias para gerir a pressão no trabalho, baseadas em prßticas profissionais:\r\n\r\n    PriorizaþÒo de Tarefas: Identifique o que Ú urgente e importante, focando no que pode ser resolvido no dia.\r\n    OrganizaþÒo e Planeamento: Mantenha as informaþ§es de projetos acessÝveis para evitar o pÔnico.\r\n    Gestão da ProcrastinaþÒo: Comece as tarefas mais difÝceis para evitar o ac·mulo de trabalho sob pressão.\r\n    DesagregaþÒo de Projetos: Divida tarefas complexas em etapas menores e mais gerencißveis.\r\n    Autocuidado e Pausas: Reserve momentos para relaxamento, como exercÝcios fÝsicos, meditaþÒo ou ouvir m·sica, durante pelo menos 20 minutos dißrios.\r\n    ComunicaþÒo com a Gestão: Utilize o feedback para entender as expectativas e peþa ajuda se necessßrio.",
+      "nivel": "Bßsico",
+      "evidencia": "Aplicada durante periodos de maior desgaste acadÚmico",
+      "destaque": false
+    }
+  },
+  {
+    "model": "portfolio.competencia",
+    "pk": 2,
+    "fields": {
+      "nome": "Apresentação em público",
+      "tipo": "Oral",
+      "descricao": "Independentemente do assunto, as apresentaþ§es e discursos possuem um papel fundamental em diferentes esferas da sociedade. Afinal, seja no ambiente acadÛmico, corporativo, de vendas ou em outros segmentos, as apresentaþ§es e discursos são ferramentas essenciais. \r\n\r\nIsso porque, por meio da realizaþÒo de uma apresentaþÒo, Ú possÝvel transmitir diversas informaþ§es importantes, persuadindo a audiÛncia e criando excelentes conex§es. Sendo assim, independente do objetivo, uma apresentaþÒo bem sucedida pode te ajudar a atingir os seus objetivos, como vender uma ideia, relatar resultados de um projeto ou motivar uma equipe.\r\n\r\nAs apresentaþ§es e discursos são muito importantes, tanto para o sucesso pessoal, quanto para o profissional.",
+      "nivel": "Bßsico",
+      "evidencia": "Ter uma boa comunicaþÒo Ú fundamental para se destacar no mercado de trabalho e alcanþar melhores resultados profissionais. A habilidade de falar bem em público, conhecida como orat¾ria, pode ser a chave para o sucesso na carreira de muitas pessoas",
+      "destaque": false
+    }
+  }
+]

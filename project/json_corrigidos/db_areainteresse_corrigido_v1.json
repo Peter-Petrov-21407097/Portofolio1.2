@@ -1,0 +1,32 @@
+[
+  {
+    "model": "portfolio.areainteresse",
+    "pk": 1,
+    "fields": {
+      "nome": "Ciência de Dados",
+      "descricao": "área interdisciplinar que utiliza métodos científicos, processos, algoritmos e sistemas para extrair conhecimento e insights de dados estruturados e não estruturados",
+      "categoria": "Big Data",
+      "destaque": false
+    }
+  },
+  {
+    "model": "portfolio.areainteresse",
+    "pk": 2,
+    "fields": {
+      "nome": "Inteligência Artificial",
+      "descricao": "Área ligada a aprendizagem automática, modelos preditivos e automação inteligente.",
+      "categoria": "Dados",
+      "destaque": false
+    }
+  },
+  {
+    "model": "portfolio.areainteresse",
+    "pk": 3,
+    "fields": {
+      "nome": "Big data",
+      "descricao": "Grande volume de dados a ser processado de forma ordeira.",
+      "categoria": "Dados",
+      "destaque": false
+    }
+  }
+]
