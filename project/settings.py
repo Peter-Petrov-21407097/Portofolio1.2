@@ -26,7 +26,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = [
-    'portofolio1-2.onrender.com',
+    ['*']
 ]
 # Application definition
 
