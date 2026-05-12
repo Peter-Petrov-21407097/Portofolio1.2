@@ -8,6 +8,10 @@ from django.conf import settings
 from .forms import MagicLinkForm
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
+from django.core.management import call_command
+from django.http import HttpResponse
+import io
+
 
 from .models import (
     Licenciatura,
@@ -22,6 +26,24 @@ from .models import (
     AreaInteresse,
     Midia,
 )
+
+def export_database(request):
+    buffer = io.StringIO()
+
+    call_command(
+        'dumpdata',
+        exclude=['contenttypes', 'auth.permission', 'sessions'],
+        stdout=buffer
+    )
+
+    response = HttpResponse(
+        buffer.getvalue(),
+        content_type='application/json'
+    )
+
+    response['Content-Disposition'] = 'attachment; filename="db.json"'
+
+    return response
 
 
 # MAGIC LINK
