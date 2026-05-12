@@ -1,0 +1,2417 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2026-04-03T17:44:24.056Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Engenharia Informática",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2026-04-03T17:47:25.074Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "Programação Web",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2026-04-03T17:50:38.150Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "Álgebra Linear",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2026-04-03T17:52:31.808Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Maria José de Almeida e Silva",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2026-04-03T17:52:37.023Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Maria José de Almeida e Silva",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2026-04-03T18:44:24.067Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Ciência de Dados",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2026-04-03T18:51:17.174Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "1",
+            "object_repr": "Django",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2026-04-03T18:53:45.781Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Trabalhar sobre pressao",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2026-04-03T18:55:50.105Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "SQL Database: Development",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2026-04-03T19:21:58.090Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Inteligência Artificial",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2026-04-03T19:23:46.446Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Big data",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2026-04-03T19:25:42.542Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Lucio Custodio",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2026-04-04T11:02:43.087Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Gestão de Empresas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2026-04-04T11:07:07.792Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "1",
+            "object_repr": "Projecto Django",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2026-04-04T11:17:41.894Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "Web Scrapping",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2026-04-04T11:21:19.094Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Web Scraping",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2026-04-04T11:23:11.603Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "Portfólio",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2026-04-04T11:29:44.857Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Portfólio - Pagina 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2026-04-04T11:30:41.060Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2026-04-04T14:35:32.254Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Ciência de Dados",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2026-04-04T14:38:09.049Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Computação e Matemática Aplicada",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2026-04-04T14:41:16.143Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "Engenharia Informática, Redes e Telecomunicaçõeses",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2026-04-04T14:49:36.550Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "Portfólio - Pagina 2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2026-04-04T14:51:23.414Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "Ligaçõeses ERP - continuaçoes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2026-04-04T14:58:02.254Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Portfólio - Diagrama ERP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2026-04-04T15:00:01.116Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "Diagrama ERP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2026-04-04T15:01:07.350Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2026-04-04T15:15:01.361Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Portfólio - Diagrama ERP",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2026-04-04T15:22:05.569Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "Entidade e Atributos - Parte 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2026-04-04T15:24:00.190Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Licenciatura + UnidadeCurricular",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2026-04-04T16:07:21.376Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "Entidade e Atributos - Parte 2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2026-04-04T16:09:08.201Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2026-04-04T16:10:28.501Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2026-04-04T16:14:03.745Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "5",
+            "object_repr": "Projeto + Tecnologia",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2026-04-04T16:17:32.342Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "Entidade e Atributos - Parte 3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2026-04-04T16:19:32.516Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "6",
+            "object_repr": "TFC + Competencia",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2026-04-04T16:22:13.564Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "8",
+            "object_repr": "Entidade e Atributos - Parte 4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2026-04-04T16:24:00.131Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "7",
+            "object_repr": "Competencia (cont) + Formacao",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2026-04-04T16:26:49.818Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "9",
+            "object_repr": "Entidade e Atributos - Parte 4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2026-04-04T16:28:19.171Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "9",
+            "object_repr": "Entidade e Atributos - Parte 5",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2026-04-04T16:29:47.566Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "8",
+            "object_repr": "MakingOf e atributos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2026-04-04T16:33:21.552Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "10",
+            "object_repr": "Entidade e Atributos - Parte 6",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2026-04-04T16:34:54.999Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "9",
+            "object_repr": "Docente e AreaInteresse",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2026-04-05T11:12:59.937Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "11",
+            "object_repr": "Entidade e Atributos - Parte 6",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2026-04-05T11:14:36.403Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "10",
+            "object_repr": "AreaInteresse(atri) + Midia",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2026-04-05T11:20:51.999Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "11",
+            "object_repr": "Fotografia docente Maria Silva",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2026-04-05T11:22:09.463Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "12",
+            "object_repr": "Fotografia Lucio Struder",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2026-04-05T11:22:40.331Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "11",
+            "object_repr": "Fotografia docente Maria Silva",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2026-04-05T11:24:03.516Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "13",
+            "object_repr": "Docente Rui Ribeiro",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2026-04-05T11:24:22.470Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "13",
+            "object_repr": "Docente Rui Ribeiro",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2026-04-05T11:32:28.832Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "11",
+            "object_repr": "Fotografia docente Maria Silva",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Unidade curricular\", \"Projeto\", \"Tecnologia\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2026-04-06T09:37:46.922Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Apresentação em público",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2026-04-06T09:40:16.622Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Inteligência Artificial Aplicada à Gestão de Projetos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2026-04-06T09:48:16.139Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "2",
+            "object_repr": "SQL Developer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2026-04-06T09:50:15.705Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "3",
+            "object_repr": "Base de dados",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2026-04-06T09:51:21.045Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "14",
+            "object_repr": "Logotipo Base de dados",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2026-04-08T15:07:00.862Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "Aplicação de técnicas de análise de dados para deteção de fugas e roturas em sistemas de distribuição de água",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2026-04-19T15:24:24.904Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "12",
+            "object_repr": "Explicacao view 1-2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2026-04-19T15:26:29.290Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "15",
+            "object_repr": "Explicacao view 1-2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2026-04-19T15:29:25.185Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "13",
+            "object_repr": "Explicação view 2-2 + Template",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2026-04-19T15:30:42.311Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "16",
+            "object_repr": "Explicacao view 2-2 + Template",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2026-04-19T15:34:25.893Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "14",
+            "object_repr": "Template final",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2026-05-05T08:27:47.536Z",
+            "user": 2,
+            "content_type": 2,
+            "object_id": "1",
+            "object_repr": "aut",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2026-05-05T08:36:01.580Z",
+            "user": 2,
+            "content_type": 2,
+            "object_id": "2",
+            "object_repr": "Autores",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2026-05-05T08:37:14.458Z",
+            "user": 2,
+            "content_type": 2,
+            "object_id": "1",
+            "object_repr": "aut",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2026-05-05T08:37:19.131Z",
+            "user": 2,
+            "content_type": 2,
+            "object_id": "2",
+            "object_repr": "Autores",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2026-05-05T09:40:19.377Z",
+            "user": 2,
+            "content_type": 17,
+            "object_id": "4",
+            "object_repr": "Fundamentos de Programação",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2026-05-05T09:44:14.430Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Joaquim Manuel Guerreiro Marques",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2026-05-05T09:45:57.856Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "17",
+            "object_repr": "UC_Fundamentos_de_Fisica",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2026-05-05T09:50:01.341Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "15",
+            "object_repr": "Scripts para UC",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2026-05-05T09:53:13.113Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Joaquim Manuel Guerreiro Marques",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2026-05-05T09:54:42.245Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "18",
+            "object_repr": "Fotografia docente Joaquim Marques",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2026-05-05T09:56:40.135Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Joaquim Manuel Guerreiro Marques",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Pagina pessoal url\", \"Email\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2026-05-05T09:57:27.815Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Joaquim Manuel Guerreiro Marques",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2026-05-05T10:19:20.057Z",
+            "user": 2,
+            "content_type": 17,
+            "object_id": "6",
+            "object_repr": "Arquitetura de Computadores",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2026-05-05T10:19:27.638Z",
+            "user": 2,
+            "content_type": 17,
+            "object_id": "5",
+            "object_repr": "Matemática Discreta",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2026-05-05T10:19:53.645Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Maria José de Almeida e Silva",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Unidades curriculares\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2026-05-05T10:21:10.837Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "19",
+            "object_repr": "Logotipo Matemática Discreta",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2026-05-05T10:22:07.338Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "20",
+            "object_repr": "Logótipo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2026-05-05T10:22:57.540Z",
+            "user": 2,
+            "content_type": 17,
+            "object_id": "5",
+            "object_repr": "Matemática Discreta",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2026-05-05T10:27:13.534Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Sergio Pedro Mestre Ferreira",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2026-05-05T10:28:14.256Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Sergio Pedro Mestre Ferreira",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2026-05-05T10:31:22.541Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Sergio Pedro Mestre Ferreira",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Foto\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2026-05-05T10:35:21.815Z",
+            "user": 2,
+            "content_type": 18,
+            "object_id": "1",
+            "object_repr": "Artigo de admin",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2026-05-05T10:37:41.990Z",
+            "user": 2,
+            "content_type": 19,
+            "object_id": "1",
+            "object_repr": "Comentário de admin",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2026-05-06T13:39:09.977Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "16",
+            "object_repr": "Produção e Testes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2026-05-06T13:42:53.394Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "17",
+            "object_repr": "Testes Automáticos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2026-05-06T13:45:15.919Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "21",
+            "object_repr": "Produção e Testes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2026-05-06T13:46:31.524Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "22",
+            "object_repr": "Testes Automáticos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Autores",
+            "permissions": [
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$VmM8DnHhmK9Xx3gSozRak7$A+nWewUjCd1i1JWlGbHLABsEua4vV0+YvOREN9Po6AM=",
+            "last_login": "2026-04-22T21:09:34.027Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-04-03T17:35:11.103Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$WlwBb4r4PBdEKdWj67xacG$3i6wazHDci2b+GeyZKYgs5VveN1m/hWsvTWv1OujORo=",
+            "last_login": "2026-05-07T11:31:40.844Z",
+            "is_superuser": true,
+            "username": "admin3",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-04-30T09:12:50.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lvzar3nv3xxt7y6mqa9e8dekuu6hhb85",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQAP9lz4YA5dUevfsNZBcWWzWQlPZk_HfTpAe9zkzmDRH3bY575zUuGSbQcPllhOnJ9RD5gfXeRGp1WxcSRyJO28WtZX5dz_ZvMGOfYQJvOTMXtAaNGQdM5DAVr7KVgRSPXGgMXqNEV4JTxpMsXlrUxpqBNMLnCw1cOF0:1wKjFc:r-BUm9DvGtNjTNOONe7LD9Zfp1Jp7M7vhN_vUnx0jmw",
+            "expire_date": "2026-05-20T20:53:48.897Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pfrg9n8ivtuxac0yiv2bvosfhpls779i",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGln-xg4lfc5grXcXHEC2FCcV4u4QKQW0b2beSyTY1pK2zkuaSZyFFqffLQM-uO6A7lBvTWKr6zJnuSvyoF1Ojfh5Ody_gwK9fGu06IJywZioUVk26HNGHNhyhKsF8pgxWvKgPI_kVHagXRxDCKTADOL9Ae9COB4:1w9Lhe:nQn99jS7SA8OaDC67nw6C_X1QKp7XHOPtAsURirAR2M",
+            "expire_date": "2026-04-19T11:31:42.110Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "rhqhkkbeo3a6ffg0zmghhr1l3ixhwofx",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQAP9lz4YA5dUevfsNZBcWWzWQlPZk_HfTpAe9zkzmDRH3bY575zUuGSbQcPllhOnJ9RD5gfXeRGp1WxcSRyJO28WtZX5dz_ZvMGOfYQJvOTMXtAaNGQdM5DAVr7KVgRSPXGgMXqNEV4JTxpMsXlrUxpqBNMLnCw1cOF0:1wKwxA:Z-3_aODG8zULKBAfAzQb0Iqc5HT2y349jlZrBAbLzO4",
+            "expire_date": "2026-05-21T11:31:40.851Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ukcps8n4kjbjdpuuv1slmpzeicqcq2p7",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGln-xg4lfc5grXcXHEC2FCcV4u4QKQW0b2beSyTY1pK2zkuaSZyFFqffLQM-uO6A7lBvTWKr6zJnuSvyoF1Ojfh5Ody_gwK9fGu06IJywZioUVk26HNGHNhyhKsF8pgxWvKgPI_kVHagXRxDCKTADOL9Ae9COB4:1wFepC:NbiHxYxrv9yEUfxOuPtFNAFMSZ4UyAyHXmmla_atsiM",
+            "expire_date": "2026-05-06T21:09:34.030Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "uu51uemjcphhql1sn0kfs7ctx0ava3hy",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGln-xg4lfc5grXcXHEC2FCcV4u4QKQW0b2beSyTY1pK2zkuaSZyFFqffLQM-uO6A7lBvTWKr6zJnuSvyoF1Ojfh5Ody_gwK9fGu06IJywZioUVk26HNGHNhyhKsF8pgxWvKgPI_kVHagXRxDCKTADOL9Ae9COB4:1w8zOq:jMVL6qCtfo3g8uPKuk_BNVwSuBK_17qacCKkZwpr9F8",
+            "expire_date": "2026-04-18T11:42:48.387Z"
+        }
+    },
+    {
+        "model": "portfolio.licenciatura",
+        "pk": 1,
+        "fields": {
+            "nome": "Engenharia Informática",
+            "numero_semestres": 6,
+            "ects_total": 180,
+            "descricao": "O curso de licenciatura em Engenharia Informática da Universidade Lusófona forma licenciados capazes de assumir posiçõeses de destaque em projetos de engenharia informática ou equipas de desenvolvimento e consultadoria, na área da engenharia dos sistemas de informação, assumindo pela sua formação e atitude papéis relevantes na geração de inovação e riqueza. Nesse sentido, os estudantes obtêm as competências adequadas à conceção, realização e manutenção de sistemas informáticos, programação de aplicaçõeses e de sistemas, desenho arquiteturas de computação e comunicaçõeses, gestão de sistemas de informação e de conhecimento, assim como à compreensão e resolução dos problemas associados.",
+            "objetivo": "O objectivo é desenvolver a capacidade dos estudantes em adquirir e aprofundar conhecimento a partir de exposiçõeses realizadas em ambiente de conferência, e simultaneamente dar-lhes acesso ao estado da arte e às evoluçõeses tecnológicas nas áreas da sua formação. Por outro lado, visa promover um contacto permanente do estudante com o mundo científico e empresarial de modo a promover a sua inserção no mercado de trabalho.",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica",
+            "saidas_profissionais": "O curso de licenciatura em Engenharia Informática da Universidade Lusófona pretende formar o perfil profissional do engenheiro de aplicaçõeses, caracterizado pela capacidade de participar em grandes projetos de engenharia informática, integrando equipas de desenvolvimento de projetos, gerindo e mantendo sistemas de informação. O diploma apresenta ainda uma formação aprofundadada em domínios comuns às Engenharias, como a Física e a Matemática, e em domínios específicos das Ciências Informáticas, como a Metodologia da Programação, os Sistemas de Informação, as Redes de Comunicaçõeses, e a gestão, tanto de sistemas como de projetos.\r\n\r\nOs Licenciados em Engenharia Informática encontrarão situaçõeses de emprego na rede Europeia de organismos públicos e privados com necessidades de desenvolvimento, utilização, reorganização e modernização de sistemas de informação, nomeadamente: \r\n- em empresas vocacionadas para o desenvolvimento e comercialização de soluçõeses baseadas em informática; \r\n- na integração e chefia de equipas informáticas em grandes empresas dos setores comerciais, industriais ou dos serviços;\r\n-  em instituiçõeses ligadas ao setor público estatal ou privado, em particular na área dos serviços.",
+            "imagem": "licenciaturas/licenciatura-engenharia-informatica-lisboa_600_dfquPII.jpg"
+        }
+    },
+    {
+        "model": "portfolio.licenciatura",
+        "pk": 2,
+        "fields": {
+            "nome": "Gestão de Empresas",
+            "numero_semestres": 6,
+            "ects_total": 180,
+            "descricao": "O curso de licenciatura em Gestão de Empresas da Universidade Lusófona - Centro Universitário Lisboa tem um perfil não excessivamente especializado, ou seja, é uma licenciatura de banda larga, permitindo a formação de gestores de empresas dotados de uma excelente capacidade de inserção no mercado de trabalho. A formação dada ao longo da Licenciatura em Gestão de Empresas caracteriza-se por ser multidisciplinar, abrangente e muito focada nas necessidades atuais do tecido empresarial e da competitividade do mesmo no mercado global.",
+            "objetivo": "O desenvolvimento de uma política ativa de integração profissional dos seus alunos, constitui um dos objetivos do presente ciclo de estudos. Assim, para além dos diferentes protocolos de colaboração tendentes à integração dos nossos alunos em períodos de estágio e formação em serviço, em diferentes entidades públicas e privadas que atuam no setor em Portugal. O presente ciclo de estudos desenvolve acordos pontuais com outras instituiçõeses por forma a assegurar a efetiva integração de todos os seus alunos ou diplomados.",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/gestao-de-empresas",
+            "saidas_profissionais": "As saídas profissionais dos Licenciados no curso de Licenciatura em Gestão de Empresas da Universidade Lusófona são as seguintes:\r\n Gestores de Empresas em diversas áreas de atividade, nomeadamente: \r\nBanca e Seguros; Consultoria em Instituiçõeses Económicas e Financeiras Internacionais; Empresas privadas na indústria e nos serviços; Empresas Públicas; Ensino e pesquisa",
+            "imagem": "licenciaturas/licenciatura-gestao-empresas-lisboa_600.jpg"
+        }
+    },
+    {
+        "model": "portfolio.licenciatura",
+        "pk": 3,
+        "fields": {
+            "nome": "Ciência de Dados",
+            "numero_semestres": 6,
+            "ects_total": 180,
+            "descricao": "O curso de licenciatura em Gestão de Empresas da Universidade Lusófona - Centro Universitário Lisboa tem um perfil não excessivamente especializado, ou seja, é uma licenciatura de banda larga, permitindo a formação de gestores de empresas dotados de uma excelente capacidade de inserção no mercado de trabalho. A formação dada ao longo da Licenciatura em Gestão de Empresas caracteriza-se por ser multidisciplinar, abrangente e muito focada nas necessidades atuais do tecido empresarial e da competitividade do mesmo no mercado global.",
+            "objetivo": "Ciência de Dados, como definido por especialistas no campo, é uma ciência experimental multidisciplinar que vem dar resposta ao grande volume de dados \"big-data\" que tem crescido de forma exponencial face ao desenvolvimento tecnológico recente.\r\nA oportunidade de transformar estes dados em informação e conhecimento, em prol do bem da sociedade, é essencial tando no negócio como na ciência entre outras áreas com impacto social.\r\n\r\nNeste ciclo de estudo apresentamos um programa com fortes componentes em: Estatística, Matemática, Aprendizagem Automatizada, Programação, Extração e Manuseamento de dados, diversas componentes de Engenharia de Dados e uma forte incidência no tema de Privacidade, Segurança e Ética.",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/ciencia-de-dados",
+            "saidas_profissionais": "- Data Scientist / Cientista de Dados\r\n- Applied Data Scientist / Cientista de dados Aplicado\r\n- Applied Data Researcher / Investigador de Dados Aplicado\r\n- Applied Machine Learning Researcher / Investigador de Aprendizagem Automatizada Aplicada\r\n- Business Intelligence Analyst / Analista de Inteligência de Negócio",
+            "imagem": "licenciaturas/licenciatura-ciencia-de-dados-1920_600_3lev55k.jpg"
+        }
+    },
+    {
+        "model": "portfolio.licenciatura",
+        "pk": 4,
+        "fields": {
+            "nome": "Computação e Matemática Aplicada",
+            "numero_semestres": 6,
+            "ects_total": 180,
+            "descricao": "1. Com o avanço exponencial do volume de dados \"big data\" e a sua transformação digital durante a última década e meia, testemunhamos e continuamos a observar uma fase de constante reinvenção não só das infra-estruturas e modelos de sistemas de Informação assim como, a reinvenção de novos perfis de profissionais na transformação de dados em conhecimento.\r\n2. Constata-se que profissionais formados de áreas afins à \"Matemática\" tradicional têm mostrado uma base muito forte para enfrentar este desafio. No entanto, observa-se o grande esforço destes profissionais à adaptação às infra-estruturas informáticas.\r\n3. Tem-se como objetivo, manter o pensamento Analítico destes profissionais mas também desenvolver aptidões em Engenharia informática.",
+            "objetivo": "Tem-se como objetivo, manter o pensamento Analítico destes profissionais mas também desenvolver aptidões em Engenharia informática.",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/computacao-e-matematica-aplicada",
+            "saidas_profissionais": "Cientista de Dados / Data Scientist\r\nMatemático Aplicado / Computer Scientist\r\nBusiness Intelligence\r\nAnalista / Analyst\r\nMachine Learning & A.I. Scientist\r\nBases Sólidas para prosseguir para Doutoramento / Solid background to pursue a Ph.D program.",
+            "imagem": "licenciaturas/licenciatura-computacao-mat-aplicada_600_mAv5Tms.jpg"
+        }
+    },
+    {
+        "model": "portfolio.licenciatura",
+        "pk": 5,
+        "fields": {
+            "nome": "Engenharia Informática, Redes e Telecomunicaçõeses",
+            "numero_semestres": 6,
+            "ects_total": 180,
+            "descricao": "A Licenciatura em Engenharia Informática, Redes e Telecomunicaçõeses da Universidade Lusófona de Lisboa pretende:\r\n\r\n1. Formar licenciados com fortes capacidades de responder aos desafios colocados pelo mercado de trabalho nas áreas da informática aplicada às telecomunicaçõeses e redes, do desenvolvimento de aplicaçõeses ao projeto, gestão e instalação de serviços e infraestruturas.\r\n2. Completar essas competências com disciplinas mais avançadas, refletindo os avanços recentes na área das Ciências e Tecnologias de Informação.\r\n3. Desenvolver perfis com fortes competência tecnológicas e humanas, de modo a que os candidatos possam obter um alto grau de empregabilidade no final do 1º ciclo, ou prosseguir os estudos de 2º ciclo com excelentes perspetivas de sucesso.\r\n4. Oferecer um ensino de qualidade assente num corpo docente integrando especialistas e académicos com elevado potencial pedagógico e atividade comprovada em investigação.\r\n5. Proporcionar aos licenciados um amplo leque de escolhas profissionais.",
+            "objetivo": "O curso de Licenciatura em Engenharia Informática, Redes e Telecomunicaçõeses (LEIRT)  é uma nova licenciatura da UL - CUL, motivada pelas necessidades crescentes de profissionais nas áreas de convergência entre a informática, as redes de computadores e as telecomunicaçõeses fixas e móveis.\r\n\r\nA LEIRT fornece conhecimentos e competências que permitirão o desenvolvimento de projetos nas áreas dos sistemas computacionais em nuvem, aplicaçõeses online, redes celulares, redes de dados, Internet das Coisas, entre outras.\r\n\r\nA convergência entre a informática, as redes de computadores e as telecomunicaçõeses fixas e móveis, traduzida, por exemplo, nas plataformas computacionais em nuvem, abriu novas necessidades do mercado, não satisfeitas por cursos clássicos de informática ou de telecomunicaçõeses.\r\n\r\nA LEIRT pretende formar profissionais de engenharia capazes de responder aos desafios colocados pelo mercado de trabalho nas áreas da informática aplicada às redes e telecomunicaçõeses, do desenvolvimento de aplicaçõeses ao projeto, instalação e gestão de infraestruturas e serviços.\r\n\r\nLicenciatura em Engenharia Informática, Redes e Telecomunicaçõeses da Universidade Lusófona  está alinhado com os ciclos de estudo europeus análogos e estrutura-se da seguinte forma:\r\nDurante os quatro primeiros semestres do ciclo de estudo proposto são introduzidos os conceitos base das principais áreas (Matemática, Telecomunicaçõeses, Redes e Informática).\r\nNa área da Matemática desenvolvem-se as competências básicas em Análise, Álgebra Linear e Probabilidades e Estatística que permitirão, mais tarde, a compreensão de conceitos avançados de modelação de sistema, análise de dados e estatística.\r\nNa área das Telecomunicaçõeses os alunos adquirem os conhecimentos fundamentais de Propagação e Radiação, Comunicaçõeses Analógicas e Comunicaçõeses Digitais, base para o entendimento dos problemas em estudo nas Telecomunicaçõeses. \r\nNa área das Redes os alunos adquirem os conhecimentos fundamentais de Redes de Computadores, base para o entendimento dos problemas em estudo nas Redes.\r\nNa área da Informática os alunos adquirem autonomia na utilização dos conceitos de Programação, Sistemas Operativos, Bases de Dados e Computação Móvel que irá permitir uma aplicação prática do conhecimento a adquirir nas fases subsequentes do ciclo de estudos. \r\nDurante o quinto e o sexto semestre aprofundam-se os conhecimentos em Telecomunicaçõeses, Redes e Informática. Em paralelo com a exposição teórica de conhecimentos de cada unidade, é esperado que os alunos desenvolvam trabalhos práticos de aplicação dos conhecimentos adquiridos em unidades anteriores (e.g. redes, telecomunicaçõeses, programação,bases de dados, etc...).Deste modo os alunos consolidam os conhecimentos adquiridos,desenvolvem as capacidades de integração e aplicação prática de conhecimentos e os hábitos de trabalho.",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica-redes-e-telecomunicacoes",
+            "saidas_profissionais": "Os especialistas a formar caracterizar-se-ão, por isso, pela sua formação sólida na área das Tecnologias de Informação, considerando-se como competências essenciais o domínio dos princípios e metodologias da programação, a capacidade de conceber e gerir sistemas de informação, desenhar e manter redes informáticas e sistemas distribuídos, desenhar, manter e analisar a implementação de soluçõeses de bases de dados, manipular informação multimédia, analisar e processar informação matemática a aplicar e a mesma no domínio da computação, e possuir a capacidade para gerir equipas de projeto. Os Licenciados em Engenharia Informática encontrarão situaçõeses de emprego na rede Europeia de organismos públicos e privados com necessidades de desenvolvimento, utilização, reorganização e modernização de sistemas de informação, nomeadamente: em empresas vocacionadas para o desenvolvimento e comercialização de soluçõeses baseadas em informática; na integração e chefia de equipas informáticas em grandes empresas dos sectores comerciais, industriais ou dos serviços; em instituiçõeses ligadas ao sector público estatal ou privado, em particular na área dos serviços.",
+            "imagem": "licenciaturas/licenciatura-engenharia-informatica-REDES-lisboa_628_BVTE21a.jpg"
+        }
+    },
+    {
+        "model": "portfolio.unidadecurricular",
+        "pk": 1,
+        "fields": {
+            "licenciatura": 1,
+            "nome": "Programação Web",
+            "ano_curricular": 2,
+            "semestre": 2,
+            "ects": 6,
+            "apresentacao": "Esta Unidade Curricular pretende dar formação na área da programação Web em geral, e em particular no desenvolvimento de aplicaçõeses Web back-end e front-end, providenciando uma visão global do desenvolvimento moderno para a Web. No front-end, são introduzidos conceitos de estruturação, estilização e interação de conteúdos através das linguagens HTML, CSS e JavaScript, in. No back-end, é ensinado o desenvolvimento de aplicaçõeses empresariais seguindo o padrão de desenho model-view-control, recorrendo à linguagem Python e a Web framework django. Pretende-se estimular a criatividade e imaginação no desenvolvimento de aplicaçõeses inovadoras que sejam eficientes, escaláveis e fáceis de modificar por um lado, e que ofereçam uma boa experiência para o utilizador. Esta é uma UC fundamental para qualquer profissional da área da informática, pois fornece um conjunto de conhecimentos e ferramentas que serão essenciais em projetos empresariais em que virão a estar inseridos.",
+            "programa": "A Web e seus paradigmas\r\n\r\n- Funcionamento da Internet e da Web: arquitetura e protocolos IP e HTTP\r\n\r\n- Tecnologias, paradigmas e padrões de desenho da Web\r\n\r\nPython para desenvolvimento Web\r\n\r\n- Sintaxe, operadores, controlo de fluxos e tipos de dados\r\n\r\n- Funçõeses e módulos \r\n\r\n- Gestão de ficheiros e pastas   \r\n\r\n- Classes \r\n\r\nDjango web framework para Back-end\r\n\r\n- Web frameworks\r\n\r\n- Arquitetura MVT \r\n\r\n- Urls, views e templates\r\n\r\n- Linguagem template\r\n\r\n- Modelação de base de dados, ORM\r\n\r\n- Formulários\r\n\r\n- Autenticação\r\n\r\n- Implantação na cloud \r\n\r\nHTML e CSS para desenho de páginas Web\r\n\r\n- HTML e seus elementos \r\n\r\n- Formulários para envio de dados\r\n\r\n- HTML5 e elementos semânticos\r\n\r\n- CSS e seus seletores, para estilização de conteúdos\r\n\r\n- Propriedades CSS\r\n\r\n- Design responsivo e layouts dinâmicos\r\n\r\n- Efeitos e animaçõeses CSS\r\n\r\n- Bootstrap\r\n\r\nJavaScript para programação Front-end\r\n\r\n- Programação Orientada a Eventos \r\n\r\n- Manipulação do DOM \r\n\r\n- JSON e APIs\r\n\r\n- Single Page Applications",
+            "objectivos": "Entender o funcionamento da Internet e da Web.\r\n\t\t\t\tCompreender os princípios da programação Web e seus principais padrões de desenho.\r\n\t\t\t\tAplicar estes conceitos, usando várias tecnologias (HTML, CSS, JavaScript, Python and Django).\r\n\t\t\t\tArquitetar aplicaçõeses eficientes, de fácil manutenção, que corram na Web.\r\n\t\t\t\tAvaliar as diferentes estratégias de desenho, sabendo escolher a abordagem que mais se adequa ao contexto.\r\n\t\t\t\tSer capaz de construir e implantar na cloud aplicaçõeses Web complexas e criativas, totalmente funcionais (full stack).",
+            "imagem": "unidades_curriculares/UC_PW.jpg",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195"
+        }
+    },
+    {
+        "model": "portfolio.unidadecurricular",
+        "pk": 2,
+        "fields": {
+            "licenciatura": 1,
+            "nome": "Álgebra Linear",
+            "ano_curricular": 1,
+            "semestre": 2,
+            "ects": 5,
+            "apresentacao": "Nesta unidade curricular, os estudantes irão aprender a trabalhar com matrizes, sistemas de equaçõeses lineares e espaços vetoriais reais, essenciais para a resolução de diversos problemas reais.",
+            "programa": "CP1. Matrizes\r\n\r\nCP2. Sistemas de equaçõeses lineares\r\n\r\nCP3. Espaços vetoriais reais\r\n\r\nCP4. Transformaçõeses lineares\r\n\r\nCP5. Determinantes\r\n\r\nCP6. Valores e vetores próprios de matrizes",
+            "objectivos": "No final desta unidade curricular, os estudantes devem saber:\r\n\r\nOA1. Dominar os conceitos e as operaçõeses elementares sobre matrizes;\r\n\r\nOA2. Discutir e resolver sistemas de equaçõeses lineares e utilizar o método de eliminação de Gauss;\r\n\r\nOA3. Formular e resolver problemas do mundo real usando sistemas de equaçõeses lineares;\r\n\r\nOA4. Reconhecer os conceitos de espaço vetorial e transformação linear e utilizá-los na resolução de problemas destes domínios;\r\n\r\nOA5. Calcular determinantes e compreender a sua utilidade;\r\n\r\nOA6. Determinar os valores próprios e os vetores próprios e saber utilizá-los no processo de diagonalização;\r\n\r\nOA7. Identificar e utilizar os conteúdos abordados na resolução de problemas reais.",
+            "imagem": "unidades_curriculares/Algebra_Linear_projeto.JPG",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-2091"
+        }
+    },
+    {
+        "model": "portfolio.unidadecurricular",
+        "pk": 3,
+        "fields": {
+            "licenciatura": 1,
+            "nome": "Base de dados",
+            "ano_curricular": 2,
+            "semestre": 1,
+            "ects": 6,
+            "apresentacao": "Esta unidade curricular tem por objetivo apresentar a importância da Gestão de Dados no seio de uma empresa, de forma a garantir quer a operação diária de negócio, bem como o apoio à decisão estratégica.\r\n\r\nNesta unidade reforçar-se-á o enquadramento de estruturação e metodologias de criação das bases de dados.",
+            "programa": "O programa da unidade curricular é:\r\n\r\nA) Componente Teórico\r\n\r\n\r\n\tIntrodução\r\n\tModelo de relacionamento entre entidades\r\n\tO modelo relacional\r\n\tRefinamento de esquema: Conceito de normalização e transaçõeses\r\n\tArquitetura de SGBD e algum SQL Avançado\r\n\r\n\r\nB) Componente Prática\r\n\r\n\r\n\tIntrodução à linguagem SQL;\r\n\tInstruçõeses: DDL, DML (DQL) e DCL\r\n\tOperaçõeses: WHERE, ORDER BY, GROUP BY;\r\n\tConceito avançados em SQL: Controlo de erros\r\n\tOperadores Relacionais: União, intersecção e Subtracção\r\n\tProduto Cartesiano (externo)\r\n\tQueries complexos (filtro com valores agregados) e sub-queries\r\n\tSet DDL; Instrução CREATE; Tipos de dados; Nulidade; Instruçõeses ALTER e DROP\r\n\tINDICES e VIEWS\r\n\tControlo de erros: estrutura TRYCATCH\r\n\tProcedimentos (SP) e Triggers\r\n\tOperaçõeses com tabelas: Cursores",
+            "objectivos": "São objetivos dotar os estudantes dos conhecimentos teóricos e práticos necessários à concepção, construção e análise de bases de dados relacionais: nomeadamente obter as seguintes aptidões e\r\n\r\ncompetências:\r\n\r\n1. Compreender as razões de implementação de bases de dados relacionais no mundo empresarial\r\n\r\n2. Transpor de uma análise de requisitos para um modelo entidade-associação para desenhar bases de dados;\r\n\r\n3. Aplicar os conceitos do modelo relacional de bases de dados, transformando o modelo entidade-associação, em modelo físico de dados;\r\n\r\n4. Aplicar as técnicas de normalização de tabelas;\r\n\r\n5. Compreender arquitetura e principais componentes de Sistemas de Gestão de Bases de Dados;\r\n\r\n6. Utilizar a linguagem SQL base e avançado para a criação, consulta e modificação de bases de dados;",
+            "imagem": "unidades_curriculares/base_de_dados.jpg",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-1792"
+        }
+    },
+    {
+        "model": "portfolio.unidadecurricular",
+        "pk": 4,
+        "fields": {
+            "licenciatura": 1,
+            "nome": "Fundamentos de Programação",
+            "ano_curricular": 1,
+            "semestre": 1,
+            "ects": 6,
+            "apresentacao": "Esta é uma disciplina fundamental na formação de qualquer profissional da área de Informática pois introduz os conceitos básicos da programação.",
+            "programa": "Introdução à programação. Algoritmos, fluxogramas, pseudo-código. Sintaxe e semântica das linguagens. Tipos primitivos. Expressçes. Entradas e saídas de dados. Seleção. Repetição. Funçõeses. Arrays. Tratamento de erros. Leitura e escrita de ficheiros.",
+            "objectivos": "Fornecer aos futuros profissionais da área da informática as bases para iniciarem a atividade de programação de modo disciplinado.",
+            "imagem": "unidades_curriculares/UC_FDF.jpg",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7337"
+        }
+    },
+    {
+        "model": "portfolio.unidadecurricular",
+        "pk": 5,
+        "fields": {
+            "licenciatura": 1,
+            "nome": "Matemática Discreta",
+            "ano_curricular": 1,
+            "semestre": 1,
+            "ects": 6,
+            "apresentacao": "Introdução aos conceitos fundamentais da matemática discreta, essenciais para a computação.",
+            "programa": "Lógica proposicional. Teoria de conjuntos. Relaçõeses e funçõeses. Combinatória. Grafos. Árvores.",
+            "objectivos": "Dotar os alunos de ferramentas matemáticas para análise de algoritmos e estruturas computacionais.",
+            "imagem": "unidades_curriculares/UC_MD.jpg",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-1656"
+        }
+    },
+    {
+        "model": "portfolio.unidadecurricular",
+        "pk": 6,
+        "fields": {
+            "licenciatura": 1,
+            "nome": "Arquitetura de Computadores",
+            "ano_curricular": 1,
+            "semestre": 2,
+            "ects": 6,
+            "apresentacao": "Estudo da organização interna dos computadores e dos seus componentes principais.",
+            "programa": "Representação da informação. Sistemas digitais. CPU. Memória. Input/Output. Assembly básico.",
+            "objectivos": "Compreender o funcionamento interno dos sistemas computacionais e a interação entre hardware e software.",
+            "imagem": "unidades_curriculares/UC_AC.jpg",
+            "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-7"
+        }
+    },
+    {
+        "model": "portfolio.tecnologia",
+        "pk": 1,
+        "fields": {
+            "nome": "Django",
+            "tipo": "Python Framework",
+            "descricao": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. ItÆs free and open source.\r\n\r\nRidiculously fast.\r\n\r\n    Django was designed to help developers take applications from concept to completion as quickly as possible.\r\nReassuringly secure.\r\n\r\n    Django takes security seriously and helps developers avoid many common security mistakes.\r\nExceedingly scalable.\r\n\r\n    Some of the busiest sites on the web leverage DjangoÆs ability to quickly and flexibly scale.",
+            "logo": "tecnologias/django.jpg",
+            "url_website": "https://www.djangoproject.com/",
+            "observacoes": "Django é um framework Python de alto nível projetado para o desenvolvimento rápido de aplicaçõeses web seguras e escaláveis, oferecendo um ORM robusto, autenticação e uma interface administrativa automática.\r\n\r\nAs principais observaçõeses para 2026 incluem a maturidade do Django 6.0 com sistemas de tarefas integrados, maior dependência do SQLite para simplicidade e sua relevância contínua para projetos que priorizam a estabilidade em vez de tendências de ponta.\r\n\r\nPrincipais Observaçõeses e Recursos\r\n\r\nDesenvolvimento Rápido e \"Tudo Incluído\": O Django lida com muitas funçõeses comuns (autenticação, ORM, segurança) automaticamente, permitindo que os desenvolvedores se concentrem na lógica do aplicativo.\r\n\r\nGerenciamento de Banco de Dados: O ORM permite definir modelos de dados em Python, com excelentes ferramentas de migração. O SQLite está se tornando cada vez mais popular para produção devido à facilidade de backups, como observado em experiências recentes de desenvolvedores.\r\n\r\nSegurança e Escalabilidade: O Django é reconhecido por levar a segurança a sério (por exemplo, lidando com CVEs como 2026-25674 de forma eficiente) e por ser adequado para sites de alto tráfego. Novos recursos (6.0+): O Django 6.0 introduz um framework dedicado a Tarefas para gerenciar o trabalho assíncrono em segundo plano.\r\nDesempenho: Embora o ORM seja poderoso, visualizaçõeses simples (como HttpRespond ou SQL puro) podem ser mais rápidas do que consultas que dependem muito do ORM."
+        }
+    },
+    {
+        "model": "portfolio.tecnologia",
+        "pk": 2,
+        "fields": {
+            "nome": "SQL Developer",
+            "tipo": "Ambiente de trabalho",
+            "descricao": "O Oracle SQL Developer é um ambiente de desenvolvimento integrado e gratuito que simplifica o desenvolvimento e a gestão do Oracle Database em implementaçõeses tradicionais e na cloud. O SQL Developer oferece um desenvolvimento completo de ponta a ponta para as suas aplicaçõeses PL/SQL, uma folha de cálculo para executar consultas e scripts, uma consola DBA para gerir a base de dados, uma interface de relatórios, uma solução completa de modelação de dados e uma plataforma de migração para migrar as suas bases de dados de terceiros para o Oracle.",
+            "logo": "tecnologias/SQLoracle.jpg",
+            "url_website": "https://www.oracle.com/database/sqldeveloper/",
+            "observacoes": "SQL (Structured Query Language - Linguagem de Consulta Estruturada) é uma linguagem para conversar com bancos de dados que armazenam informaçõeses em um formato altamente estruturado.\r\n\r\nOracle SQL é um tipo específico da linguagem SQL para conversar com os sistemas de banco de dados da empresa Oracle. É bem parecido, mas um pouco diferente, tipo inglês britânico e inglês americano.\r\n\r\nUma API (Application Programmer Interface - Interface de Programação de Aplicaçõeses) é uma forma de fazer seu software interagir com outro software. Pode ser na mesma máquina, geralmente chamada de \"biblioteca\", como uma API de jogos como a Unreal Engine, ou pela internet, como uma API da Web para verificar o tempo.\r\n\r\nTanto API quanto SQL são termos bastante genéricos, então, se estamos usando-os em um projeto, precisamos ser mais específicos sobre o que queremos dizer."
+        }
+    },
+    {
+        "model": "portfolio.competencia",
+        "pk": 1,
+        "fields": {
+            "nome": "Trabalhar sobre pressao",
+            "tipo": "Soft Skills",
+            "descricao": "Trabalhar sob pressão\r\nenvolve gerir prazos apertados e cenários complexos, mantendo a produtividade e a calma para evitar o burnout. Estratégias eficazes incluem organização rigorosa, priorização de tarefas, divisão de projetos em etapas menores e práticas de autocuidado. Esta habilidade desenvolve resiliência, soft skills e potencia a carreira. \r\nAqui estão as principais estratégias para gerir a pressão no trabalho, baseadas em práticas profissionais:\r\n\r\n    Priorização de Tarefas: Identifique o que é urgente e importante, focando no que pode ser resolvido no dia.\r\n    Organização e Planeamento: Mantenha as informaçõeses de projetos acessíveis para evitar o pânico.\r\n    Gestão da Procrastinação: Comece as tarefas mais difíceis para evitar o acúmulo de trabalho sob pressão.\r\n    Desagregação de Projetos: Divida tarefas complexas em etapas menores e mais gerenciáveis.\r\n    Autocuidado e Pausas: Reserve momentos para relaxamento, como exercícios físicos, meditação ou ouvir música, durante pelo menos 20 minutos diários.\r\n    Comunicação com a Gestão: Utilize o feedback para entender as expectativas e peça ajuda se necessário.",
+            "nivel": "Básico",
+            "evidencia": "Aplicada durante periodos de maior desgaste académico",
+            "destaque": false
+        }
+    },
+    {
+        "model": "portfolio.competencia",
+        "pk": 2,
+        "fields": {
+            "nome": "Apresentação em público",
+            "tipo": "Oral",
+            "descricao": "Independentemente do assunto, as apresentaçõeses e discursos possuem um papel fundamental em diferentes esferas da sociedade. Afinal, seja no ambiente acadêmico, corporativo, de vendas ou em outros segmentos, as apresentaçõeses e discursos são ferramentas essenciais. \r\n\r\nIsso porque, por meio da realização de uma apresentação, é possível transmitir diversas informaçõeses importantes, persuadindo a audiência e criando excelentes conexçes. Sendo assim, independente do objetivo, uma apresentação bem sucedida pode te ajudar a atingir os seus objetivos, como vender uma ideia, relatar resultados de um projeto ou motivar uma equipe.\r\n\r\nAs apresentaçõeses e discursos são muito importantes, tanto para o sucesso pessoal, quanto para o profissional.",
+            "nivel": "Básico",
+            "evidencia": "Ter uma boa comunicação é fundamental para se destacar no mercado de trabalho e alcançar melhores resultados profissionais. A habilidade de falar bem em público, conhecida como oratória, pode ser a chave para o sucesso na carreira de muitas pessoas",
+            "destaque": false
+        }
+    },
+    {
+        "model": "portfolio.formacao",
+        "pk": 1,
+        "fields": {
+            "nome": "SQL Database: Development",
+            "instituicao": "Rumos",
+            "tipo": "SQL - Programação",
+            "data_inicio": "2021-01-01",
+            "data_fim": "2021-05-30",
+            "descricao": "Aprenda a desenvolver bases de dados SQL eficientes e otimizadas. Desde o design e implementação de tabelas até a criação de estratégias de índices otimizadas, passando por assegurar a integridade dos dados através de constraints, até o uso avançado de views, stored procedures, user-defined functions, e triggers.",
+            "certificado_url": null,
+            "estado": "Concluída",
+            "ordem_cronologica": 1,
+            "competencias": [],
+            "tecnologias": []
+        }
+    },
+    {
+        "model": "portfolio.formacao",
+        "pk": 2,
+        "fields": {
+            "nome": "Inteligência Artificial Aplicada à Gestão de Projetos",
+            "instituicao": "Rumos",
+            "tipo": "Presencial",
+            "data_inicio": "2026-04-06",
+            "data_fim": "2026-06-09",
+            "descricao": "O curso Inteligência Artificial aplicada à Gestão de Projetos foi desenvolvido para gestores de projeto e profissionais Agile que pretendem integrar a IA de forma prática e estratégica na sua atuação, potenciando a produtividade, a comunicação e o reporting sem substituir os fundamentos da gestão de projetos.",
+            "certificado_url": "https://rumos.pt/formacao/explorador-de-cursos/inteligencia-artificial-aplicada-a-gestao-de-projetos",
+            "estado": "Em curso",
+            "ordem_cronologica": 2,
+            "competencias": [],
+            "tecnologias": []
+        }
+    },
+    {
+        "model": "portfolio.areainteresse",
+        "pk": 1,
+        "fields": {
+            "nome": "Ciência de Dados",
+            "descricao": "área interdisciplinar que utiliza métodos científicos, processos, algoritmos e sistemas para extrair conhecimento e insights de dados estruturados e não estruturados",
+            "categoria": "Big Data",
+            "destaque": false
+        }
+    },
+    {
+        "model": "portfolio.areainteresse",
+        "pk": 2,
+        "fields": {
+            "nome": "Inteligência Artificial",
+            "descricao": "Área ligada a aprendizagem automática, modelos preditivos e automação inteligente.",
+            "categoria": "Dados",
+            "destaque": false
+        }
+    },
+    {
+        "model": "portfolio.areainteresse",
+        "pk": 3,
+        "fields": {
+            "nome": "Big data",
+            "descricao": "Grande volume de dados a ser processado de forma ordeira.",
+            "categoria": "Dados",
+            "destaque": false
+        }
+    },
+    {
+        "model": "portfolio.tfc",
+        "pk": 1,
+        "fields": {
+            "area_interesse": 1,
+            "titulo": "Projecto Django",
+            "autor": "Pedro Santos",
+            "orientador": "Lucio Custodio",
+            "curso": "Licenciatura em Engenharia Informática",
+            "ano": 2,
+            "resumo": "Iremos modelar em Djang o nosso portfólio pessoal. \r\n\r\nO objetivo é reunir, num único espaço, informação relevante sobre o seu percurso académico e projetos desenvolvidos, criando uma ferramenta que poderá servir como cartão de visitas em futuras entrevistas de emprego.",
+            "palavras_chave": "Django, Python, Programação,Web, Framework",
+            "imagem": "",
+            "email_autor": "atum_69@hotmail.com",
+            "documento_url": "https://github.com/Peter-Petrov-21407097/Portfolio",
+            "classificacao_interesse": "Alto",
+            "destaque": true,
+            "tecnologias": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "portfolio.tfc",
+        "pk": 2,
+        "fields": {
+            "area_interesse": 1,
+            "titulo": "Aplicação de técnicas de análise de dados para deteção de fugas e roturas em sistemas de distribuição de água",
+            "autor": "Wilson",
+            "orientador": "Maria Silva",
+            "curso": "Licenciatura em Engenharia Informática",
+            "ano": 3,
+            "resumo": "A criação de zonas de medição e controlo em sistemas de distribuição de água é fundamental para uma gestão adequada e controlo de perdas de água. A monitorização de caudal é um passo essencial para deteção e controlo célere de perdas reais (fugas, roturas em condutasà). Este trabalho pretende explorar métodos estatísticos e de análise de dados para deteção e quantificação de fugas e roturas utilizando séries temporais de caudal medido reais. Trabalho coorientado pela Eng. Dália Loureiro (LNEC).",
+            "palavras_chave": "Data Analysis; Python; python.",
+            "imagem": "tfcs/metdos_controlo_de_agua.jpg",
+            "email_autor": "abc@abc.com",
+            "documento_url": "https://teses.deisi.ulusofona.pt/media/teses/DEISI2065.pdf",
+            "classificacao_interesse": "Média",
+            "destaque": true,
+            "tecnologias": []
+        }
+    },
+    {
+        "model": "portfolio.projeto",
+        "pk": 1,
+        "fields": {
+            "unidade_curricular": 1,
+            "area_interesse": 1,
+            "titulo": "Web Scrapping",
+            "descricao": "Extrair informaçõeses para um JSON sobre os TFCS's feitos em 2025 e 2024 pela Lusofona.",
+            "conceitos_aplicados": "HTML, Python, WebScrapping, Framework Beatifull Soup",
+            "imagem": "projetos/web_scraping.png",
+            "ano_realizacao": 2026,
+            "estado": "Concluída",
+            "destaque": false,
+            "tecnologias": [],
+            "competencias": []
+        }
+    },
+    {
+        "model": "portfolio.projeto",
+        "pk": 2,
+        "fields": {
+            "unidade_curricular": 1,
+            "area_interesse": 1,
+            "titulo": "Portfólio",
+            "descricao": "Nesta Ficha 6 irá modelar e implementar, em Django, o seu portfólio pessoal. Será uma tarefa semelhante à que fez na Ficha 5. \r\n\r\nO objetivo é reunir, num único espaço, informação relevante sobre o seu percurso académico e projetos desenvolvidos, criando uma ferramenta que poderá servir como cartão de visitas em futuras entrevistas de emprego.",
+            "conceitos_aplicados": "Django, Python, Programacao",
+            "imagem": "projetos/django.jpg",
+            "ano_realizacao": 2026,
+            "estado": "Em curso",
+            "destaque": false,
+            "tecnologias": [
+                1
+            ],
+            "competencias": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 1,
+        "fields": {
+            "projeto": 1,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": null,
+            "titulo": "Web Scraping",
+            "descricao": "Trabalho de fazer o web Scraping do site da lusofna que tem os TFC (Trabalhos Finais de Curso) de 2024 e 2025 dos colegas de LEI, LIG e LIG",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Várias decisçes ao longo do tempo, como a melhor forma de extrair os campos certos, assim como nas datas correctas.",
+            "erros_encontrados": "A extracçõeses realizadas nunca tiraram toda a informação como pretendida.\r\n\r\nAlém disso, tambem foi complicado preencher campos que não continham informação nenhuma.",
+            "correcoes_realizadas": "Constantes alteraçõeses ao código base, de forma a apanhar a maior quantidade de TFC'S possíveis,",
+            "justificacao_modelacao": "Apoido em slides das auras teóricas de Programação Web,",
+            "uso_ia": "Não",
+            "observacoes": "Nada a apontar."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 2,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Portfólio - Pagina 1",
+            "descricao": "Descrição das entidades escolhidas, assim como de algumas ligaçõeses entre entidades",
+            "data_registo": "2026-03-25",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Esplicita na imagem",
+            "erros_encontrados": "Até agora nenhum erro encontrado, pois ainda estamos numa fase muito inicial",
+            "correcoes_realizadas": "Nenhuma",
+            "justificacao_modelacao": "A modelação foi criada com base no meu raciocinio mental e utilizando os conhecimentos adquiridos ao fazer outras modelação, tanto na discplina de Programação Web como em ambiente de trabalho e/ou outras disciplinas",
+            "uso_ia": "Sim.\r\n\r\nFoi usado IA, chatgpt e DeepIa, para ter 2 opinioes extra sobre que entidades usar.\r\n\r\nAmbas sugeriram a criação de um campo para AreadeInteresse que não tinha sido prevista inicialmente por mim mas que decidi colocar.",
+            "observacoes": "Esta fase do trabalho foi feita sozinha mas discustida em aula com o o Professor Pedro Perdigão, alterada em algumas coisas e aceite mais tarde pelo professor Lucio Custódio"
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 3,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Portfólio - Pagina 2",
+            "descricao": "Nesta página foi continuada a descrição das ligaçõeses para o diagrama ERP entre as diferentes entidades, ou seja, foi descrito se uma entidade se relaciona com outra com uma das seguintes formas:\r\n\r\n1 -> N\r\nN -> 1\r\nN - > M",
+            "data_registo": "2026-03-25",
+            "versao_modelo": "1.2",
+            "decisoes_tomadas": "Este processo foi uma continuação do que foi feito anteriormente (portanto, no fundo uma continuação e nova página do caderno)",
+            "erros_encontrados": "Foi detectado pelo Professor Pedro Perdigão, durante a fase de apresentação do primeiro modelo de todos, a versao 1.1, que ligação entre a classe Projeto e Area de Interesse, que passa a ser N para M, conforme falamos na quarta feira passada e pediu para alterar.",
+            "correcoes_realizadas": "Foi aceite e realizada a alteração à indicada em cima.",
+            "justificacao_modelacao": "Baseado nas 11 entidades e no que foi pedido no enunciado, cheguei à conclusão que este iria ser as relaçõeses entre entidades correctas de serem modeladas, baseado no que pensei mentalmente, na minha experiencia fora e tambem dentro da faculdade.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta pagína foi escrita no caderno antes de 2026-03-25 e a versão v1.2, com a alteração pedida pelo professor, foi feita no dia seguinte e modificada no dia seguinte, em 2026-03-26"
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 4,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Portfólio - Diagrama ERP",
+            "descricao": "Foi desenhado no caderno, de forma extremamente feia e usando apenas caneta, régua e lápis, as ligaçõeses entre as 11 diferentes entidades.\r\n\r\nO aluno tentou aplicar diferentes cores de caneta para simbolizar os 3 tipos diferentes de ligação:\r\n\r\n1 -> N\r\nN -> 1\r\nN -> M\r\n\r\nNão sou um grande desenhador gráfico, mas tanto eu como o Professor Pedro Perdigão conseguimos interpretar bem o diagrama e falar sobre ele em espaço próprio, portanto vou o considerar completo e necessário.",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.2",
+            "decisoes_tomadas": "Foi primeiro criado este diagrama antes de dia 25-03-2026\r\n\r\nFoi depois mostrado no final de uma aula prática e e feito uma alteração, a pedido do professor Pedro Perdigao.\r\n\r\nO processo final é o que se apresenta.",
+            "erros_encontrados": "Alterei a ligação entre a classe Projeto e Area de Interesse, que passa a ser N para M, conforme falamos na quarta feira passada e pediu para alterar.",
+            "correcoes_realizadas": "Indicada acima a alteração que foi efectuada, depois de conversa a 206-03-25 com o professor Pedro Perdigão",
+            "justificacao_modelacao": "Este diagrama não é mais do que o total do que foi modelado e idealizado anteriormente, ou seja, não é mais do que passar o as ideias em papel para um diagrama ERP, que mostra as relaçõeses de forma mais visual entre entidades.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Não sou grande desenhador mas acho que ficou perceptível."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 5,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 1",
+            "descricao": "Nesta página, começamos a identificar e a trabalhar sobre as 11 entidades, assim como os respectivos atributos.\r\n\r\nNesta primeira página, estamos a justificar a utilização da entidade:\r\n\r\nLicenciatura\r\nUnidade Curricular\r\n\r\nForam indicadas os atributos escolhidos para estas primeiras 2 entidades.",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "v1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Nenhum nesta fase",
+            "correcoes_realizadas": "Nada a registrar",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 6,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 2",
+            "descricao": "Nesta página, continuamos a identificar e a trabalhar sobre as 11 entidades, assim como os respectivos atributos.\r\n\r\nNesta segunda parte, estamos a justificar a utilização da entidade:\r\n\r\nUnidade Curricular (parte final)\r\nProjeto\r\nTecnologia\r\n\r\nForam indicadas os atributos escolhidos e a justificação do porque",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Nenhum nesta fase",
+            "correcoes_realizadas": "Nada a registrar",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 7,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 3",
+            "descricao": "Nesta página, continuamos a identificar e a trabalhar sobre as 11 entidades, assim como os respectivos atributos.\r\n\r\nNesta segunda parte, estamos a justificar a utilização da entidade:\r\n\r\nTFC\r\n\r\ne começamos a falar sobre a entidade:\r\n\r\nCompetencia.\r\n\r\nForam indicadas os atributos escolhidos e a justificação do porque",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Nenhum nesta fase",
+            "correcoes_realizadas": "Foi avisado pelo professor Pedro Perdigão de que a Competencia era um atributo que tinha que ser muito bem justificado. \r\n\r\nFoi feito uma explicação mais detalhada para esta entidade.",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 8,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 4",
+            "descricao": "Nesta página, continuamos a identificar e a trabalhar sobre as 11 entidades, assim como os respectivos atributos.\r\n\r\nNesta parte, estamos a mostrar os atributos associados a:\r\n\r\nCompetencia.\r\n\r\n\r\n\r\ne começamos a falar sobre a entidade:\r\n\r\nFormação\r\n\r\nForam indicadas os atributos escolhidos e a justificação do porque",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Nenhum nesta fase",
+            "correcoes_realizadas": "Nada a apontar",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 9,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 5",
+            "descricao": "Nesta página, continuamos a identificar e a trabalhar sobre as 11 entidades, assim como os respectivos atributos.\r\n\r\nNesta parte, estamos a mostrar os atributos associados a:\r\n\r\nMakingOf\r\n\r\nFoi indicada no enunciado que a entidade MakinOf era importante, aqui foi dada um especial cuidado a entender e falar sobre esta entidade.",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Nenhum nesta fase",
+            "correcoes_realizadas": "Nada a apontar",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 10,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 6",
+            "descricao": "Nesta página, continuamos a identificar e a trabalhar sobre as 11 entidades, assim como os respectivos atributos.\r\n\r\nNesta parte, estamos a mostrar os atributos associados a:\r\n\r\nDocente\r\n\r\nE falado em grande detalhe sobre a entidade:\r\n\r\nAreaInteresse",
+            "data_registo": "2026-04-04",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Não necessariamente erros, mas foi pedido pelo professor Pedro Perdigão para ser muito especifíco e cuidadoso com a forma como esta entidade é apresentada e explicada",
+            "correcoes_realizadas": "Nada a apontar",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 11,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Entidade e Atributos - Parte 6",
+            "descricao": "Acabamos esta parte do projecto a falar dos atributos da entidade:\r\n\r\nAreaInteresse\r\n\r\nE da entidade\r\n\r\nMidia\r\n\r\nAssmim como os seus respectivos atributos",
+            "data_registo": "2026-04-05",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Foi indicado que, caso seja necessário, mais tarde irá ser alterada atributos, caso algum dos professores não concorde com a abordagem apresentada.",
+            "erros_encontrados": "Nada a apontar",
+            "correcoes_realizadas": "Nada a apontar",
+            "justificacao_modelacao": "Continuação da lógica apresentada em documentação anterior.\r\n\r\nOs atributos foram escolhidos depois de inspecionadas as URL em questão, neste caso:\r\n\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica\r\nhttps://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica/ULHT260-11195\r\n\r\nEntre outros url (ficaram apenas estes 2 como exemplo)\r\n\r\nHouve um esforço para analisar estes urls, assim como os ficheiros JSON criados anteriormente com informaçõeses destes sites para escolher os atributos da melhor forma possível.",
+            "uso_ia": "Não utilizado",
+            "observacoes": "Esta parte da modelação requer inspecionar outros URLS e alguns rascunhos no caderno, apagar e acrescentar atributos, até se chegar aos atributos escolhidos em cima.\r\n\r\nAlgum pensamento crítico foi utilizado nesta fase da apresentação."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 12,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Explicacao view 1-2",
+            "descricao": "Breve explicação da logica usada para a criação e escolha das opçõeses para a nossa view.",
+            "data_registo": "2026-04-19",
+            "versao_modelo": "1.1",
+            "decisoes_tomadas": "Baseado em conhecimentos de computacao movel, em observação de outros sites aonde DJANGO foi usado com sucesso, foi escolhida as seguintes caracteristicas:\r\n\r\nPainel de navegação no lado esquerdo\r\n\r\nSessçes em linha\r\n\r\nTema mais escuro",
+            "erros_encontrados": "Tivemos que restrurar várias vezes até chegar ao pretendido\r\n\r\nA view não estava a mostrar como eu pretendia",
+            "correcoes_realizadas": "Várias, demasiadas ao longo do tempo",
+            "justificacao_modelacao": "A ideia foi a seguinte:\r\n\r\nProcurei sites que usaram Django.\r\n\r\nInstagram, Spotify, Mozilla, Bitbucket, Pinterest e Udemy.\r\n\r\nFoi retirada ideias de view baseadas nestes 6 sites e naquilo que eu já conhecia da disciplina de computação Móvel.",
+            "uso_ia": "Foi usado ia para obter parte do código.\r\n\r\nEu não tinha conhecimento nenhum de html mas conheço Flutter, então tentei pensar primeiro como se fosse programar em fluttar no android studio e depois pouco a pouco fui pedindo ajuda para adaptar a conversão de flutter para html conforme pretendido",
+            "observacoes": "Demorou mais tempo do que eu queria."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 13,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Explicação view 2-2 + Template",
+            "descricao": "Continuação das explicaçõeses feita anteriormente.\r\n\r\nComeçamos tambem a explicar o raciocinio aplicado para o Template.",
+            "data_registo": "2026-04-19",
+            "versao_modelo": "v1.1",
+            "decisoes_tomadas": "Continou-se a ideia da view, mostrando um esquema muito simples do que pretendemos fazer.",
+            "erros_encontrados": "As imagens não estavam todas a ser rendilizadas com o tamanho que eu pretendia.",
+            "correcoes_realizadas": "Foi preciso alterar algumas definaçõeses para as imagens sairem todas com resolucao semelhante e a ocuparem a mesma area na pagina",
+            "justificacao_modelacao": "Nada a justificar, estamos a continuar o raciocinio do trabalho anterior",
+            "uso_ia": "Não foi usado.",
+            "observacoes": "Nenhum"
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 14,
+        "fields": {
+            "projeto": 1,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Template final",
+            "descricao": "Parte final da template.",
+            "data_registo": "2026-04-19",
+            "versao_modelo": "v1.1",
+            "decisoes_tomadas": "Usamos um fundo escuro.\r\n\r\nA sidebar irá ser fixa\r\n\r\nDivisçes no site baseado em formato de cartas.\r\n\r\nCom verde algum sitio, só porque sou Sportinguista",
+            "erros_encontrados": "Renderição de diferentes tipos de imagens não estavam correctos",
+            "correcoes_realizadas": "Foi uniformizado as imagens de forma a que elas todas mostrassem imagens na mesma area.",
+            "justificacao_modelacao": "Nada a apontar, foi escolhida esta forma baseado na visualização de outros sites tambem feitos em Django e da experiencia pessoal com os conhecimentos que já tinha, como por exemplo com o que foi ensinado em Computação Móvel.",
+            "uso_ia": "Não foi usado",
+            "observacoes": "Nada a apontar"
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 15,
+        "fields": {
+            "projeto": 1,
+            "unidade_curricular": 4,
+            "tecnologia": null,
+            "tfc": null,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Scripts para UC",
+            "descricao": "Utilização de Script para retirar, através dos URLS, a maior quantidade de informação possível sobre UC já feitas",
+            "data_registo": "2026-05-05",
+            "versao_modelo": "v1.2",
+            "decisoes_tomadas": "Usar Scripts para retirar as 16 Unidades Curriculares já feitas mas que ainda não tinham sido adicionadas à base de dados",
+            "erros_encontrados": "Muitos dos URLS contem informação incompleta que não preenche todos os requisitos: Docentes não associados a unidades curriculares, falta de paginas particulares de docentes, falta de fotografias referentes a uma unidade curricular, etc etc",
+            "correcoes_realizadas": "Depois de usar o Script para retirar toda a informação existente, é colocada de forma manual à informação restante, usando pesquisas online.",
+            "justificacao_modelacao": "Nada a Justificar",
+            "uso_ia": "Uso para ajudar a retirar 2 atributos associados a atributos da Entidade Unidade Curricular, nomeadamente a imagem associada a uma unidade curricular assim como o programa.",
+            "observacoes": "Nada a observar"
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 16,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": null,
+            "competencia": 1,
+            "titulo": "Produção e Testes",
+            "descricao": "Apresentamos a ideia do que pretendendemos produzir",
+            "data_registo": "2026-05-06",
+            "versao_modelo": "v1.1",
+            "decisoes_tomadas": "Explicou-se vários campos que tem que ser adicionados:\r\n\r\nAlteração da DATABASE para ficar com passwords\r\nEsxplicado a forma como se cria EMAIL_Backend e a respectiva estrutura",
+            "erros_encontrados": "Vários erros de sintaxe até acertar no pretendido.",
+            "correcoes_realizadas": "Vários erros de sintaxe até acertar no pretendido.",
+            "justificacao_modelacao": "Nenhuma, apenas que se tentou apilcar TLC (transport layer control) para aumentar a segurança dos acessos por mail",
+            "uso_ia": "Nada a apontar",
+            "observacoes": "Nada que não tenha já sido descrito."
+        }
+    },
+    {
+        "model": "portfolio.makingof",
+        "pk": 17,
+        "fields": {
+            "projeto": 2,
+            "unidade_curricular": 1,
+            "tecnologia": 1,
+            "tfc": 1,
+            "formacao": 1,
+            "competencia": 1,
+            "titulo": "Testes Automáticos",
+            "descricao": "Imaginou-se a criação de 4 tipos de testes",
+            "data_registo": "2026-05-06",
+            "versao_modelo": "v1.1",
+            "decisoes_tomadas": "Foi decidido a criação de 4 tipo de testes:\r\n\r\nTeste para os models\r\nTeste para as URLS\r\nTeste para as views\r\nTeste de performance",
+            "erros_encontrados": "Vários erros, pois a documentação do professor estava boa mas eu queria ir um bocadinho mais além e adicionar conhecimentos de segurança informática nesta parte do trabalho.",
+            "correcoes_realizadas": "Muitas alteraçõeses, demasiadas para dizer aqui todas.\r\n\r\nMuito resumidamente, alteraçõeses constantes até chegar à forma correcta de programar os testes das views",
+            "justificacao_modelacao": "Os testes permitem me ajudar a detectar erros.\r\n\r\nO teste de performance é interessante e não foi pedido, mas vai me servir para gerir a performance de certas partes do portfólio, especialmente interessante para quanto a informção se começa a tornar demasiada.",
+            "uso_ia": "Usei para tirar uma ideia do que poderia testar na view.py.",
+            "observacoes": "Nada a apontar que não estivesse já indicado em cima."
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 1,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 2,
+            "titulo": "Imagem do carderno - Portfólio Pagina 1",
+            "ficheiro": "midia/pag_1.pdf",
+            "tipo": "Imagem Caderno",
+            "legenda": "Apontamentos iniciais",
+            "descricao": "Escolha das 11 entidades, assim como parte das relacoes entre elas",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 2,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 3,
+            "titulo": "Ligaçõeses ERP - continuaçoes",
+            "ficheiro": "midia/pag_2.pdf",
+            "tipo": "Imagem Caderno",
+            "legenda": "Apontamentos iniciais",
+            "descricao": "Continuando o trabalho anterior, mostra as relaçõeses entre as entidades (as restantes relaçõeses, que ainda não tinham sido indicadas anteriormente.)",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 3,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 4,
+            "titulo": "Diagrama ERP",
+            "ficheiro": "midia/pag_3.pdf",
+            "tipo": "Imagem do caderno",
+            "legenda": "Diagrama ERP",
+            "descricao": "Mostra de forma compacta o diagrama ERP",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 4,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 5,
+            "titulo": "Licenciatura + UnidadeCurricular",
+            "ficheiro": "midia/pag_4.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Justificação Atributos Licenciatura + UC",
+            "descricao": "Foi feita uma breve descrição dos atributos escolhidos para as duas primeiras entidades, Licenciatura e UnidadeCurricular.\r\n\r\na justificação continua nas imagens a seguir",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 5,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 6,
+            "titulo": "Projeto + Tecnologia",
+            "ficheiro": "midia/pag_5.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Justificação Atributos Projeto + Tecnologia",
+            "descricao": "Foi feita uma breve descrição dos atributos escolhidos para as entidades, Projeto e Tecnologia\r\n\r\na justificação continua nas imagens a seguir.",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 6,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 7,
+            "titulo": "TFC + Competencia",
+            "ficheiro": "midia/pag_6.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Justificação Atributos TFC+ Competencia",
+            "descricao": "Foi feita uma breve descrição dos atributos escolhidos para as entidades, TFC e Competencia\r\n\r\na justificação continua nas imagens a seguir.",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 7,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 8,
+            "titulo": "Competencia (cont) + Formacao",
+            "ficheiro": "midia/pag_7.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Atributos Competencia + Formacao",
+            "descricao": "Foi feita uma breve descrição dos atributos escolhidos para as entidades, Competencia e Formacao\r\n\r\na justificação continua nas imagens a seguir.",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 8,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 9,
+            "titulo": "MakingOf e atributos",
+            "ficheiro": "midia/pag_8.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Entidade MakingOF e atributos",
+            "descricao": "Foi feita uma breve descrição dos atributos escolhidos para as MakingOf",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 9,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 10,
+            "titulo": "Docente e AreaInteresse",
+            "ficheiro": "midia/pag_9.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Entidade Docente, atributos e entidade AreaInteresse (inic)",
+            "descricao": "Foi feita uma breve descrição dos atributos escolhidos para as Docente e explicação da entidade AreaInteresse",
+            "data_upload": "2026-04-04"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 10,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 11,
+            "titulo": "AreaInteresse(atri) + Midia",
+            "ficheiro": "midia/pag_10.pdf",
+            "tipo": "Imagem de Caderno",
+            "legenda": "AreaInteresse(atri) + Midia",
+            "descricao": "Foi descrito os atributos associados à entidade AreaInteresse e foi descrito a entidade Midia e os seus respectivos atributos",
+            "data_upload": "2026-04-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 11,
+        "fields": {
+            "unidade_curricular": 2,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "Fotografia docente Maria Silva",
+            "ficheiro": "midia/DOC_MS.jpg",
+            "tipo": "Imagem",
+            "legenda": "Docente Maria Silva",
+            "descricao": "Fotografia tirada do site da docente da lusofona.\r\n\r\nÉ a docente mais fotogénica das disponíveis, portanto vamos usar.\r\n\r\nPara ser usada na entidade \"docente\"",
+            "data_upload": "2026-04-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 12,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": null,
+            "titulo": "Fotografia Lucio Struder",
+            "ficheiro": "midia/Lucio_Studer.jpg",
+            "tipo": "Fotografia",
+            "legenda": "Fotografia docente Luci Struder",
+            "descricao": "Fotografia retirada da pagina de docente de Lucio Studer\r\n\r\nPara ser associada na entidade Docente, num exemplo",
+            "data_upload": "2026-04-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 13,
+        "fields": {
+            "unidade_curricular": null,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "Docente Rui Ribeiro",
+            "ficheiro": "midia/Rui_Ribeiro.jpg",
+            "tipo": "Imagem",
+            "legenda": "Docente Rui Ribeiro",
+            "descricao": "Fotografia tirada do site da docente da lusofona.\r\n\r\nÉ o docente mais fotogénica dos disponíveis, portanto vamos usar.\r\n\r\nPara ser usada na entidade \"docente\"",
+            "data_upload": "2026-04-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 14,
+        "fields": {
+            "unidade_curricular": 3,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "Logotipo Base de dados",
+            "ficheiro": "midia/base_de_dados.jpg",
+            "tipo": "Imagem",
+            "legenda": "Unidade curricular imagem Base de dados",
+            "descricao": "Imagem de uma pessoa a analisar código referente a uma base de dados",
+            "data_upload": "2026-04-06"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 15,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 12,
+            "titulo": "Explicacao view 1-2",
+            "ficheiro": "midia/view_1_de_2.jpg",
+            "tipo": "Imagem de Caderno",
+            "legenda": "View 1-2",
+            "descricao": "Imagem do caderno a explicar a escolhas feitas para criar a View do portfólio",
+            "data_upload": "2026-04-19"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 16,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 13,
+            "titulo": "Explicacao view 2-2 + Template",
+            "ficheiro": "midia/view_2de_2__template.jpg",
+            "tipo": "Imagem do Caderno",
+            "legenda": "View + Inicio Template",
+            "descricao": "Finalização da explicação sobre a view, começo da explicação do template e de como chegarmos a ele.",
+            "data_upload": "2026-04-19"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 17,
+        "fields": {
+            "unidade_curricular": 4,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "UC_Fundamentos_de_Fisica",
+            "ficheiro": "midia/UC_FDF.jpg",
+            "tipo": "Fotografia",
+            "legenda": "Fundamentos de Fisica",
+            "descricao": "Logótipo da Unidade Curricular de Fundamentos de Fisíca",
+            "data_upload": "2026-05-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 18,
+        "fields": {
+            "unidade_curricular": 4,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "Fotografia docente Joaquim Marques",
+            "ficheiro": "midia/Docente_JGM.jpg",
+            "tipo": "Fotografia",
+            "legenda": "Docente Joaquim Marques",
+            "descricao": "Nada a apontar",
+            "data_upload": "2026-05-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 19,
+        "fields": {
+            "unidade_curricular": 5,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "Logotipo Matemática Discreta",
+            "ficheiro": "midia/UC_MD.jpg",
+            "tipo": "Fotografia",
+            "legenda": "Unidade curricular imagem Matemática Discreta",
+            "descricao": "Lógotipo com uma imagem da disciplina de Matemática Discreta",
+            "data_upload": "2026-05-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 20,
+        "fields": {
+            "unidade_curricular": 6,
+            "projeto": null,
+            "tecnologia": null,
+            "making_of": null,
+            "titulo": "Logótipo",
+            "ficheiro": "midia/UC_AC.jpg",
+            "tipo": "Fotografia",
+            "legenda": "Unidade curricular imagem Arquitetura de Computadores",
+            "descricao": "Logótipo da Unidade Curricular de Arquitetura de Computadores",
+            "data_upload": "2026-05-05"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 21,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 1,
+            "tecnologia": 1,
+            "making_of": 16,
+            "titulo": "Produção e Testes",
+            "ficheiro": "midia/Producao_e_testes.jpg",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Produção e Testes",
+            "descricao": "É explicado de forma organizada o que é alterado e feito no ficheiro settings.py de forma a criar acesso as DATABASES.\r\n\r\nDepois, pequenas alteraçõeses de segurança relacionadas com o mail dos utilizadores que podem aceder a esta informção.",
+            "data_upload": "2026-05-06"
+        }
+    },
+    {
+        "model": "portfolio.midia",
+        "pk": 22,
+        "fields": {
+            "unidade_curricular": 1,
+            "projeto": 2,
+            "tecnologia": 1,
+            "making_of": 17,
+            "titulo": "Testes Automáticos",
+            "ficheiro": "midia/testes_automaticos.jpg",
+            "tipo": "Imagem de Caderno",
+            "legenda": "Testes Automáticos",
+            "descricao": "Descrição de 4 tipos diferentes de testes, assim como uma ideia do que pretendo fazer como 4 teste, que não foi pedido mas que eu vou tentar implementar.",
+            "data_upload": "2026-05-06"
+        }
+    },
+    {
+        "model": "portfolio.docente",
+        "pk": 1,
+        "fields": {
+            "nome": "Maria José de Almeida e Silva",
+            "pagina_pessoal_url": "https://www.ulusofona.pt/docentes/maria-jose-de-almeida-e-silva-7078",
+            "email": "maria.almeida.silva@ulusofona.pt",
+            "area_especializacao": "Matemática",
+            "foto": "docentes/DOC_MS_0bFpnIE.jpg",
+            "unidades_curriculares": [
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "model": "portfolio.docente",
+        "pk": 2,
+        "fields": {
+            "nome": "Lucio Custodio",
+            "pagina_pessoal_url": "https://www.ulusofona.pt/docentes/lucio-miguel-studer-ferreira-6069",
+            "email": "lucio.studer@ulusofona.pt",
+            "area_especializacao": "Python",
+            "foto": "docentes/Lucio_Studer.jpg",
+            "unidades_curriculares": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "portfolio.docente",
+        "pk": 3,
+        "fields": {
+            "nome": "Joaquim Manuel Guerreiro Marques",
+            "pagina_pessoal_url": "https://www.cienciavitae.pt/portal/en/D812-D0B1-227B",
+            "email": "jmgmarques@uevora.pt",
+            "area_especializacao": "Fisica",
+            "foto": "docentes/Docente_JGM.jpg",
+            "unidades_curriculares": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "portfolio.docente",
+        "pk": 4,
+        "fields": {
+            "nome": "Sergio Pedro Mestre Ferreira",
+            "pagina_pessoal_url": "https://www.ulusofona.pt/docentes/sergio-pedro-mestre-ferreira-1059",
+            "email": "sergiopmferreira@sapo.pt",
+            "area_especializacao": "Arquitectura",
+            "foto": "docentes/Docente_Sergio_7MhDAvD.jpg",
+            "unidades_curriculares": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "artigos.artigo",
+        "pk": 1,
+        "fields": {
+            "texto": "Livro \"As mentiras de Locke Lamora\"",
+            "fotografia": "",
+            "link_externo": "https://en.wikipedia.org/wiki/The_Lies_of_Locke_Lamora",
+            "data_criacao": "2026-05-05T10:35:21.813Z",
+            "autor": 1,
+            "likes": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "artigos.comentario",
+        "pk": 1,
+        "fields": {
+            "artigo": 1,
+            "autor": 1,
+            "texto": "As Mentiras de Locke Lamora (2006), de The Lies of Locke Lamora, é um romance de fantasia que acompanha Locke Lamora, um órfão que se torna líder de um grupo de vigaristas altamente habilidosos conhecidos como ôGentleman Bastardsö. A história decorre na cidade fictícia de Camorr, inspirada na Veneza medieval, onde o grupo realiza esquemas elaborados para roubar membros ricos da nobreza, enganando tanto criminosos como autoridades.\r\n\r\nA narrativa alterna entre o presente ù em que Locke executa um grande golpe contra um nobre ù e o passado, mostrando a sua formação como ladrão sob a orientação de Father Chains. No entanto, os seus planos são interrompidos pelo surgimento de um inimigo misterioso, o Rei Cinza (Gray King), que começa a destruir o equilíbrio do submundo do crime e a manipular Locke para os seus próprios fins.\r\n\r\n└ medida que a história avança, o conflito intensifica-se, levando à morte de vários membros do grupo e forçando Locke e o seu amigo Jean a procurar vingança. No clímax, Locke enfrenta o vilão numa batalha decisiva e consegue derrotá-lo através de astúcia e engano, apesar de não ser fisicamente mais forte.\r\n\r\nNo final, depois de sobreviverem a perdas e traiçõeses, Locke e Jean abandonam Camorr, abrindo caminho para novas aventuras. A obra destaca-se pelo humor negro, personagens carismáticas e enredo complexo, combinando elementos de fantasia com intrigas, burlas e estratégias inteligentes",
+            "data_criacao": "2026-05-05T10:37:41.983Z"
+        }
+    }
+]
