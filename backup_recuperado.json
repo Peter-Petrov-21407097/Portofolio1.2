@@ -7,7 +7,7 @@
             "user": 1,
             "content_type": 11,
             "object_id": "1",
-            "object_repr": "Engenharia Informßtica",
+            "object_repr": "Engenharia Informática",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -20,7 +20,7 @@
             "user": 1,
             "content_type": 17,
             "object_id": "1",
-            "object_repr": "ProgramaþÒo Web",
+            "object_repr": "Programação Web",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -33,7 +33,7 @@
             "user": 1,
             "content_type": 17,
             "object_id": "2",
-            "object_repr": "┴lgebra Linear",
+            "object_repr": "Álgebra Linear",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -46,7 +46,7 @@
             "user": 1,
             "content_type": 9,
             "object_id": "1",
-            "object_repr": "Maria JosÚ de Almeida e Silva",
+            "object_repr": "Maria José de Almeida e Silva",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -59,7 +59,7 @@
             "user": 1,
             "content_type": 9,
             "object_id": "1",
-            "object_repr": "Maria JosÚ de Almeida e Silva",
+            "object_repr": "Maria José de Almeida e Silva",
             "action_flag": 2,
             "change_message": "[]"
         }
@@ -72,7 +72,7 @@
             "user": 1,
             "content_type": 7,
             "object_id": "1",
-            "object_repr": "CiÛncia de Dados",
+            "object_repr": "Ciência de Dados",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -98,7 +98,7 @@
             "user": 1,
             "content_type": 8,
             "object_id": "1",
-            "object_repr": "Trabalhar sobre pressao",
+            "object_repr": "Trabalhar sobre pressão",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -124,7 +124,7 @@
             "user": 1,
             "content_type": 7,
             "object_id": "2",
-            "object_repr": "InteligÛncia Artificial",
+            "object_repr": "Inteligência Artificial",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -150,7 +150,7 @@
             "user": 1,
             "content_type": 9,
             "object_id": "2",
-            "object_repr": "Lucio Custodio",
+            "object_repr": "Lucio Custódio",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -163,7 +163,7 @@
             "user": 1,
             "content_type": 11,
             "object_id": "2",
-            "object_repr": "GestÒo de Empresas",
+            "object_repr": "Gestão de Empresas",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -215,7 +215,7 @@
             "user": 1,
             "content_type": 14,
             "object_id": "2",
-            "object_repr": "Portf¾lio",
+            "object_repr": "Portfólio",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -228,7 +228,7 @@
             "user": 1,
             "content_type": 12,
             "object_id": "2",
-            "object_repr": "Portf¾lio - Pagina 1",
+            "object_repr": "Portfólio - Pagina 1",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -241,7 +241,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "1",
-            "object_repr": "Imagem do carderno - Portf¾lio Pagina 1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -254,7 +254,7 @@
             "user": 1,
             "content_type": 11,
             "object_id": "3",
-            "object_repr": "CiÛncia de Dados",
+            "object_repr": "Ciência de Dados",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -267,7 +267,7 @@
             "user": 1,
             "content_type": 11,
             "object_id": "4",
-            "object_repr": "ComputaþÒo e Matemßtica Aplicada",
+            "object_repr": "Computação e Matemática Aplicada",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -280,7 +280,7 @@
             "user": 1,
             "content_type": 11,
             "object_id": "5",
-            "object_repr": "Engenharia Informßtica, Redes e Telecomunicaþ§es",
+            "object_repr": "Engenharia Informática, Redes e Telecomunicações",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -293,7 +293,7 @@
             "user": 1,
             "content_type": 12,
             "object_id": "3",
-            "object_repr": "Portf¾lio - Pagina 2",
+            "object_repr": "Portfólio - Pagina 2",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -306,7 +306,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "2",
-            "object_repr": "Ligaþ§es ERP - continuaþoes",
+            "object_repr": "Ligações ERP - continuações",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -319,7 +319,7 @@
             "user": 1,
             "content_type": 12,
             "object_id": "4",
-            "object_repr": "Portf¾lio - Diagrama ERP",
+            "object_repr": "Portfólio - Diagrama ERP",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -345,7 +345,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "1",
-            "object_repr": "Imagem do carderno - Portf¾lio Pagina 1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
             "action_flag": 2,
             "change_message": "[]"
         }
@@ -358,7 +358,7 @@
             "user": 1,
             "content_type": 12,
             "object_id": "4",
-            "object_repr": "Portf¾lio - Diagrama ERP",
+            "object_repr": "Portfólio - Diagrama ERP",
             "action_flag": 2,
             "change_message": "[]"
         }
@@ -410,7 +410,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "1",
-            "object_repr": "Imagem do carderno - Portf¾lio Pagina 1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
             "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
         }
@@ -423,7 +423,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "1",
-            "object_repr": "Imagem do carderno - Portf¾lio Pagina 1",
+            "object_repr": "Imagem do carderno - Portfólio Pagina 1",
             "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
         }
@@ -462,7 +462,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "6",
-            "object_repr": "TFC + Competencia",
+            "object_repr": "TFC + Competência",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -488,7 +488,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "7",
-            "object_repr": "Competencia (cont) + Formacao",
+            "object_repr": "Competência (cont) + Formação",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -670,7 +670,7 @@
             "user": 1,
             "content_type": 8,
             "object_id": "2",
-            "object_repr": "ApresentaþÒo em p·blico",
+            "object_repr": "Apresentação em píblico",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -683,7 +683,7 @@
             "user": 1,
             "content_type": 10,
             "object_id": "2",
-            "object_repr": "InteligÛncia Artificial Aplicada Ó GestÒo de Projetos",
+            "object_repr": "Inteligência Artificial Aplicada à Gestão de Projetos",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -735,7 +735,7 @@
             "user": 1,
             "content_type": 16,
             "object_id": "2",
-            "object_repr": "AplicaþÒo de tÚcnicas de anßlise de dados para deteþÒo de fugas e roturas em sistemas de distribuiþÒo de ßgua",
+            "object_repr": "Aplicação de técnicas de análise de dados para deteção de fugas e roturas em sistemas de distribuição de água",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -774,7 +774,7 @@
             "user": 1,
             "content_type": 12,
             "object_id": "13",
-            "object_repr": "ExplicaþÒo view 2-2 + Template",
+            "object_repr": "Explicação view 2-2 + Template",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -787,7 +787,7 @@
             "user": 1,
             "content_type": 13,
             "object_id": "16",
-            "object_repr": "Explicacao view 2-2 + Template",
+            "object_repr": "Explicação view 2-2 + Template",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -865,7 +865,7 @@
             "user": 2,
             "content_type": 17,
             "object_id": "4",
-            "object_repr": "Fundamentos de ProgramaþÒo",
+            "object_repr": "Fundamentos de Programação",
             "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
         }
@@ -891,7 +891,7 @@
             "user": 2,
             "content_type": 13,
             "object_id": "17",
-            "object_repr": "UC_Fundamentos_de_Fisica",
+            "object_repr": "UC_Fundamentos_de_Física",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -982,7 +982,7 @@
             "user": 2,
             "content_type": 17,
             "object_id": "5",
-            "object_repr": "Matemßtica Discreta",
+            "object_repr": "Matemática Discreta",
             "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
         }
@@ -995,7 +995,7 @@
             "user": 2,
             "content_type": 9,
             "object_id": "1",
-            "object_repr": "Maria JosÚ de Almeida e Silva",
+            "object_repr": "Maria José de Almeida e Silva",
             "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Unidades curriculares\"]}}]"
         }
@@ -1008,7 +1008,7 @@
             "user": 2,
             "content_type": 13,
             "object_id": "19",
-            "object_repr": "Logotipo Matemßtica Discreta",
+            "object_repr": "Logotipo Matemática Discreta",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1021,7 +1021,7 @@
             "user": 2,
             "content_type": 13,
             "object_id": "20",
-            "object_repr": "Log¾tipo",
+            "object_repr": "Logótipo",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1034,7 +1034,7 @@
             "user": 2,
             "content_type": 17,
             "object_id": "5",
-            "object_repr": "Matemßtica Discreta",
+            "object_repr": "Matemática Discreta",
             "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
         }
@@ -1099,7 +1099,7 @@
             "user": 2,
             "content_type": 19,
             "object_id": "1",
-            "object_repr": "Comentßrio de admin",
+            "object_repr": "Comentário de admin",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1112,7 +1112,7 @@
             "user": 2,
             "content_type": 12,
             "object_id": "16",
-            "object_repr": "ProduþÒo e Testes",
+            "object_repr": "Produção e Testes",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1125,7 +1125,7 @@
             "user": 2,
             "content_type": 12,
             "object_id": "17",
-            "object_repr": "Testes Automßticos",
+            "object_repr": "Testes Automáticos",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1138,7 +1138,7 @@
             "user": 2,
             "content_type": 13,
             "object_id": "21",
-            "object_repr": "ProduþÒo e Testes",
+            "object_repr": "Produção e Testes",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1151,7 +1151,7 @@
             "user": 2,
             "content_type": 13,
             "object_id": "22",
-            "object_repr": "Testes Automßticos",
+            "object_repr": "Testes Automáticos",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
         }
@@ -1253,10 +1253,10 @@
         "model": "portfolio.licenciatura",
         "pk": 1,
         "fields": {
-            "nome": "Engenharia Informßtica",
+            "nome": "Engenharia Informática",
             "numero_semestres": 6,
             "ects_total": 180,
-            "descricao": "O curso de licenciatura em Engenharia Informßtica da Universidade Lus¾fona forma licenciados capazes de assumir posiþ§es de destaque em projetos de engenharia informßtica ou equipas de desenvolvimento e consultadoria, na ßrea da engenharia dos sistemas de informaþÒo, assumindo pela sua formaþÒo e atitude papÚis relevantes na geraþÒo de inovaþÒo e riqueza. Nesse sentido, os estudantes obtÛm as competÛncias adequadas Ó conceþÒo, realizaþÒo e manutenþÒo de sistemas informßticos, programaþÒo de aplicaþ§es e de sistemas, desenho arquiteturas de computaþÒo e comunicaþ§es, gestÒo de sistemas de informaþÒo e de conhecimento, assim como Ó compreensÒo e resoluþÒo dos problemas associados.",
+            "descricao": "O curso de licenciatura em Engenharia Informática da Universidade Lusófona forma licenciados capazes de assumir posições de destaque em projetos de engenharia informática ou equipas de desenvolvimento e consultadoria, na área da engenharia dos sistemas de informação, assumindo pela sua formaçãoo e atitude papÚis relevantes na geração de inovação e riqueza. Nesse sentido, os estudantes obtÛm as competÛncias adequadas Ó conceþÒo, realizaþÒo e manutenþÒo de sistemas informßticos, programaþÒo de aplicaþ§es e de sistemas, desenho arquiteturas de computaþÒo e comunicaþ§es, gestÒo de sistemas de informaþÒo e de conhecimento, assim como Ó compreensÒo e resoluþÒo dos problemas associados.",
             "objetivo": "O objectivo Ú desenvolver a capacidade dos estudantes em adquirir e aprofundar conhecimento a partir de exposiþ§es realizadas em ambiente de conferÛncia, e simultaneamente dar-lhes acesso ao estado da arte e Ós evoluþ§es tecnol¾gicas nas ßreas da sua formaþÒo. Por outro lado, visa promover um contacto permanente do estudante com o mundo cientÝfico e empresarial de modo a promover a sua inserþÒo no mercado de trabalho.",
             "url_website": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica",
             "saidas_profissionais": "O curso de licenciatura em Engenharia Informßtica da Universidade Lus¾fona pretende formar o perfil profissional do engenheiro de aplicaþ§es, caracterizado pela capacidade de participar em grandes projetos de engenharia informßtica, integrando equipas de desenvolvimento de projetos, gerindo e mantendo sistemas de informaþÒo. O diploma apresenta ainda uma formaþÒo aprofundadada em domÝnios comuns Ós Engenharias, como a FÝsica e a Matemßtica, e em domÝnios especÝficos das CiÛncias Informßticas, como a Metodologia da ProgramaþÒo, os Sistemas de InformaþÒo, as Redes de Comunicaþ§es, e a gestÒo, tanto de sistemas como de projetos.\r\n\r\nOs Licenciados em Engenharia Informßtica encontrarÒo situaþ§es de emprego na rede Europeia de organismos p·blicos e privados com necessidades de desenvolvimento, utilizaþÒo, reorganizaþÒo e modernizaþÒo de sistemas de informaþÒo, nomeadamente: \r\n- em empresas vocacionadas para o desenvolvimento e comercializaþÒo de soluþ§es baseadas em informßtica; \r\n- na integraþÒo e chefia de equipas informßticas em grandes empresas dos setores comerciais, industriais ou dos serviþos;\r\n-  em instituiþ§es ligadas ao setor p·blico estatal ou privado, em particular na ßrea dos serviþos.",
