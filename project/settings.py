@@ -2,8 +2,15 @@ from pathlib import Path
 from decouple import config
 import dj_database_url
 import os
+import environ
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+env = environ.Env()
+
+environ.Env.read_env(
+    os.path.join(BASE_DIR, '.env')
+)
 
 SECRET_KEY = config('SECRET_KEY')
 
@@ -22,19 +29,16 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
+    'cloudinary_storage',
+    'cloudinary',
     'portfolio',
     'accounts',
     'artigos',
-
-    'cloudinary_storage',
-    'cloudinary',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -63,10 +67,9 @@ TEMPLATES = [
 WSGI_APPLICATION = "project.wsgi.application"
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.parse(
+        config('DATABASE_URL')
+    )
 }
 
 AUTH_PASSWORD_VALIDATORS = [
